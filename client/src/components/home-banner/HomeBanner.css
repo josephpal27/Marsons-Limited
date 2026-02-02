@@ -1,0 +1,9 @@
+.home-banner{
+    width: 100%;
+    height: 100vh;
+}
+.home-banner video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
