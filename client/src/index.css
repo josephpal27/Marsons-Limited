@@ -6,6 +6,13 @@
 html {
   scroll-behavior: unset !important;
 }
+@font-face {
+  font-family: "Proxima N W01 Reg";
+  src: url("./assets/fonts/Proxima\ N\ W01\ Reg.woff2") format("woff2");
+}
+body{
+  font-family: "Proxima N W01 Reg";
+}
 
 /* Section Style */
 .section {
