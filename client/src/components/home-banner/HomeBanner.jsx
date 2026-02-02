@@ -4,7 +4,17 @@ const HomeBanner = () => {
     return (
         <>
             <div className="home-banner">
-                <video src="/videos/home-banner-1.webm"></video>
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    poster="/images/home-banner-1.avif"
+                >
+                    <source src="/videos/home-banner-1.webm" type="video/webm" />
+                </video>
+
             </div>
         </>
     )
