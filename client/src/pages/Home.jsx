@@ -57,7 +57,7 @@ const Home = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <section className="section">Section 2</section>
+                    <section className="section">ABOUT</section>
                 </SwiperSlide>
 
             </Swiper>
