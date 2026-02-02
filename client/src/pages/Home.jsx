@@ -18,11 +18,11 @@ const Home = () => {
     if (isMobile) {
         return (
             <>
-                <section className="section section1">Section 1</section>
-                <section className="section section2">Section 2</section>
-                <section className="section section3">Section 3</section>
-                <section className="section section4">Section 4</section>
-                <section className="section section5">Section 5</section>
+                <section className="section">Section 1</section>
+                <section className="section">Section 2</section>
+                <section className="section">Section 3</section>
+                <section className="section">Section 4</section>
+                <section className="section">Section 5</section>
             </>
         );
     }
@@ -33,7 +33,7 @@ const Home = () => {
             direction="vertical"
             slidesPerView={1}
             speed={900}
-            modules={[Mousewheel]}
+            modules={[Mousewheel, Keyboard]}
             style={{ height: "100vh" }}
             mousewheel={{
                 forceToAxis: true,
@@ -51,23 +51,23 @@ const Home = () => {
             preventInteractionOnTransition={true}
         >
             <SwiperSlide>
-                <section className="section section1">Section 1</section>
+                <section className="section">Section 1</section>
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="section section2">Section 2</section>
+                <section className="section">Section 2</section>
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="section section3">Section 3</section>
+                <section className="section">Section 3</section>
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="section section4">Section 4</section>
+                <section className="section">Section 4</section>
             </SwiperSlide>
 
             <SwiperSlide>
-                <section className="section section5">Section 5</section>
+                <section className="section">Section 5</section>
             </SwiperSlide>
         </Swiper>
     );

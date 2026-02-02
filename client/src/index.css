@@ -3,41 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: unset !important;
 }
 
+/* Section Style */
 .section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-.section1 {
-  background: #0b3d4c;
-  color: white;
-}
-
-.section2 {
-  background: #179cab;
-  color: white;
-}
-
-.section3 {
-  background: #0b5f78;
-  color: white;
-}
-
-.section4 {
-  background: #03232d;
-  color: white;
-}
-
-.section5 {
-  background: #16a4cf;
-  color: white;
+  min-height: 100vh;
 }
