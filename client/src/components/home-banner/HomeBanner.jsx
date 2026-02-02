@@ -15,6 +15,10 @@ const HomeBanner = () => {
                     <source src="/videos/home-banner-1.webm" type="video/webm" />
                 </video>
 
+                <div className="banner-content">
+                    <h1>Marsons Limited</h1>
+                </div>
+
             </div>
         </>
     )
