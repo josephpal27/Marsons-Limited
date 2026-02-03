@@ -38,13 +38,43 @@ const MyNavbar = () => {
         <Offcanvas.Body>
           <Nav className="justify-content-end flex-grow-1">
             <Nav.Link as={NavLink} to="/" onClick={handleClose}>
-              Home
+              HOME
             </Nav.Link>
             <Nav.Link as={NavLink} to="/about" onClick={handleClose}>
-              About
+              ABOUT
             </Nav.Link>
             {/* Bootstrap Dropdown */}
-            <NavDropdown title="Products" id="navbarDropdown">
+            <NavDropdown title="PRODUCTS" id="navbarDropdown">
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Distribution transformers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Power transformer
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Furnace transformers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Uss transformers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Dry type transformers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Cast resin transformers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Solar transformers
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+                Instrumental transformers
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>
+              CLIENTELE
+            </Nav.Link>
+            {/* Bootstrap Dropdown */}
+            <NavDropdown title="INVESTOR CORNER" id="navbarDropdown">
               <NavDropdown.Item as={NavLink} to="/zinc-wires" onClick={handleClose}>
                 Zinc Wires
               </NavDropdown.Item>
@@ -53,19 +83,13 @@ const MyNavbar = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>
-              Quality Assurance
+              CSR
             </Nav.Link>
             <Nav.Link as={NavLink} to="/services" onClick={handleClose}>
-              Services
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/applications" onClick={handleClose}>
-              Applications
-            </Nav.Link>
-            <Nav.Link as={NavLink} to="/gallery" onClick={handleClose}>
-              Gallery
+              CAREER
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
-              Contact
+              CONTACT
             </Nav.Link>
           </Nav>
         </Offcanvas.Body>

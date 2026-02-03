@@ -1,54 +1,57 @@
 .navbar{
-  padding: 0.8rem 7% !important;
-  background: #ffaa0f;
-  width: 100%;
+  padding: 0.5rem 3rem !important;
+  background: transparent;
+  backdrop-filter: blur(30px);
+  width: 90%;
+  margin-left: 5%;
   box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.245);
   z-index: 10;
+  position: absolute;
+  top: 1rem;
+  border-radius: 50px;
 }
 .navbar .nav-brand img{
-  width: 150px;
+  width: 160px;
+  border-radius: 8px;
+  padding-bottom: 5px;
+  background-color: #fff;
 }
 .navbar .nav-link{
   color: #fff !important;
-  font-weight: 700;
-  font-size: calc(0.55rem + 0.5vw);
+  font-weight: 500;
+  font-size: calc(0.5rem + 0.5vw);
   margin-left: 0.8rem;
   padding: 0.4rem 0.7rem !important;
-  border: 3px solid transparent;
-}
-.navbar .nav-link.active{
-  border: 3px solid #179cab;
-  background-color: #179cab !important;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .navbar .nav-link:hover{
-  border: 3px solid #179cab;
+  background-color: #fff;
+  color: #e9202a !important;
+}
+.navbar .nav-link.active{
+  background-color: #e9202a !important;
+  color: #fff !important;
 }
 .navbar .dropdown-menu{
-  padding: 1rem;
+  padding: 0.7rem 1.2rem;
   border: none;
   margin-top: 0.7rem;
-  background: #fff;
+  background: #ffffffdc;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 0;
+  border-radius: 7px;
 }
 .navbar .dropdown-item{
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 0;
   color: #000 !important;
-  font-weight: 550;
-  font-size: calc(0.55rem + 0.5vw);
-  background: #f2f2f2;
-  margin-bottom: 0.9rem;
+  font-weight: 500;
+  font-size: calc(0.5rem + 0.5vw);
+  text-transform: uppercase;
+  background: transparent;
+  transition: color 0.1s ease;
 }
+.navbar .dropdown-item.active,
 .navbar .dropdown-item:hover{
-  background: #ebebeb;
-}
-.navbar .dropdown-item:last-child{
-  margin-bottom: 0;
-}
-.navbar .dropdown-item.active{
-  background: #179cab;
-  color: #fff !important;
+  color: #e9202a !important;
 }
 
 /* Media Queries */
@@ -110,7 +113,7 @@
     margin-bottom: 0;
   }
   .offcanvas .dropdown-item.active{
-    background: #179cab;
+    background: #e9202a;
     color: #fff !important;
   }
 }
