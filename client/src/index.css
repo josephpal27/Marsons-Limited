@@ -23,7 +23,7 @@ body{
 .vertical-slider .swiper-pagination-bullet {
   width: 11px !important;
   height: 11px !important;
-  background: #fff !important;
+  background: #000 !important;
   margin: 12px 5px !important;
   transition: all 0.1s ease;
 }
