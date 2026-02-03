@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Navbar.css";
-import logo from "../../assets/images/logo/logo.png";
+import logo from "../assets/images/logo/logo.png";
 
 const MyNavbar = () => {
   const [show, setShow] = useState(false);
