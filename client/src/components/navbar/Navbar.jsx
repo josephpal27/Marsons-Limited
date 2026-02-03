@@ -45,47 +45,62 @@ const MyNavbar = () => {
             </Nav.Link>
             {/* Bootstrap Dropdown */}
             <NavDropdown title="PRODUCTS" id="navbarDropdown">
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/distribution-transformers" onClick={handleClose}>
                 Distribution transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/power-transformers" onClick={handleClose}>
                 Power transformer
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/furnace-transformers" onClick={handleClose}>
                 Furnace transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/uss-transformers" onClick={handleClose}>
                 Uss transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/dry-type-transformers" onClick={handleClose}>
                 Dry type transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/cast-resin-transformers" onClick={handleClose}>
                 Cast resin transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/solar-transformers" onClick={handleClose}>
                 Solar transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/instrumental-transformers" onClick={handleClose}>
                 Instrumental transformers
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/clientele" onClick={handleClose}>
               CLIENTELE
             </Nav.Link>
             {/* Bootstrap Dropdown */}
             <NavDropdown title="INVESTOR CORNER" id="navbarDropdown">
-              <NavDropdown.Item as={NavLink} to="/zinc-wires" onClick={handleClose}>
-                Zinc Wires
+              <NavDropdown.Item as={NavLink} to="/financials" onClick={handleClose}>
+                Financials
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/zinc-alluminium-wires" onClick={handleClose}>
-                Zinc Alluminium Wires
+              <NavDropdown.Item as={NavLink} to="/corporate-governance" onClick={handleClose}>
+                Corporate Governance
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/shareholding-pattern" onClick={handleClose}>
+                Shareholding Pattern
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/notices-results" onClick={handleClose}>
+                Notices & Results
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/policies" onClick={handleClose}>
+                Policies
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/unclaimed-dividend" onClick={handleClose}>
+                Unclaimed Dividend
+              </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/contact-details" onClick={handleClose}>
+                Contact Details
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={NavLink} to="/quality-assurance" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/csr" onClick={handleClose}>
               CSR
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/services" onClick={handleClose}>
+            <Nav.Link as={NavLink} to="/career" onClick={handleClose}>
               CAREER
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
