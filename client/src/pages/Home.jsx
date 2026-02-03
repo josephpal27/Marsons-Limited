@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import '../css/Home.css';
 import HomeBanner from "../components/home-banner/HomeBanner";
 import MyNavbar from './../components/navbar/Navbar';
+import WhatWeDo from "../components/what-we-do/WhatWeDo";
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -26,7 +27,9 @@ const Home = () => {
                     <MyNavbar />
                     <HomeBanner />
                 </section>
-                <section className="section">Section 2</section>
+                <section className="section">
+                    <WhatWeDo />
+                </section>
             </>
         );
     }
@@ -61,12 +64,16 @@ const Home = () => {
                 preventInteractionOnTransition={true}
             >
                 <SwiperSlide>
-                    <MyNavbar />
-                    <HomeBanner />
+                    <section className="section">
+                        <MyNavbar />
+                        <HomeBanner />
+                    </section>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <section className="section">ABOUT</section>
+                    <section className="section">
+                        <WhatWeDo />
+                    </section>
                 </SwiperSlide>
 
             </Swiper>

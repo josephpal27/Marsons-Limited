@@ -26,3 +26,9 @@ body{
 .vertical-slider .swiper-pagination-bullet-active {
   background: #e9202a !important;
 }
+
+@media screen and (max-width: 640px) {
+  .vertical-slider .swiper-pagination-bullet {
+    display: none;
+  }
+}
