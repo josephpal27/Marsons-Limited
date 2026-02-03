@@ -6,6 +6,9 @@ const WhatWeDo = () => {
   return (
     <>
       <div className="what-we-do">
+
+        <h1 className="text-red-600 text-[3rem]">Hello</h1>
+
         <div className="what-we-do-head">
           <h1>What We <span>Do</span></h1>
           <p>We manufacture Distribution & Power Transformers ranging from 10 KVA to 160 MVA 220 kV class, Furnace Transformers, Dry Type Transformers and various types of Special Application Transformers.</p>

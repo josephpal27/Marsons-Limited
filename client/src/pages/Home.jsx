@@ -1,11 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel, Keyboard, Pagination } from "swiper/modules";
 import { useEffect, useState } from "react";
-
 import "swiper/css";
 import "swiper/css/pagination";
-import '../css/Home.css';
-import HomeBanner from "../components/home-banner/HomeBanner";
+
+import HomeBanner from "../components/HomeBanner";
 import MyNavbar from './../components/navbar/Navbar';
 import WhatWeDo from "../components/what-we-do/WhatWeDo";
 

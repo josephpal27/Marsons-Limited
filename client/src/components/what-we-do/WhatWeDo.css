@@ -37,7 +37,7 @@
     align-items: center; */
     /* background-color: #f7f7f7; */
     padding: 1rem 1rem;
-    border-right: 1px solid #e9202a;
+    border-right: 2px solid #d1d1d1;
 }
 .what-we-do-card:last-child{
     border-right: 0;
@@ -56,4 +56,5 @@
     /* text-align: center; */
     color: #323232;
     margin-top: 1rem;
+    font-weight: 400;
 }
