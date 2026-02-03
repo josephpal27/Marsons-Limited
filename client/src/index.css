@@ -14,3 +14,15 @@ body{
 .section {
   height: 100vh;
 }
+
+/* Vertical Pagination */
+.vertical-slider .swiper-pagination-bullet {
+  width: 11px !important;
+  height: 11px !important;
+  background: #fff !important;
+  margin: 12px 5px !important;
+  transition: all 0.1s ease;
+}
+.vertical-slider .swiper-pagination-bullet-active {
+  background: #e9202a !important;
+}
