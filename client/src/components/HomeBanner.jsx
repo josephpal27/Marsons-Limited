@@ -13,7 +13,7 @@ const HomeBanner = () => {
                     loop
                     playsInline
                     preload="metadata"
-                    poster="/images/home-banner-1.avif"
+                    poster="/images/banners/home-banner.avif"
                     className="
                         w-full
                         h-full
@@ -38,7 +38,7 @@ const HomeBanner = () => {
                         text-[#fff]
                         font-[600]
                     ">
-                        MARSONS LIMITED
+                        SETTING POWER <br /> IN MOTION
                     </h1>
                 </div>
 

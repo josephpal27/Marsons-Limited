@@ -28,10 +28,18 @@ const MissionVision = () => {
                 items-center
                 flex-wrap
                 h-full
+                bg-[url('/images/mission-vision-bg.avif')]
+                bg-no-repeat
+                bg-cover
+                bg-center
             ">
+                {/* White Overlay */}
+                <div className="absolute inset-0 bg-[#ffffffe4]"></div>
+
                 {/* Left */}
                 <div className="
                     w-[35%]
+                    z-10
                 ">
                     <h3 className="
                         text-[3.2rem]
@@ -62,6 +70,7 @@ const MissionVision = () => {
                     flex
                     justify-between
                     flex-wrap
+                    z-10
                 ">
                     {
                         missionVisionData.map((item, index) => {
@@ -73,6 +82,7 @@ const MissionVision = () => {
                                     text-[#fff]
                                     aspect-square
                                     relative
+                                    
                                 " key={index}>
                                     <span className="
                                         text-[2rem]
