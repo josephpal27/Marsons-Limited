@@ -1,29 +1,32 @@
-import badge from '../assets/images/icons/badge.png';
+import certified from '../assets/images/icons/certified.avif';
+import excellence from '../assets/images/icons/excellence.avif';
+import responsive from '../assets/images/icons/responsive.avif';
+import trust from '../assets/images/icons/trust.avif';
 import { Link } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 
 let whatWeDoCardsData = [
   {
     id: 1,
-    image: badge,
+    image: certified,
     title: "Certified Products",
     desc: "Our Transformers of various ratings, which includes 50 MVA 132 kV class, have been successfully type-tested at CPRI in Bhopal and Bangalore.",
   },
   {
     id: 2,
-    image: badge,
+    image: trust,
     title: "Trusted Expertise",
     desc: "We have supplied more than 300,000 Transformers of different voltage and MVA across the globe over last 6 decades.",
   },
   {
     id: 3,
-    image: badge,
+    image: excellence,
     title: "Certified Excellence",
     desc: "Our fully equipped laboratory can efficiently carry out all required routine tests, for various ratings of Power Transformers up to the range of 160 MVA 220 kV class.",
   },
   {
     id: 4,
-    image: badge,
+    image: responsive,
     title: "Responsive",
     desc: "We have evolved over the years by introducing new range of products catering to the latest developments and requirements in the market.",
   },
@@ -109,6 +112,7 @@ const WhatWeDo = () => {
                     items-center
                     pt-[3rem]
                     w-max
+                    hover:text-[#d6151f]
                   ">
                     View Details <FaArrowRightLong className="
                       ml-[0.7rem]
