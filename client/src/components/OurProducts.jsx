@@ -91,14 +91,14 @@ const OurProducts = () => {
                                         inset-0
                                         bg-[#0a2946c0]
                                         flex
-                                        flex-col
-                                        justify-center
-                                        items-center
+                                        justify-start
+                                        items-end
                                         translate-y-0
                                         group-hover:-translate-y-full
                                         transition-transform
                                         duration-500
                                         ease-in-out
+                                        p-[1rem]
                                     ">
                                         <span className="
                                             text-[#fff]

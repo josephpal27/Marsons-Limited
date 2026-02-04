@@ -36,9 +36,9 @@ const HomeBanner = () => {
                     <h1 className="
                         text-[3.2rem]
                         text-[#fff]
-                        font-[600]
+                        font-[700]
                     ">
-                        SETTING POWER <br /> IN MOTION
+                        <span className="font-[200]">SETTING POWER</span> <br /> IN MOTION
                     </h1>
                 </div>
 
