@@ -39,14 +39,14 @@ const WhatWeDo = () => {
         py-[3.5rem]
         px-[7%]
       ">
-        <h1 className="
+        <h2 className="
           text-[3.2rem]
           text-[#000]
           font-[600]
           mb-[1rem]
         ">
           WHAT WE <span className="text-[#e9202a]">DO</span>
-        </h1>
+        </h2>
         <p className="
           text-[1.1rem]
           text-[#000]
