@@ -24,7 +24,7 @@ const HomeBanner = () => {
                 </video>
 
                 <div className="
-                    py-[3rem]
+                    py-[3.5rem]
                     px-[7%]
                     absolute
                     top-0
