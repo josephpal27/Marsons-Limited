@@ -19,6 +19,12 @@ body{
   height: 100vh;
 }
 
+@media screen and (max-width: 640px) {
+  .section {
+    height: auto;
+  }
+}
+
 /* Vertical Pagination */
 .vertical-slider .swiper-pagination-bullet{
   width: 11px !important;
