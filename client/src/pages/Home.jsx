@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import HomeBanner from "../components/HomeBanner";
 import MyNavbar from './../components/Navbar';
 import WhatWeDo from "../components/WhatWeDo";
+import MissionVision from "../components/MissionVision";
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -28,6 +29,9 @@ const Home = () => {
                 </section>
                 <section className="section">
                     <WhatWeDo />
+                </section>
+                <section className="section">
+                    <MissionVision />
                 </section>
             </>
         );
@@ -72,6 +76,12 @@ const Home = () => {
                 <SwiperSlide>
                     <section className="section">
                         <WhatWeDo />
+                    </section>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <section className="section">
+                        <MissionVision />
                     </section>
                 </SwiperSlide>
 
