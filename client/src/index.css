@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html {
+html{
   scroll-behavior: unset !important;
 }
 body{
@@ -20,19 +20,19 @@ body{
 }
 
 /* Vertical Pagination */
-.vertical-slider .swiper-pagination-bullet {
+.vertical-slider .swiper-pagination-bullet{
   width: 11px !important;
   height: 11px !important;
   background: #000 !important;
   margin: 12px 5px !important;
   transition: all 0.1s ease;
 }
-.vertical-slider .swiper-pagination-bullet-active {
+.vertical-slider .swiper-pagination-bullet-active{
   background: #e9202a !important;
 }
 
 @media screen and (max-width: 640px) {
-  .vertical-slider .swiper-pagination-bullet {
+  .vertical-slider .swiper-pagination-bullet{
     display: none;
   }
 }
@@ -44,7 +44,7 @@ body{
 .what-we-do-card:last-child{
   border-right: none;
 }
-.what-we-do-card::after {
+.what-we-do-card::after{
   content: "";
   position: absolute;
   top: -100%;
@@ -54,6 +54,6 @@ body{
   background-color: #e9202a;
   transition: top 0.4s ease;
 }
-.what-we-do-card:hover::after {
+.what-we-do-card:hover::after{
   top: 0;
 }

@@ -95,9 +95,21 @@ const MissionVision = () => {
                                         right-[-15px]
                                         bg-[#e9202a]
                                         p-[1rem]
+                                        rounded-[5px]
                                     ">
                                         <img src={item.Image} alt={item.title} loading="lazy" className="w-full"/>
                                     </div>
+                                    <div className="
+                                        w-[70%]
+                                        h-[80%]
+                                        position-absolute
+                                        top-[-17px]
+                                        left-[-17px]
+                                        bg-[#e9202a]
+                                        -z-10
+                                        rounded-tr-[30px]
+                                        rounded-bl-[30px]
+                                    "></div>
                                 </div>
                             )
                         })
