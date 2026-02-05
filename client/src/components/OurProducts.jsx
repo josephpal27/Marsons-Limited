@@ -135,6 +135,7 @@ const OurProducts = () => {
                                                 bg-[#e9202a]
                                                 text-[#fff]
                                                 text-[0.9rem]
+                                                font-[500]
                                                 px-[0.5rem]
                                                 pt-[0.17rem]
                                                 pb-[0.2rem]

@@ -42,6 +42,7 @@ const LatestNewsCard = ({
                         bg-[#e9202a]
                         text-white
                         text-[0.9rem]
+                        font-[450]
                         px-[0.6rem]
                         py-[0.25rem]
                         rounded-[3px]

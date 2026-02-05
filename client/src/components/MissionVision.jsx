@@ -32,6 +32,7 @@ const MissionVision = () => {
                 bg-no-repeat
                 bg-cover
                 bg-center
+                relative
             ">
                 {/* White Overlay */}
                 <div className="absolute inset-0 bg-[#ffffffe4]"></div>
@@ -55,6 +56,7 @@ const MissionVision = () => {
                         space-y-[0.6rem]
                         text-[1rem]
                         text-[#000]
+                        font-[500]
                     ">
                         <li>Customer services and seamless support.</li>
                         <li>Continued quality improvements and R&D initiatives.</li>
@@ -66,7 +68,7 @@ const MissionVision = () => {
                 </div>
                 {/* Right */}
                 <div className="
-                    w-[64%]
+                    w-[63%]
                     flex
                     justify-between
                     flex-wrap
@@ -92,7 +94,7 @@ const MissionVision = () => {
                                     </span>
                                     <p className="
                                         text-[1rem]
-                                        mt-[1.5rem]
+                                        mt-[1.4rem]
                                     ">
                                         {item.desc}
                                     </p>
@@ -112,12 +114,12 @@ const MissionVision = () => {
                                         w-[70%]
                                         h-[80%]
                                         position-absolute
-                                        top-[-15px]
-                                        left-[-15px]
+                                        top-[-10px]
+                                        left-[-10px]
                                         bg-[#e9202a]
                                         -z-10
-                                        rounded-tr-[25px]
-                                        rounded-bl-[25px]
+                                        rounded-tr-[20px]
+                                        rounded-bl-[20px]
                                     "></div>
                                 </div>
                             )

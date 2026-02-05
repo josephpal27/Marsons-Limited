@@ -54,14 +54,16 @@ const WhatWeDo = () => {
         <p className="
           text-[1rem]
           text-[#000]
-          mt-[1.5rem]
+          font-[500]
+          mt-[1rem]
         ">
           We manufacture Distribution & Power Transformers ranging from 10 KVA to 160 MVA 220 kV class, Furnace Transformers, Dry Type Transformers and various types of Special Application Transformers.
         </p>
         <p className="
           text-[1rem]
           text-[#000]
-          mt-[0.3rem]
+          font-[500]
+          mt-[0.5rem]
         ">
           Our main unit located in Kolkata is spread over an area of 4,00,000 square feet.
         </p>
@@ -103,7 +105,7 @@ const WhatWeDo = () => {
                   <p className="
                     text-[0.9rem]
                     text-[#323232]
-                    font-[400]
+                    font-[450]
                     mt-[0.7rem]
                   ">
                     {item.desc}
@@ -111,6 +113,7 @@ const WhatWeDo = () => {
                   <Link to="/" className="
                     text-[#e9202a]
                     text-[1rem]
+                    font-[500]
                     mt-auto
                     flex
                     items-center
