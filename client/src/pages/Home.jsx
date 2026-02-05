@@ -9,6 +9,7 @@ import MyNavbar from './../components/Navbar';
 import WhatWeDo from "../components/WhatWeDo";
 import MissionVision from "../components/MissionVision";
 import OurProducts from "../components/OurProducts";
+import LatestNews from "../components/LatestNews";
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -36,6 +37,9 @@ const Home = () => {
                 </section>
                 <section className="section">
                     <OurProducts />
+                </section>
+                <section className="section">
+                    <LatestNews />
                 </section>
             </>
         );
@@ -92,6 +96,12 @@ const Home = () => {
                 <SwiperSlide>
                     <section className="section">
                         <OurProducts />
+                    </section>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <section className="section">
+                        <LatestNews />
                     </section>
                 </SwiperSlide>
 
