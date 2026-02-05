@@ -8,6 +8,7 @@
   position: absolute;
   top: 1.2rem;
   border-radius: 50px;
+  font-family: "Oswald", sans-serif !important;
 }
 .navbar .nav-brand img{
   width: 170px;

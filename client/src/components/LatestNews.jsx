@@ -1,207 +1,100 @@
-import blog1 from '/images/blog-cards/1.avif';
+import blog1 from "/images/blog-cards/1.avif";
+import LatestNewsCard from "./LatestNewsCard";
+
+let latestNewsData = [
+    {
+        id: 1,
+        image: blog1,
+        title: "T 1",
+        desc: "D 1",
+    },
+    {
+        id: 2,
+        image: blog1,
+        title: "T 2",
+        desc: "D 2",
+    },
+    {
+        id: 3,
+        image: blog1,
+        title: "T 3",
+        desc: "D 3",
+    },
+    {
+        id: 4,
+        image: blog1,
+        title: "T 4",
+        desc: "D 4",
+    },
+]
 
 const LatestNews = () => {
+    const desc =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.";
+
     return (
-        <>
-            <div className="
-                py-[3.5rem]
-                px-[7%]
-                flex
-                flex-col
-                justify-center
-                h-full
+        <div className="
+            py-[3.5rem] 
+            px-[7%]
+            flex
+            flex-col
+            justify-center
+            h-full
+        ">
+            <h5 className="
+                text-[3.2rem] 
+                font-[600]
             ">
-                <h5 className="
-                    text-[3.2rem]
-                    text-[#000]
-                    font-[600]
-                ">
-                    LATEST <span className="text-[#e9202a]">BLOGS</span> & <span className="text-[#e9202a]">ARTICLES</span>
-                </h5>
+                LATEST <span className="text-[#e9202a]">BLOGS</span> & <span className="text-[#e9202a]">ARTICLES</span>
+            </h5>
 
-                {/* Latest News Row */}
-                <div className="
-                    mt-[3rem]
-                    flex
-                    flex-wrap
-                    justify-between
-                ">
-                    {/* Left Card */}
-                    <div className="
-                        w-[24%]
-                        shadow-[rgba(0,0,0,0.5)_0px_3px_8px]
-                        p-[1rem]
-                        rounded-[10px]
-                    ">
-                        <img src={blog1} alt="" loading="lazy" className="w-full rounded-md" />
-                        <span className="
-                            text-[1.2rem]
-                            text-[#0a2946]
-                            mt-[1rem]
-                            block
-                        ">
-                            Lorem ipsum dolor.
-                        </span>
-                        <p className="
-                            text-[0.9rem]
-                            mt-[0.5rem]
-                        ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.
-                        </p>
-                        <button className="
-                            bg-[#e9202a]
-                            text-[#fff]
-                            text-[0.9rem]
-                            px-[0.5rem]
-                            pt-[0.17rem]
-                            pb-[0.2rem]
-                            rounded-[3px]
-                            mt-[1rem]
-                            hover:bg-[#d6151f]
-                        ">
-                            READ MORE
-                        </button>
-                    </div>
+            {/* Cards Row */}
+            <div className="
+                mt-[3rem] 
+                flex 
+                justify-between
+                flex-wrap
+            ">
 
-                    {/* Center Card */}
-                    <div className="
-                        w-[49%]
-                        flex
-                        flex-col
-                        gap-[1.3rem]
-                    ">
-                        {/* Center Top Card */}
-                        <div className="
-                            w-full
-                            shadow-[rgba(0,0,0,0.5)_0px_3px_8px]
-                            p-[1rem]
-                            rounded-[10px]
-                            flex
-                            justify-between
-                        ">
-                            <div className="
-                                w-[46%]
-                            ">
-                                <img src={blog1} alt="" loading="lazy" className="w-full rounded-md" />
-                            </div>
-                            <div className="
-                                w-[51%]
-                            ">
-                                <span className="
-                                    text-[1.2rem]
-                                    text-[#0a2946]
-                                ">
-                                    Lorem ipsum dolor.
-                                </span>
-                                <p className="
-                                    text-[0.9rem]
-                                    mt-[0.5rem]
-                                ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.
-                                </p>
-                                <button className="
-                                    bg-[#e9202a]
-                                    text-[#fff]
-                                    text-[0.9rem]
-                                    px-[0.5rem]
-                                    pt-[0.17rem]
-                                    pb-[0.2rem]
-                                    rounded-[3px]
-                                    mt-[1rem]
-                                    hover:bg-[#d6151f]
-                                ">
-                                    READ MORE
-                                </button>
-                            </div>
-                        </div>
-                        {/* Center Bottom Card */}
-                        <div className="
-                            w-full
-                            shadow-[rgba(0,0,0,0.5)_0px_3px_8px]
-                            p-[1rem]
-                            rounded-[10px]
-                            flex
-                            justify-between
-                        ">
-                            <div className="
-                                w-[51%]
-                            ">
-                                <span className="
-                                    text-[1.2rem]
-                                    text-[#0a2946]
-                                ">
-                                    Lorem ipsum dolor.
-                                </span>
-                                <p className="
-                                    text-[0.9rem]
-                                    mt-[0.5rem]
-                                ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.
-                                </p>
-                                <button className="
-                                    bg-[#e9202a]
-                                    text-[#fff]
-                                    text-[0.9rem]
-                                    px-[0.5rem]
-                                    pt-[0.17rem]
-                                    pb-[0.2rem]
-                                    rounded-[3px]
-                                    mt-[1rem]
-                                    hover:bg-[#d6151f]
-                                ">
-                                    READ MORE
-                                </button>
-                            </div>
-                            <div className="
-                                w-[46%]
-                            ">
-                                <img src={blog1} alt="" loading="lazy" className="w-full rounded-md" />
-                            </div>
-                        </div>
+                {/* Left */}
+                <div className="w-[24%]">
+                    <LatestNewsCard
+                        image={blog1}
+                        title="Lorem ipsum dolor."
+                        description={desc}
+                    />
+                </div>
 
-                    </div>
+                {/* Center */}
+                <div className="w-[49%] flex flex-col gap-[1.3rem]">
+                    <LatestNewsCard
+                        image={blog1}
+                        title="Lorem ipsum dolor."
+                        description={desc}
+                        layout="horizontal"
+                    />
 
-                    {/* Right Card */}
-                    <div className="
-                        w-[24%]
-                        shadow-[rgba(0,0,0,0.5)_0px_3px_8px]
-                        p-[1rem]
-                        rounded-[10px]
-                    ">
-                        <img src={blog1} alt="" loading="lazy" className="w-full rounded-md" />
-                        <span className="
-                            text-[1.2rem]
-                            text-[#0a2946]
-                            mt-[1rem]
-                            block
-                        ">
-                            Lorem ipsum dolor.
-                        </span>
-                        <p className="
-                            text-[0.9rem]
-                            mt-[0.5rem]
-                        ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.
-                        </p>
-                        <button className="
-                            bg-[#e9202a]
-                            text-[#fff]
-                            text-[0.9rem]
-                            px-[0.5rem]
-                            pt-[0.17rem]
-                            pb-[0.2rem]
-                            rounded-[3px]
-                            mt-[1rem]
-                            hover:bg-[#d6151f]
-                        ">
-                            READ MORE
-                        </button>
-                    </div>
+                    <LatestNewsCard
+                        image={blog1}
+                        title="Lorem ipsum dolor."
+                        description={desc}
+                        layout="horizontal"
+                        reverse
+                    />
+                </div>
+
+                {/* Right */}
+                <div className="w-[24%]">
+                    <LatestNewsCard
+                        image={blog1}
+                        title="Lorem ipsum dolor."
+                        description={desc}
+                    />
                 </div>
 
             </div>
-        </>
-    )
-}
+        </div>
+    );
+};
 
-export default LatestNews
+export default LatestNews;

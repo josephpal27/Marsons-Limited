@@ -52,14 +52,14 @@ const WhatWeDo = () => {
           WHAT WE <span className="text-[#e9202a]">DO</span>
         </h2>
         <p className="
-          text-[1.1rem]
+          text-[1rem]
           text-[#000]
           mt-[1.5rem]
         ">
           We manufacture Distribution & Power Transformers ranging from 10 KVA to 160 MVA 220 kV class, Furnace Transformers, Dry Type Transformers and various types of Special Application Transformers.
         </p>
         <p className="
-          text-[1.1rem]
+          text-[1rem]
           text-[#000]
           mt-[0.3rem]
         ">
@@ -68,7 +68,7 @@ const WhatWeDo = () => {
 
         {/* Cards Row */}
         <div className="
-          mt-[5rem]
+          mt-[4rem]
           flex
           justify-between
           flex-wrap
@@ -101,20 +101,20 @@ const WhatWeDo = () => {
                     {item.title}
                   </span>
                   <p className="
-                    text-[1rem]
+                    text-[0.9rem]
                     text-[#323232]
                     font-[400]
-                    mt-[1rem]
+                    mt-[0.7rem]
                   ">
                     {item.desc}
                   </p>
                   <Link to="/" className="
                     text-[#e9202a]
-                    text-[1.1rem]
+                    text-[1rem]
                     mt-auto
                     flex
                     items-center
-                    pt-[3rem]
+                    pt-[2rem]
                     w-max
                     hover:text-[#d6151f]
                   ">

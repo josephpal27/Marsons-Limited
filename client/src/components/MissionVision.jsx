@@ -53,7 +53,7 @@ const MissionVision = () => {
                         list-disc
                         pl-[1.5rem]
                         space-y-[0.6rem]
-                        text-[1.1rem]
+                        text-[1rem]
                         text-[#000]
                     ">
                         <li>Customer services and seamless support.</li>
@@ -91,8 +91,7 @@ const MissionVision = () => {
                                         {item.title}
                                     </span>
                                     <p className="
-                                        text-[1.1rem]
-                                        font-[400]
+                                        text-[1rem]
                                         mt-[1.5rem]
                                     ">
                                         {item.desc}
