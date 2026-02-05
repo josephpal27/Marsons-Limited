@@ -1,36 +1,7 @@
-import blog1 from "/images/blog-cards/1.avif";
+import latestNewsData from "../data/LatestNewsData";
 import LatestNewsCard from "./LatestNewsCard";
 
-let latestNewsData = [
-    {
-        id: 1,
-        image: blog1,
-        title: "T 1",
-        desc: "D 1",
-    },
-    {
-        id: 2,
-        image: blog1,
-        title: "T 2",
-        desc: "D 2",
-    },
-    {
-        id: 3,
-        image: blog1,
-        title: "T 3",
-        desc: "D 3",
-    },
-    {
-        id: 4,
-        image: blog1,
-        title: "T 4",
-        desc: "D 4",
-    },
-]
-
 const LatestNews = () => {
-    const desc =
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.";
 
     return (
         <div className="
@@ -59,25 +30,25 @@ const LatestNews = () => {
                 {/* Left */}
                 <div className="w-[24%]">
                     <LatestNewsCard
-                        image={blog1}
-                        title="Lorem ipsum dolor."
-                        description={desc}
+                        image={latestNewsData[0].image}
+                        title={latestNewsData[0].title}
+                        description={latestNewsData[0].desc}
                     />
                 </div>
 
                 {/* Center */}
                 <div className="w-[49%] flex flex-col gap-[1.3rem]">
                     <LatestNewsCard
-                        image={blog1}
-                        title="Lorem ipsum dolor."
-                        description={desc}
+                        image={latestNewsData[1].image}
+                        title={latestNewsData[1].title}
+                        description={latestNewsData[1].desc}
                         layout="horizontal"
                     />
 
                     <LatestNewsCard
-                        image={blog1}
-                        title="Lorem ipsum dolor."
-                        description={desc}
+                        image={latestNewsData[2].image}
+                        title={latestNewsData[2].title}
+                        description={latestNewsData[2].desc}
                         layout="horizontal"
                         reverse
                     />
@@ -86,9 +57,9 @@ const LatestNews = () => {
                 {/* Right */}
                 <div className="w-[24%]">
                     <LatestNewsCard
-                        image={blog1}
-                        title="Lorem ipsum dolor."
-                        description={desc}
+                        image={latestNewsData[3].image}
+                        title={latestNewsData[3].title}
+                        description={latestNewsData[3].desc}
                     />
                 </div>
 

@@ -3,26 +3,26 @@ const latestNewsData = [
   {
     id: 1,
     image: "/images/blog-cards/1.avif",
-    title: "T 1",
-    desc: "D 1",
+    title: "Lorem ipsum dolor.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.",
   },
   {
     id: 2,
     image: "/images/blog-cards/1.avif",
-    title: "T 2",
-    desc: "D 2",
+    title: "Lorem ipsum dolor.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.",
   },
   {
     id: 3,
     image: "/images/blog-cards/1.avif",
-    title: "T 3",
-    desc: "D 3",
+    title: "Lorem ipsum dolor.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.",
   },
   {
     id: 4,
     image: "/images/blog-cards/1.avif",
-    title: "T 4",
-    desc: "D 4",
+    title: "Lorem ipsum dolor.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatibus est maiores, consequatur nostrum sint magnam unde blanditiis quos iusto.",
   },
 ];
 
