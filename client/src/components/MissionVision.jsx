@@ -113,12 +113,12 @@ const MissionVision = () => {
                                         w-[70%]
                                         h-[80%]
                                         position-absolute
-                                        top-[-17px]
-                                        left-[-17px]
+                                        top-[-15px]
+                                        left-[-15px]
                                         bg-[#e9202a]
                                         -z-10
-                                        rounded-tr-[30px]
-                                        rounded-bl-[30px]
+                                        rounded-tr-[25px]
+                                        rounded-bl-[25px]
                                     "></div>
                                 </div>
                             )

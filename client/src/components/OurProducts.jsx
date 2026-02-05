@@ -49,6 +49,10 @@ const OurProducts = () => {
             <div className="
                 py-[3.5rem]
                 px-[7%]
+                flex
+                flex-col
+                justify-center
+                h-full
             ">
                 <h4 className="
                     text-[3.2rem]
@@ -71,8 +75,9 @@ const OurProducts = () => {
                                 <div className="
                                     w-[23.7%]
                                     shadow-[0px_6px_12px_-2px_rgba(50,50,93,0.25),_0px_3px_7px_-3px_rgba(0,0,0,0.3)]
-                                    mb-[1.5rem]
+                                    mb-[1.4rem]
                                     relative
+                                    rounded-[7px]
                                     overflow-hidden
                                     group
                                 " key={index}>
@@ -90,6 +95,7 @@ const OurProducts = () => {
                                         absolute
                                         inset-0
                                         bg-[#0a2946c0]
+                                        rounded-[7px]
                                         flex
                                         justify-start
                                         items-end
@@ -134,6 +140,7 @@ const OurProducts = () => {
                                                 pb-[0.2rem]
                                                 rounded-[3px]
                                                 mt-[1rem]
+                                                hover:bg-[#d6151f]
                                             ">
                                                 READ MORE
                                             </button>

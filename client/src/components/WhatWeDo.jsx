@@ -38,6 +38,10 @@ const WhatWeDo = () => {
       <div className="
         py-[3.5rem]
         px-[7%]
+        flex
+        flex-col
+        justify-center
+        h-full
       ">
         <h2 className="
           text-[3.2rem]
