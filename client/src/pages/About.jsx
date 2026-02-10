@@ -2,6 +2,7 @@ import AboutBanner from "../components/AboutBanner"
 import AboutWhatWeDo from "../components/AboutWhatWeDo"
 import Highlights from "../components/Highlights"
 import MyNavbar from "../components/Navbar"
+import OurFounder from "../components/OurFounder"
 
 const About = () => {
     return (
@@ -10,6 +11,7 @@ const About = () => {
             <AboutBanner />
             <AboutWhatWeDo />
             <Highlights />
+            <OurFounder />
         </>
     )
 }
