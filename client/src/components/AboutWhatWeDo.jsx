@@ -6,7 +6,7 @@ const AboutWhatWeDo = () => {
                 {/* Top Content */}
                 <div className="
                     px-[7%]
-                    pt-[2rem]
+                    pt-[3rem]
                     flex
                     justify-between
                     items-center
@@ -19,7 +19,7 @@ const AboutWhatWeDo = () => {
                             text-[#e9202a]
                             font-[700]
                         ">
-                            <span className="font-[300] text-[#000] text-[4rem]">What</span> <br /> WE DO
+                            <span className="font-[300] text-[#000] text-[4rem]">WHAT</span> <br /> WE DO
                         </h2>
                     </div>
                     <div className="
@@ -51,6 +51,7 @@ const AboutWhatWeDo = () => {
                 {/* Bottom Content */}
                 <div className="
                     relative
+                    mt-[1rem]
                 ">
                     <img src="/images/what-we-do-bg.png" alt="What We Do" loading="lazy" className="
                         w-full
