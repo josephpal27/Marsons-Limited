@@ -54,7 +54,7 @@ const AboutWhatWeDo = () => {
                     relative
                     mt-[1rem]
                 ">
-                    <img src="/images/what-we-do-bg.png" alt="What We Do" loading="lazy" className="
+                    <img src="/images/what-we-do-bg.avif" alt="What We Do" loading="lazy" className="
                         w-full
                         h-screen
                     " />

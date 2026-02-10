@@ -1,5 +1,5 @@
-import founderImage from '../assets/images/founder.png';
-import birds from '../assets/images/birds.png';
+import founderImage from '../assets/images/founder.avif';
+import birds from '../assets/images/birds.avif';
 
 const OurFounder = () => {
     return (
@@ -79,7 +79,7 @@ const OurFounder = () => {
                 <div className="
                     mt-[1rem]
                 ">
-                    <img src="/images/solar.png" alt="Background Image" loading="lazy" />
+                    <img src="/images/solar.avif" alt="Background Image" loading="lazy" />
                 </div>
             </div>
         </section>
