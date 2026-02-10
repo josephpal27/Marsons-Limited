@@ -13,7 +13,7 @@ const LatestNews = () => {
             h-full
         ">
             <h5 className="
-                text-[3.2rem] 
+                text-[3.5rem] 
                 font-[600]
             ">
                 LATEST <span className="text-[#e9202a]">BLOGS</span> & <span className="text-[#e9202a]">ARTICLES</span>
@@ -21,7 +21,7 @@ const LatestNews = () => {
 
             {/* Cards Row */}
             <div className="
-                mt-[3rem] 
+                mt-[2.5rem] 
                 flex 
                 justify-between
                 flex-wrap

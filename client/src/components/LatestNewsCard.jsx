@@ -30,7 +30,7 @@ const LatestNewsCard = ({
 
                 {/* Content */}
                 <div className={layout === "horizontal" ? "w-[51%]" : "mt-[1rem]"}>
-                    <span className="text-[1.2rem] text-[#0a2946] block">
+                    <span className="text-[1.2rem] font-[500] text-[#0a2946] block">
                         {title}
                     </span>
 

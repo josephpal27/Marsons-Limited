@@ -3,6 +3,7 @@ import AboutWhatWeDo from "../components/AboutWhatWeDo"
 import Highlights from "../components/Highlights"
 import MyNavbar from "../components/Navbar"
 import OurFounder from "../components/OurFounder"
+import VisionMission from "../components/VisionMission"
 
 const About = () => {
     return (
@@ -12,6 +13,7 @@ const About = () => {
             <AboutWhatWeDo />
             <Highlights />
             <OurFounder />
+            <VisionMission />
         </>
     )
 }

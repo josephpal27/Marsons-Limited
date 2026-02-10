@@ -55,7 +55,7 @@ const OurProducts = () => {
                 h-full
             ">
                 <h4 className="
-                    text-[3.2rem]
+                    text-[3.5rem]
                     text-[#000]
                     font-[600]
                 ">
@@ -108,8 +108,8 @@ const OurProducts = () => {
                                     ">
                                         <span className="
                                             text-[#fff]
-                                            text-[1.5rem]
-                                            font-[500]
+                                            text-[1.2rem]
+                                            font-[550]
                                         ">
                                             {item.name}
                                         </span>

@@ -12,12 +12,13 @@ const AboutWhatWeDo = () => {
                     items-center
                 ">
                     <div className="
-                        w-[35%]
+                        w-[37%]
                     ">
                         <h2 className="
-                            text-[6rem]
+                            text-[8rem]
                             text-[#e9202a]
                             font-[700]
+                            leading-[0.9]
                         ">
                             <span className="font-[300] text-[#000] text-[4rem]">WHAT</span> <br /> WE DO
                         </h2>
@@ -37,7 +38,7 @@ const AboutWhatWeDo = () => {
                 </div>
                 {/* Center Content */}
                 <div className="
-                    mt-[1rem]
+                    mt-[1.5rem]
                     px-[7%]
                 ">
                     <p className="
@@ -64,7 +65,7 @@ const AboutWhatWeDo = () => {
                         right-[7%]
                     ">
                         <span className="
-                            text-[3.2rem]
+                            text-[2.5rem]
                             text-[#e9202a]
                             font-[700]
                         ">

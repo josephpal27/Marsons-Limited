@@ -43,7 +43,7 @@ const MissionVision = () => {
                     z-10
                 ">
                     <h3 className="
-                        text-[3.2rem]
+                        text-[3.5rem]
                         text-[#000]
                         font-[600]
                         mb-[2rem]
@@ -54,7 +54,7 @@ const MissionVision = () => {
                         list-disc
                         pl-[1.5rem]
                         space-y-[0.6rem]
-                        text-[1rem]
+                        text-[1.1rem]
                         text-[#000]
                         font-[500]
                     ">
@@ -88,7 +88,7 @@ const MissionVision = () => {
                                 " key={index}>
                                     <span className="
                                         text-[2rem]
-                                        font-[500]
+                                        font-[550]
                                     ">
                                         {item.title}
                                     </span>

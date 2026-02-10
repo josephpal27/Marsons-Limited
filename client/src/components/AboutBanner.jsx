@@ -10,6 +10,7 @@ const AboutBanner = () => {
                 <img src="/images/banners/about-banner.png" alt="About Banner" loading="eager" className="
                     w-full
                     h-[106vh]
+                    drop-shadow-[0_10px_0px_#e9202a]
                 " />
                 <div className="
                     pb-[3.5rem]

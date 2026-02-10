@@ -52,8 +52,9 @@ const Highlights = () => {
                                 <p className="
                                     text-[#fff]
                                     text-[1.1rem]
+                                    font-[500]
                                     text-center
-                                    mt-[1rem]
+                                    mt-[1.2rem]
                                 ">
                                     {item.title}
                                 </p>

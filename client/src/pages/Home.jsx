@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import HomeBanner from "../components/HomeBanner";
 import MyNavbar from './../components/Navbar';
 import WhatWeDo from "../components/WhatWeDo";
-import MissionVision from "../components/MissionVision";
+import OurGoals from "../components/OurGoals";
 import OurProducts from "../components/OurProducts";
 import LatestNews from "../components/LatestNews";
 
@@ -33,7 +33,7 @@ const Home = () => {
                     <WhatWeDo />
                 </section>
                 <section className="section">
-                    <MissionVision />
+                    <OurGoals />
                 </section>
                 <section className="section">
                     <OurProducts />
@@ -89,7 +89,7 @@ const Home = () => {
 
                 <SwiperSlide>
                     <section className="section">
-                        <MissionVision />
+                        <OurGoals />
                     </section>
                 </SwiperSlide>
 

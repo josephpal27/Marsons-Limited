@@ -10,6 +10,7 @@ const OurFounder = () => {
             items-center
             flex-wrap
             pr-[7%]
+            min-h-[90vh]
         ">
 
             {/* Left Vertical Heading */}
@@ -19,17 +20,17 @@ const OurFounder = () => {
                 <h3
                     className="
                     absolute
-                    left-[-7rem]
+                    left-[-13rem]
                     top-1/2
                     -translate-y-1/2
                     rotate-90
-                    text-[8rem]
+                    text-[7.5rem]
                     font-[300]
                     tracking-widest
                     text-[#e6e6dc]
                     whitespace-nowrap
                     select-none
-                    leading-[1]
+                    leading-[0.9]
                 "
                 >
                     OUR <br /> FOUNDER
@@ -49,9 +50,9 @@ const OurFounder = () => {
                 " />
                 <img src={birds} alt="Birds" loading="lazy" className="
                     absolute
-                    top-[6rem]
+                    top-[7rem]
                     left-[0]
-                    w-[150px]
+                    w-[180px]
                 "/>
             </div>
             {/* Right Content */}
@@ -60,7 +61,7 @@ const OurFounder = () => {
             ">
                 <div>
                     <span className="
-                        text-[3.2rem]
+                        text-[2.5rem]
                         text-[#e9202a]
                         font-[700]
                     ">
@@ -75,7 +76,9 @@ const OurFounder = () => {
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum amet aspernatur repellat incidunt repellendus fuga, facilis excepturi at saepe ex?
                     </p>
                 </div>
-                <div>
+                <div className="
+                    mt-[1rem]
+                ">
                     <img src="/images/solar.png" alt="Background Image" loading="lazy" />
                 </div>
             </div>
