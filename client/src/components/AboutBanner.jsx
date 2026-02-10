@@ -1,4 +1,3 @@
-import React from 'react'
 
 const AboutBanner = () => {
     return (
@@ -10,10 +9,10 @@ const AboutBanner = () => {
             ">
                 <img src="/images/banners/about-banner.png" alt="About Banner" loading="eager" className="
                     w-full
-                    h-screen
+                    h-[106vh]
                 " />
                 <div className="
-                    pb-[6.5rem]
+                    pb-[3.5rem]
                     px-[7%]
                     absolute
                     top-0
