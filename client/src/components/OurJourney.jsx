@@ -21,7 +21,7 @@ const journeyData = [
         year: "1977",
         title: "INCORPORATION",
         highlight: "INCORPORATION",
-        desc: "Marsons officially incorporated as Marsons Electric Private Limited.",
+        desc: "Marsons is Born. Officially incorporated as Marsons Electricals Private Limited to scale operations and modernize production.",
         image: journey2,
     },
     {
@@ -29,23 +29,23 @@ const journeyData = [
         year: "1991",
         title: "REBRANDING FOR THE FUTURE",
         highlight: "FOR THE FUTURE",
-        desc: "Company renamed as Marsons Limited reflecting broader corporate identity.",
+        desc: "Company Marsons Limited. The company officially changed its name to Marsons Limited, reflecting a broader vision and corporate identity.",
         image: journey3,
     },
     {
         id: 4,
         year: "1994",
         title: "PUBLIC MILESTONE",
-        highlight: "PUBLIC",
-        desc: "Listed on BSE and became a Public Limited Company.",
+        highlight: "MILESTONE",
+        desc: "Listing on the BSE. Transitioned into a Public Limited Company and debuted on the Bombay Stock Exchange (BSE).",
         image: journey4,
     },
     {
         id: 5,
         year: "2009",
         title: "MODERN EVOLUTION",
-        highlight: "MODERN",
-        desc: "Expansion and modernization phase.",
+        highlight: "EVOLUTION",
+        desc: "The Beginning: Started as a proprietorship concern specializing in the manufacture of power and distribution transformers.",
         image: journey5,
     },
 ];
@@ -100,7 +100,7 @@ const OurJourney = () => {
     }, [location]);
 
     return (
-        <section className="px-[7%] py-[6rem]">
+        <section className="px-[7%] mt-[6rem]">
 
             {/* Head */}
             <div className=" flex justify-between items-center "> <div className=" w-[35%] "> <h4 className=" text-[5.5rem] font-[700] leading-[1] "> OUR <br /> <span className="text-[#e9202a]">JOURNEY</span> </h4> </div> <div className=" w-[60%] "> <p className=" text-[1.1rem] text-[#000] font-[500] "> Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> <p className=" text-[1.1rem] text-[#000] font-[500] mt-[1rem] "> Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> </div> </div>
@@ -122,24 +122,24 @@ const OurJourney = () => {
                     return (
                         <div
                             key={item.id}
-                            className="relative flex items-center justify-between mb-[8rem]"
+                            className="relative flex items-center justify-between mb-[5rem]"
                         >
                             {/* LEFT */}
                             <div className="w-[45%]">
                                 {isLeft ? (
                                     <img src={item.image} alt="" className="w-full" />
                                 ) : (
-                                    <div className="text-right pr-[3rem]">
-                                        <h3 className="text-[2.8rem] font-[700] text-[#0f2b3a]">
+                                    <div className="text-right pr-[2rem]">
+                                        <span className="text-[4rem] font-[700] text-[#0f2b3a] block">
                                             {item.year}
-                                        </h3>
-                                        <h4 className="text-[1.3rem] font-[700] mt-[0.5rem]">
+                                        </span>
+                                        <span className="text-[2.5rem] font-[700] mt-[0.5rem] block">
                                             {item.title.split(item.highlight)[0]}
                                             <span className="text-[#e9202a]">
                                                 {item.highlight}
                                             </span>
-                                        </h4>
-                                        <p className="text-[1rem] mt-[0.7rem] leading-[1.7]">
+                                        </span>
+                                        <p className="text-[1.1rem] text-[#000] font-[500] mt-[0.7rem]">
                                             {item.desc}
                                         </p>
                                     </div>
@@ -159,17 +159,17 @@ const OurJourney = () => {
                                 {!isLeft ? (
                                     <img src={item.image} alt="" className="w-full" />
                                 ) : (
-                                    <div className="pl-[3rem]">
-                                        <h3 className="text-[2.8rem] font-[700] text-[#0f2b3a]">
+                                    <div className="pl-[2rem]">
+                                        <span className="text-[4rem] font-[700] text-[#0f2b3a] block">
                                             {item.year}
-                                        </h3>
-                                        <h4 className="text-[1.3rem] font-[700] mt-[0.5rem]">
+                                        </span>
+                                        <span className="text-[2.5rem] font-[700] mt-[0.5rem] block">
                                             {item.title.split(item.highlight)[0]}
                                             <span className="text-[#e9202a]">
                                                 {item.highlight}
                                             </span>
-                                        </h4>
-                                        <p className="text-[1rem] mt-[0.7rem] leading-[1.7]">
+                                        </span>
+                                        <p className="text-[1.1rem] text-[#000] font-[500] mt-[0.7rem]">
                                             {item.desc}
                                         </p>
                                     </div>
