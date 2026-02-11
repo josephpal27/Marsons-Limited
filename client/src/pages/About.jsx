@@ -3,6 +3,7 @@ import AboutWhatWeDo from "../components/AboutWhatWeDo"
 import Highlights from "../components/Highlights"
 import MyNavbar from "../components/Navbar"
 import OurFounder from "../components/OurFounder"
+import OurJourney from "../components/OurJourney"
 import VisionMission from "../components/VisionMission"
 
 const About = () => {
@@ -14,6 +15,7 @@ const About = () => {
             <Highlights />
             <OurFounder />
             <VisionMission />
+            <OurJourney />
         </>
     )
 }

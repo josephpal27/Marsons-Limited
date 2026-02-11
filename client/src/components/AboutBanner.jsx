@@ -7,7 +7,7 @@ const AboutBanner = () => {
                 h-screen
                 relative
             ">
-                <img src="/images/banners/about-banner.png" alt="About Banner" loading="eager" className="
+                <img src="/images/banners/about-banner.avif" alt="About Banner" loading="eager" className="
                     w-full
                     h-[106vh]
                     drop-shadow-[0_10px_0px_#e9202a]

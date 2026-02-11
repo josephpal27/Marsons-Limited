@@ -20,7 +20,7 @@ const HomeBanner = () => {
                         object-cover
                     "
                 >
-                    <source src="/videos/home-banner-1.webm" type="video/webm" />
+                    <source src="/videos/home-banner.webm" type="video/webm" />
                 </video>
 
                 <div className="
