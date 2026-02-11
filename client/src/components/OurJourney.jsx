@@ -1,11 +1,11 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import journey1 from "../assets/images/our-journey/1.png";
-import journey2 from "../assets/images/our-journey/2.png";
-import journey3 from "../assets/images/our-journey/3.png";
-import journey4 from "../assets/images/our-journey/4.png";
-import journey5 from "../assets/images/our-journey/5.png";
+import journey1 from "../assets/images/our-journey/1.avif";
+import journey2 from "../assets/images/our-journey/2.avif";
+import journey3 from "../assets/images/our-journey/3.avif";
+import journey4 from "../assets/images/our-journey/4.avif";
+import journey5 from "../assets/images/our-journey/5.avif";
 
 const journeyData = [
     {
