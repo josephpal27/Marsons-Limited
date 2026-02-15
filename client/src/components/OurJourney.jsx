@@ -183,4 +183,4 @@ const OurJourney = () => {
     );
 };
 
-export default OurJourney;
+export default OurJourney
