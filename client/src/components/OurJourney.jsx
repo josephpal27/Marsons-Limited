@@ -103,7 +103,17 @@ const OurJourney = () => {
         <section className="px-[7%] mt-[6rem]">
 
             {/* Head */}
-            <div className=" flex justify-between items-center "> <div className=" w-[35%] "> <h4 className=" text-[5.5rem] font-[700] leading-[1] "> OUR <br /> <span className="text-[#e9202a]">JOURNEY</span> </h4> </div> <div className=" w-[60%] "> <p className=" text-[1.1rem] text-[#000] font-[500] "> Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> <p className=" text-[1.1rem] text-[#000] font-[500] mt-[1rem] "> Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> </div> </div>
+            <div className=" flex justify-between items-center ">
+                <div className=" w-[35%] ">
+                    <h4 className=" text-[5.5rem] font-[700] leading-[1] ">
+                        OUR <br /> <span className="text-[#e9202a]">JOURNEY</span> 
+                    </h4>
+                </div>
+                <div className=" w-[60%] "> 
+                    <p className=" text-[1.1rem] text-[#000] font-[500] ">Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+                    <p className=" text-[1.1rem] text-[#000] font-[500] mt-[1rem] ">Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
 
             <div ref={sectionRef} className="relative mt-[4rem]">
 
@@ -124,7 +134,7 @@ const OurJourney = () => {
                             key={item.id}
                             className="relative flex items-center justify-between mb-[5rem]"
                         >
-                            {/* LEFT */}
+                            {/* Left */}
                             <div className="w-[45%]">
                                 {isLeft ? (
                                     <img src={item.image} alt="" className="w-full" />
@@ -146,7 +156,7 @@ const OurJourney = () => {
                                 )}
                             </div>
 
-                            {/* CENTER DOT */}
+                            {/* Center Dot */}
                             <div
                                 ref={(el) => (dotRefs.current[index] = el)}
                                 className="absolute left-1/2 -translate-x-1/2 z-10"
@@ -154,7 +164,7 @@ const OurJourney = () => {
                                 <div className="w-[18px] h-[18px] bg-black rounded-full border-[15px] border-black" />
                             </div>
 
-                            {/* RIGHT */}
+                            {/* Right */}
                             <div className="w-[45%]">
                                 {!isLeft ? (
                                     <img src={item.image} alt="" className="w-full" />
@@ -183,4 +193,4 @@ const OurJourney = () => {
     );
 };
 
-export default OurJourney
+export default OurJourney;

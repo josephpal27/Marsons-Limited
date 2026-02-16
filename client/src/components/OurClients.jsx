@@ -63,7 +63,7 @@ const OurClients = () => {
 
                  {/* Row */}
                  <div className="
-                    mt-[2rem]
+                    mt-[0.5rem]
                     py-[2rem]
                     bg-[#fff]
                     flex
@@ -90,4 +90,4 @@ const OurClients = () => {
     )
 }
 
-export default OurClients
+export default OurClients;
