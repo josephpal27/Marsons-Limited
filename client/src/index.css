@@ -69,3 +69,20 @@ body{
 .what-we-do-card:hover::after{
   top: 0;
 }
+
+/* Footer */
+footer .footer-links span{
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+footer .footer-links a{
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.1s ease;
+}
+footer .footer-links a:hover{
+  color: #e9202a;
+}

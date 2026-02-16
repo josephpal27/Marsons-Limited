@@ -1,5 +1,6 @@
 import AboutBanner from "../components/AboutBanner"
 import AboutWhatWeDo from "../components/AboutWhatWeDo"
+import Footer from "../components/Footer"
 import Highlights from "../components/Highlights"
 import MyNavbar from "../components/Navbar"
 import OurClients from "../components/OurClients"
@@ -18,6 +19,7 @@ const About = () => {
             <VisionMission />
             <OurJourney />
             <OurClients />
+            <Footer />
         </>
     )
 }
