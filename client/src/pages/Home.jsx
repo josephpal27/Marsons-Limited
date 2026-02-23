@@ -10,6 +10,8 @@ import WhatWeDo from "../components/WhatWeDo";
 import OurGoals from "../components/OurGoals";
 import OurProducts from "../components/OurProducts";
 import LatestNews from "../components/LatestNews";
+import Footer from "../components/Footer";
+import OurClientLogos from "../components/OurClientLogos";
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +42,9 @@ const Home = () => {
                 </section>
                 <section className="section">
                     <LatestNews />
+                </section>
+                <section className="section footer-section">
+                    <Footer />
                 </section>
             </>
         );
@@ -102,6 +107,18 @@ const Home = () => {
                 <SwiperSlide>
                     <section className="section">
                         <LatestNews />
+                    </section>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <section className="section footer-section">
+                        <div className="
+                            px-[7%]
+                            pb-[3.5rem]
+                        ">
+                            <OurClientLogos />
+                        </div>
+                        <Footer />
                     </section>
                 </SwiperSlide>
 

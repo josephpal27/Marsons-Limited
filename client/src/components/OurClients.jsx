@@ -1,36 +1,4 @@
-import client1 from '../assets/images/clients/1.png';
-import client2 from '../assets/images/clients/2.png';
-import client3 from '../assets/images/clients/3.png';
-import client4 from '../assets/images/clients/4.png';
-import client5 from '../assets/images/clients/5.png';
-import client6 from '../assets/images/clients/6.png';
-
-let clientData = [
-    {
-        id: 1,
-        image: client1,
-    },
-    {
-        id: 2,
-        image: client2,
-    },
-    {
-        id: 3,
-        image: client3,
-    },
-    {
-        id: 4,
-        image: client4,
-    },
-    {
-        id: 5,
-        image: client5,
-    },
-    {
-        id: 6,
-        image: client6,
-    },
-]
+import OurClientLogos from "./OurClientLogos";
 
 const OurClients = () => {
     return (
@@ -61,30 +29,13 @@ const OurClients = () => {
                     </p>
                 </div>
 
-                 {/* Row */}
-                 <div className="
+                {/* Row */}
+                <div className="
                     mt-[0.5rem]
                     py-[2rem]
-                    bg-[#fff]
-                    flex
-                    justify-between
-                    items-center
-                    flex-wrap
                  ">
-                    {
-                        clientData.map((item, index) => {
-                            return(
-                                <div key={index} className="
-                                    w-[10%]
-                                ">
-                                    <img src={item.image} alt={`Client ${item.id}`} loading="lazy" className="
-                                        w-full
-                                    " />
-                                </div>
-                            )
-                        })
-                    }
-                 </div>
+                    <OurClientLogos />
+                </div>
             </section>
         </>
     )

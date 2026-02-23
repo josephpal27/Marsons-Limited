@@ -21,8 +21,13 @@ body{
 } */
 
 /* Section Style */
-.section {
+.section{
   height: 100vh;
+}
+.section.footer-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 640px) {
