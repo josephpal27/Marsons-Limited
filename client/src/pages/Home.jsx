@@ -44,6 +44,11 @@ const Home = () => {
                     <LatestNews />
                 </section>
                 <section className="section footer-section">
+                    <div className="
+                        px-[1rem]
+                    ">
+                        <OurClientLogos />
+                    </div>
                     <Footer />
                 </section>
             </>
