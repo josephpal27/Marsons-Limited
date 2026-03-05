@@ -94,7 +94,7 @@ footer .footer-links a:hover{
 
 
 /* Investor Corner Accordion */
-.accordion-button{
+.investor-accordion .accordion-button{
   background: #0a2946 !important;
   color: #fff !important;
   padding: 1.5rem 1.5rem !important;
@@ -105,18 +105,18 @@ footer .footer-links a:hover{
   justify-content: space-between;
   align-items: center;
 }
-.accordion-button:not(.collapsed){
+.investor-accordion .accordion-button:not(.collapsed){
   background: #e9202a !important;
 }
-.accordion-button::after{
+.investor-accordion .accordion-button::after{
   display: none;
 }
-.accordion-button::before{
+.investor-accordion .accordion-button::before{
   content: "\002B";
   font-size: 2rem;
   font-weight: 500;
   order: 2;
 }
-.accordion-button:not(.collapsed)::before{
+.investor-accordion .accordion-button:not(.collapsed)::before{
   content: "\2013";
 }

@@ -1,49 +1,74 @@
 import Accordion from 'react-bootstrap/Accordion';
 
-const InvestorAccordion = () => {
+const InvestorAccordion = ({ accordionData }) => {
     return (
         <>
             <section className="
                 px-[7%]
                 pb-[2.5rem]
                 mt-[8rem]
+                investor-accordion
             ">
                 <Accordion defaultActiveKey="0">
-                    <Accordion.Item eventKey="0" className="
-                        mb-[1rem]
-                        border-none
-                    ">
-                        <Accordion.Header>
-                            <span className="text-[1.3rem]">
-                                Annual Report
-                            </span>
-                        </Accordion.Header>
-                        <Accordion.Body className="
-                            bg-[#d5d5d5]
-                            py-[2rem]
-                            px-[1.5rem]
-                            rounded-[20px]
-                            mt-[0.5rem]
-                        ">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, minus?</p>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header>
-                            <span>Financial Results</span>
-                        </Accordion.Header>
-                        <Accordion.Body>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, minus?</p>
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="2">
-                        <Accordion.Header>
-                            <span>Statement of Deviation or Variation</span>
-                        </Accordion.Header>
-                        <Accordion.Body>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, minus?</p>
-                        </Accordion.Body>
-                    </Accordion.Item>
+                    {
+                        accordionData.map((item, index) => {
+                            return (
+                                <Accordion.Item eventKey={index} key={index} className="
+                                    mb-[1rem]
+                                    border-none
+                                ">
+                                    <Accordion.Header>
+                                        <span className="text-[1.3rem]">
+                                            {item.title}
+                                        </span>
+                                    </Accordion.Header>
+                                    <Accordion.Body className="
+                                        bg-[#d5d5d5]
+                                        py-[2rem]
+                                        px-[1.5rem]
+                                        rounded-[20px]
+                                        mt-[0.5rem]
+                                    ">
+                                        {
+                                            item.body && item.body.map((item, idx) => {
+                                                return (
+                                                    <div className="
+                                                        flex justify-between flex-wrap
+                                                        py-[0.8rem]
+                                                        border-b border-[#a2a2a2]
+                                                        last:border-none
+                                                    " key={idx}>
+                                                        <div className="
+                                                            w-[88%]
+                                                        ">
+                                                            <p className="
+                                                                text-[1.1rem]
+                                                                text-[#000] font-[550]
+                                                            ">
+                                                                {item.heading}
+                                                            </p>
+                                                        </div>
+                                                        <div className="
+                                                            w-[6%]
+                                                        ">
+                                                            <a href={item.link} target="_blank" className="
+                                                                bg-[#0a2946] hover:bg-[#d61821] text-[#fff] font-[500] block text-center rounded-[5px] transition
+                                                                w-full
+                                                                py-[0.2rem]
+                                                                text-[0.9rem]
+                                                            ">
+                                                                View
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                )
+                                            })
+                                        }
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                            )
+                        })
+                    }
                 </Accordion>
             </section>
         </>

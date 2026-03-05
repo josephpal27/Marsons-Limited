@@ -9,7 +9,7 @@ const Financials = () => {
         <>
             <MyNavbar />
             <InvestorCornerBanner title={bannerContent.title} background={bannerContent.image} />
-            <InvestorAccordion />
+            <InvestorAccordion accordionData={financialsData} />
             <Footer />
         </>
     )
