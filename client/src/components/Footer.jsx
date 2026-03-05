@@ -57,6 +57,7 @@ const Footer = () => {
                         ">
                             <span>Investor Corner</span>
                             <Link to="/">Financials</Link>
+                            <Link to="/">Regulation 46(2)</Link>
                             <Link to="/">Corporate Governance</Link>
                             <Link to="/">Shareholding Pattern</Link>
                             <Link to="/">Notices & Results</Link>

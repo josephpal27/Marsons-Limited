@@ -78,6 +78,9 @@ const MyNavbar = () => {
               <NavDropdown.Item as={NavLink} to="/financials" onClick={handleClose}>
                 Financials
               </NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to="/regulation" onClick={handleClose}>
+                Regulation 46(2)
+              </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/corporate-governance" onClick={handleClose}>
                 Corporate Governance
               </NavDropdown.Item>

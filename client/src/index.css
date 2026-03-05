@@ -91,3 +91,32 @@ footer .footer-links a{
 footer .footer-links a:hover{
   color: #e9202a;
 }
+
+
+/* Investor Corner Accordion */
+.accordion-button{
+  background: #0a2946 !important;
+  color: #fff !important;
+  padding: 1.5rem 1.5rem !important;
+  box-shadow: none !important;
+  font-weight: 600;
+  border-radius: 20px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-button:not(.collapsed){
+  background: #e9202a !important;
+}
+.accordion-button::after{
+  display: none;
+}
+.accordion-button::before{
+  content: "\002B";
+  font-size: 2rem;
+  font-weight: 500;
+  order: 2;
+}
+.accordion-button:not(.collapsed)::before{
+  content: "\2013";
+}
