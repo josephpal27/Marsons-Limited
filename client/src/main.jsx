@@ -8,18 +8,17 @@ import './index.css'; // Import custom CSS
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
-import Financials from './pages/Financials';
+import InvestorCorner from './pages/InvestorCorner.jsx';
 
 let routers = createBrowserRouter([
   {
     path: "/",
-    element: <App />, 
+    element: <App />,
     // errorElement: <Error />,
     children: [
-      {path: "/", element: <Home />},
-      {path: "/about", element: <About />},
-      {path: "/financials", element: <Financials />},
-      {path: "/investor-corner/:slug", element: <Financials />},
+      { path: "/", element: <Home /> },
+      { path: "/about", element: <About /> },
+      { path: "/investor-corner/:slug", element: <InvestorCorner /> },
       // {path: "*", element: <Error />},
     ]
   }

@@ -75,28 +75,28 @@ const MyNavbar = () => {
             </Nav.Link>
             {/* Bootstrap Dropdown */}
             <NavDropdown title="INVESTOR CORNER" id="navbarDropdown">
-              <NavDropdown.Item as={NavLink} to="/financials" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/financials" onClick={handleClose}>
                 Financials
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/regulation" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/regulation" onClick={handleClose}>
                 Regulation 46(2)
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/corporate-governance" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/corporate-governance" onClick={handleClose}>
                 Corporate Governance
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/shareholding-pattern" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/shareholding-pattern" onClick={handleClose}>
                 Shareholding Pattern
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/notices-results" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/notices-and-results" onClick={handleClose}>
                 Notices & Results
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/policies" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/policies" onClick={handleClose}>
                 Policies
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/unclaimed-dividend" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/unclaimed-dividend" onClick={handleClose}>
                 Unclaimed Dividend
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/contact-details" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/investor-corner/contact-details" onClick={handleClose}>
                 Contact Details
               </NavDropdown.Item>
             </NavDropdown>
