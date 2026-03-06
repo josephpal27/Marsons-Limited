@@ -1,54 +1,6 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
-
-import journey1 from "../assets/images/our-journey/1.avif";
-import journey2 from "../assets/images/our-journey/2.avif";
-import journey3 from "../assets/images/our-journey/3.avif";
-import journey4 from "../assets/images/our-journey/4.avif";
-import journey5 from "../assets/images/our-journey/5.avif";
-
-const journeyData = [
-    {
-        id: 1,
-        year: "1976",
-        title: "THE FOUNDATION",
-        highlight: "FOUNDATION",
-        desc: "The Beginning: Started as a proprietorship concern specializing in the manufacture of power and distribution transformers.",
-        image: journey1,
-    },
-    {
-        id: 2,
-        year: "1977",
-        title: "INCORPORATION",
-        highlight: "INCORPORATION",
-        desc: "Marsons is Born. Officially incorporated as Marsons Electricals Private Limited to scale operations and modernize production.",
-        image: journey2,
-    },
-    {
-        id: 3,
-        year: "1991",
-        title: "REBRANDING FOR THE FUTURE",
-        highlight: "FOR THE FUTURE",
-        desc: "Company Marsons Limited. The company officially changed its name to Marsons Limited, reflecting a broader vision and corporate identity.",
-        image: journey3,
-    },
-    {
-        id: 4,
-        year: "1994",
-        title: "PUBLIC MILESTONE",
-        highlight: "MILESTONE",
-        desc: "Listing on the BSE. Transitioned into a Public Limited Company and debuted on the Bombay Stock Exchange (BSE).",
-        image: journey4,
-    },
-    {
-        id: 5,
-        year: "2009",
-        title: "MODERN EVOLUTION",
-        highlight: "EVOLUTION",
-        desc: "The Beginning: Started as a proprietorship concern specializing in the manufacture of power and distribution transformers.",
-        image: journey5,
-    },
-];
+import { journeyData } from "../data/journeyData";
 
 const OurJourney = () => {
     const sectionRef = useRef(null);
@@ -137,19 +89,28 @@ const OurJourney = () => {
                             {/* Left */}
                             <div className="w-[45%]">
                                 {isLeft ? (
-                                    <img src={item.image} alt="" className="w-full" />
+                                    <img src={item.image} alt="Journey Image" className="w-full" data-aos="fade" />
                                 ) : (
                                     <div className="text-right pr-[2rem]">
-                                        <span className="text-[4rem] font-[700] text-[#0f2b3a] block">
+                                        <span 
+                                            className="text-[4rem] font-[700] text-[#0f2b3a] block"
+                                            data-aos="fade-up"
+                                        >
                                             {item.year}
                                         </span>
-                                        <span className="text-[2.5rem] font-[700] mt-[0.5rem] block">
+                                        <span 
+                                            className="text-[2.5rem] font-[700] mt-[0.5rem] block"
+                                             data-aos="fade-up"
+                                        >
                                             {item.title.split(item.highlight)[0]}
                                             <span className="text-[#e9202a]">
                                                 {item.highlight}
                                             </span>
                                         </span>
-                                        <p className="text-[1.1rem] text-[#000] font-[500] mt-[0.7rem]">
+                                        <p 
+                                            className="text-[1.1rem] text-[#000] font-[500] mt-[0.7rem]"
+                                             data-aos="fade-up"
+                                        >
                                             {item.desc}
                                         </p>
                                     </div>
@@ -161,25 +122,37 @@ const OurJourney = () => {
                                 ref={(el) => (dotRefs.current[index] = el)}
                                 className="absolute left-1/2 -translate-x-1/2 z-10"
                             >
-                                <div className="w-[18px] h-[18px] bg-black rounded-full border-[15px] border-black" />
+                                <div 
+                                    className="w-[18px] h-[18px] bg-black rounded-full border-[15px] border-black"
+                                     data-aos="zoom-in" data-aos-duration="500"
+                                 />
                             </div>
 
                             {/* Right */}
                             <div className="w-[45%]">
                                 {!isLeft ? (
-                                    <img src={item.image} alt="" className="w-full" />
+                                    <img src={item.image} alt="Journey Image" className="w-full" data-aos="fade" />
                                 ) : (
                                     <div className="pl-[2rem]">
-                                        <span className="text-[4rem] font-[700] text-[#0f2b3a] block">
+                                        <span 
+                                            className="text-[4rem] font-[700] text-[#0f2b3a] block"
+                                            data-aos="fade-up"
+                                        >
                                             {item.year}
                                         </span>
-                                        <span className="text-[2.5rem] font-[700] mt-[0.5rem] block">
+                                        <span 
+                                            className="text-[2.5rem] font-[700] mt-[0.5rem] block"
+                                             data-aos="fade-up"
+                                        >
                                             {item.title.split(item.highlight)[0]}
                                             <span className="text-[#e9202a]">
                                                 {item.highlight}
                                             </span>
                                         </span>
-                                        <p className="text-[1.1rem] text-[#000] font-[500] mt-[0.7rem]">
+                                        <p 
+                                            className="text-[1.1rem] text-[#000] font-[500] mt-[0.7rem]"
+                                             data-aos="fade-up"
+                                        >
                                             {item.desc}
                                         </p>
                                     </div>

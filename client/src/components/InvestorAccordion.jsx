@@ -1,6 +1,10 @@
 import Accordion from 'react-bootstrap/Accordion';
+import { Link, useParams } from 'react-router-dom';
 
 const InvestorAccordion = ({ accordionData }) => {
+
+    const { slug } = useParams();
+
     return (
         <>
             <section className="
@@ -9,14 +13,14 @@ const InvestorAccordion = ({ accordionData }) => {
                 mt-[8rem]
                 investor-accordion
             ">
-                <Accordion defaultActiveKey="0">
+                <Accordion defaultActiveKey="0" key={slug}>
                     {
                         accordionData.map((item, index) => {
 
                             const hasBody = item.body && item.body.length > 0;
 
                             return (
-                                <Accordion.Item eventKey={index} key={index} className="
+                                <Accordion.Item eventKey={String(index)} key={index} className="
                                     mb-[1rem]
                                     border-none
                                 ">
@@ -59,14 +63,33 @@ const InvestorAccordion = ({ accordionData }) => {
                                                                 <div className="
                                                                     w-[6%]
                                                                 ">
-                                                                    <a href={item.link} target="_blank" className="
-                                                                        bg-[#0a2946] hover:bg-[#d61821] text-[#fff] font-[500] block text-center rounded-[5px] transition
-                                                                        w-full
-                                                                        py-[0.2rem]
-                                                                        text-[0.9rem]
-                                                                    ">
-                                                                        View
-                                                                    </a>
+                                                                    {
+                                                                        item.link?.startsWith("/") ? (
+                                                                            <Link 
+                                                                                to={item.link} 
+                                                                                className="
+                                                                                bg-[#0a2946] hover:bg-[#d61821] text-[#fff] font-[500] block text-center rounded-[5px] transition
+                                                                                w-full
+                                                                                py-[0.2rem]
+                                                                                text-[0.9rem]
+                                                                            ">
+                                                                                View
+                                                                            </Link>
+                                                                        ) : (
+                                                                            <a 
+                                                                                href={item.link} 
+                                                                                target="_blank" 
+                                                                                rel="noopener noreferrer"
+                                                                                className="
+                                                                                    bg-[#0a2946] hover:bg-[#d61821] text-[#fff] font-[500] block text-center rounded-[5px] transition
+                                                                                    w-full
+                                                                                    py-[0.2rem]
+                                                                                    text-[0.9rem]
+                                                                                ">
+                                                                                View
+                                                                            </a>
+                                                                        )
+                                                                    }
                                                                 </div>
                                                             </div>
                                                         )

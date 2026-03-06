@@ -44,7 +44,7 @@ const Footer = () => {
                         ">
                             <span>Quick Links</span>
                             <Link to="/">Home</Link>
-                            <Link to="/">About</Link>
+                            <Link to="/about">About</Link>
                             <Link to="/">Products</Link>
                             <Link to="/">Clientele</Link>
                             <Link to="/">CSR</Link>
@@ -56,14 +56,14 @@ const Footer = () => {
                             w-[30%]
                         ">
                             <span>Investor Corner</span>
-                            <Link to="/">Financials</Link>
-                            <Link to="/">Regulation 46(2)</Link>
-                            <Link to="/">Corporate Governance</Link>
-                            <Link to="/">Shareholding Pattern</Link>
-                            <Link to="/">Notices & Results</Link>
-                            <Link to="/">Policies</Link>
-                            <Link to="/">Unclaimed Dividend</Link>
-                            <Link to="/">Contact Details</Link>
+                            <Link to="/investor-corner/financials">Financials</Link>
+                            <Link to="/investor-corner/regulation">Regulation 46(2)</Link>
+                            <Link to="/investor-corner/corporate-governance">Corporate Governance</Link>
+                            <Link to="/investor-corner/shareholding-pattern">Shareholding Pattern</Link>
+                            <Link to="/investor-corner/notices-and-results">Notices & Results</Link>
+                            <Link to="/investor-corner/policies">Policies</Link>
+                            <Link to="/investor-corner/unclaimed-dividend">Unclaimed Dividend</Link>
+                            <Link to="/investor-corner/contact-details">Contact Details</Link>
                         </div>
                         <div className="
                             footer-links

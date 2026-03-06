@@ -958,16 +958,54 @@ export const investorCornerData = {
     accordion: [
       {
         id: 1,
-        title: "",
+        title: "Disclosure under Regulation 46 of SEBI (LODR) Regulations",
         body: [
           {
-            heading: "",
+            heading: "Nomination & Remuneration Policy",
+            link: "",
+          },
+          {
+            heading: "Policy for Archival",
+            link: "",
+          },
+          {
+            heading: "Whistle Blower Policy",
+            link: "",
+          },
+          {
+            heading: "Policy for Preservation of Documents",
+            link: "",
+          },
+          {
+            heading: "Policy on Diversity of Board of Directors",
+            link: "",
+          },
+          {
+            heading: "Policy on Materiality of Event",
+            link: "",
+          },
+          {
+            heading: "Policy on Materiality of Related Party",
+            link: "",
+          },
+          {
+            heading: "Code of Conduct for PIT",
+            link: "",
+          },
+          {
+            heading: "CSR policy",
             link: "",
           },
         ],
       },
+      {
+        id: 2,
+        title: "Advertisement as per Regulation 47(1)",
+        body: [],
+      },
     ],
   },
+
 
   "unclaimed-dividend": {
     banner: {
@@ -989,6 +1027,7 @@ export const investorCornerData = {
     ],
   },
 
+
   "contact-details": {
     banner: {
       title: "CONTACT DETAILS",
@@ -998,10 +1037,10 @@ export const investorCornerData = {
     accordion: [
       {
         id: 1,
-        title: "",
+        title: "Investor Corner Contact Details",
         body: [
           {
-            heading: "",
+            heading: "Investor Corner Contact Details",
             link: "",
           },
         ],
