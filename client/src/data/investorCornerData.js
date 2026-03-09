@@ -13,15 +13,15 @@ export const investorCornerData = {
         body: [
           {
             heading: "Annual Report 2023-24",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-23-24.pdf",
           },
           {
             heading: "Annual Report 2022-23",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-22-23.pdf",
           },
           {
             heading: "Annual Report 2021-22",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-21-22.pdf",
           },
           {
             heading: "Annual Report 2018-19",
@@ -29,7 +29,7 @@ export const investorCornerData = {
           },
           {
             heading: "Annual Report for FY 2024-25",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-24-25.pdf",
           },
         ],
       },
@@ -362,6 +362,7 @@ export const investorCornerData = {
           {
             heading: "Details of Business",
             link: "/about",
+            type: "route",
           },
         ],
       },
@@ -398,6 +399,7 @@ export const investorCornerData = {
           {
             heading: "Shareholding Pattern",
             link: "/investor-corner/shareholding-pattern",
+            type: "route",
           },
         ],
       },
@@ -408,6 +410,7 @@ export const investorCornerData = {
           {
             heading: "Corporate Governance Report",
             link: "/investor-corner/corporate-governance",
+            type: "route",
           },
         ],
       },
@@ -418,6 +421,7 @@ export const investorCornerData = {
           {
             heading: "Contact Details",
             link: "/investor-corner/contact-details",
+            type: "route",
           },
         ],
       },
@@ -428,6 +432,7 @@ export const investorCornerData = {
           {
             heading: "Financial Results",
             link: "/investor-corner/financials",
+            type: "route",
           },
         ],
       },
@@ -438,6 +443,7 @@ export const investorCornerData = {
           {
             heading: "Separate Audited Finacial Statements of each subsidiary of the listed entity",
             link: "/investor-corner/financials",
+            type: "route",
           },
         ],
       },
@@ -448,6 +454,7 @@ export const investorCornerData = {
           {
             heading: "Secretarial Compliance Report",
             link: "/investor-corner/financials",
+            type: "route",
           },
         ],
       },

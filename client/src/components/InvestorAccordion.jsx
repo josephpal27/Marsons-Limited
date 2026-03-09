@@ -64,31 +64,41 @@ const InvestorAccordion = ({ accordionData }) => {
                                                                     w-[6%]
                                                                 ">
                                                                     {
-                                                                        item.link?.startsWith("/") ? (
-                                                                            <Link 
-                                                                                to={item.link} 
+                                                                        !item.link ? (
+                                                                            <span
                                                                                 className="
+                                                                                    bg-gray-400 text-white font-[500] block text-center rounded-[5px]
+                                                                                    w-full py-[0.2rem] text-[0.9rem] cursor-not-allowed
+                                                                                "
+                                                                            >
+                                                                                View
+                                                                            </span>
+                                                                        ) :
+                                                                            item.type === "route" ? (
+                                                                                <Link
+                                                                                    to={item.link}
+                                                                                    className="
                                                                                 bg-[#0a2946] hover:bg-[#d61821] text-[#fff] font-[500] block text-center rounded-[5px] transition
                                                                                 w-full
                                                                                 py-[0.2rem]
                                                                                 text-[0.9rem]
                                                                             ">
-                                                                                View
-                                                                            </Link>
-                                                                        ) : (
-                                                                            <a 
-                                                                                href={item.link} 
-                                                                                target="_blank" 
-                                                                                rel="noopener noreferrer"
-                                                                                className="
+                                                                                    View
+                                                                                </Link>
+                                                                            ) : (
+                                                                                <a
+                                                                                    href={item.link}
+                                                                                    target="_blank"
+                                                                                    rel="noopener noreferrer"
+                                                                                    className="
                                                                                     bg-[#0a2946] hover:bg-[#d61821] text-[#fff] font-[500] block text-center rounded-[5px] transition
                                                                                     w-full
                                                                                     py-[0.2rem]
                                                                                     text-[0.9rem]
                                                                                 ">
-                                                                                View
-                                                                            </a>
-                                                                        )
+                                                                                    View
+                                                                                </a>
+                                                                            )
                                                                     }
                                                                 </div>
                                                             </div>
