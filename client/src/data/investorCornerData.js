@@ -77,11 +77,11 @@ export const investorCornerData = {
         body: [
           {
             heading: "June 2024",
-            link: "",
+            link: "/pdf/financials/deviation-variation/jun-24.pdf",
           },
           {
             heading: "June 2023",
-            link: "",
+            link: "/pdf/financials/deviation-variation/jun-23.pdf",
           },
         ],
       },
@@ -96,7 +96,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Annual Secretarial Compliance Report for March 2024",
-            link: "",
+            link: "/pdf/financials/annual-secretarial-compliance/mar-24.pdf",
           },
         ],
       },
@@ -128,7 +128,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "MOA & AOA",
-            link: "",
+            link: "/pdf/regulation/memorandum-association-articles-association/moa-aoa.pdf",
           },
         ],
       },
@@ -138,7 +138,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Terms and conditions of appointment of Independent Directors",
-            link: "",
+            link: "/pdf/regulation/appointment-of-independent-directors/appointment-of-independent-directors.pdf",
           },
         ],
       },
@@ -148,7 +148,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Composition of various committees of Board of Directors",
-            link: "",
+            link: "/pdf/regulation/board-of-directors/composition-of-various-committees-of-board-of-directors.pdf",
           },
         ],
       },
@@ -158,7 +158,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Code of conduct of Board of Directors and Senior Personnel",
-            link: "",
+            link: "/pdf/regulation/code-of-conduct/code-of-conduct-of board-of-directors-and-senior-personnel.pdf",
           },
         ],
       },
@@ -168,7 +168,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Whistle Blower Policy",
-            link: "",
+            link: "/pdf/regulation/whistle-blower-policy/whistle-blower-policy.pdf",
           },
         ],
       },
@@ -178,7 +178,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Nomination & Remuneration Policy",
-            link: "",
+            link: "/pdf/regulation/nomination-remuneration/nomination-remuneration.pdf",
           },
         ],
       },
@@ -188,7 +188,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Policy on dealing with Related Party Transactions",
-            link: "",
+            link: "/pdf/regulation/policy-dealing-related-party-transactions/policy-dealing-related-party-transactions.pdf",
           },
         ],
       },
@@ -203,15 +203,15 @@ export const investorCornerData = {
         body: [
           {
             heading: "Familiarization Programme imparted to Independent Director",
-            link: "",
+            link: "/pdf/regulation/familization-programmes/familiarization-programme-imparted-to-independent-director.pdf",
           },
           {
             heading: "Cumulative Programme",
-            link: "",
+            link: "/pdf/regulation/familization-programmes/cumulative-programme.pdf",
           },
           {
             heading: "Familarisation Policy",
-            link: "",
+            link: "/pdf/regulation/familization-programmes/familarisation-policy.pdf",
           },
         ],
       },
@@ -226,7 +226,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Contact details for handling Investor grievances",
-            link: "",
+            link: "/pdf/regulation/contact-details/contact-details-for-handling-investor-grievances.pdf",
           },
         ],
       },
@@ -236,27 +236,27 @@ export const investorCornerData = {
         body: [
           {
             heading: "MGT 7 2021",
-            link: "",
+            link: "/pdf/regulation/annual-return/mgt-7-2021.pdf",
           },
           {
             heading: "MGT 7 2020",
-            link: "",
+            link: "/pdf/regulation/annual-return/mgt-7-2020.pdf",
           },
           {
             heading: "MGT 7 2022",
-            link: "",
+            link: "/pdf/regulation/annual-return/mgt-7-2022.pdf",
           },
           {
             heading: "MGT 7 2023",
-            link: "",
+            link: "/pdf/regulation/annual-return/mgt-7-2023.pdf",
           },
           {
             heading: "MGT 7 2025",
-            link: "",
+            link: "/pdf/regulation/annual-return/mgt-7-2025.pdf",
           },
           {
             heading: "MGT 7 2024",
-            link: "",
+            link: "/pdf/regulation/annual-return/mgt-7-2024.pdf",
           },
         ],
       },
@@ -266,27 +266,27 @@ export const investorCornerData = {
         body: [
           {
             heading: "Profile of Mr. Debashis Sarkar",
-            link: "",
+            link: "/pdf/regulation/brief-profile-of-board-of-directors/mr-debashis-sarkar.pdf",
           },
           {
             heading: "Profile of Mr. Rohit Shaw",
-            link: "",
+            link: "/pdf/regulation/brief-profile-of-board-of-directors/mr-rohit-shaw.pdf",
           },
           {
             heading: "Profile of Ms. Varsha Kedia",
-            link: "",
+            link: "/pdf/regulation/brief-profile-of-board-of-directors/ms-varsha-kedia.pdf",
           },
           {
             heading: "Profile of Mr. Mohammad Tinku",
-            link: "",
+            link: "/pdf/regulation/brief-profile-of-board-of-directors/mr-mohammad-tinku.pdf",
           },
           {
             heading: "Profile of Ms. Uttara Sharma",
-            link: "",
+            link: "/pdf/regulation/brief-profile-of-board-of-directors/ms-uttara-sharma.pdf",
           },
           {
             heading: "Profile of Mr. Surojit Ghosh",
-            link: "",
+            link: "/pdf/regulation/brief-profile-of-board-of-directors/mr-surojit-ghosh.pdf",
           },
         ],
       },
@@ -311,7 +311,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Dividend Distribution Policy as per Regulation 43A(1)",
-            link: "",
+            link: "/pdf/regulation/dividend-distribution-policy/dividend-distribution-policy-as-per-regulation-43A(1).pdf",
           },
         ],
       },
@@ -321,7 +321,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Materiality Policy as per Regulation 30(4)",
-            link: "",
+            link: "/pdf/regulation/materiality-policy/materiality-policy-as-per-regulation-30(4).pdf",
           },
         ],
       },
@@ -330,8 +330,8 @@ export const investorCornerData = {
         title: "Disclosure of contact details of KMP who are authorized for the purpose of determining materiality as required under regulation 30(5)",
         body: [
           {
-            heading: "Contact details of KMP whoa re responsible for determining materiality of event",
-            link: "",
+            heading: "Contact details of KMP who are responsible for determining materiality of event",
+            link: "/pdf/regulation/disclosure-of-contact-details-of-kmp/contact-details-of-kmp.pdf",
           },
         ],
       },
@@ -341,7 +341,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Brickworks Credit Rating",
-            link: "",
+            link: "/pdf/regulation/credit-rating/brickworks-credit-rating.pdf",
           },
         ],
       },
@@ -351,7 +351,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Risk management Policy",
-            link: "",
+            link: "/pdf/regulation/risk-management-policy/risk-management-policy.pdf",
           },
         ],
       },
