@@ -39,35 +39,35 @@ export const investorCornerData = {
         body: [
           {
             heading: "FR for quarter ended March 2024",
-            link: "",
+            link: "/pdf/financials/financial-results/fr-mar-24.pdf",
           },
           {
             heading: "UFR for quarter ended September 2024",
-            link: "",
+            link: "/pdf/financials/financial-results/ufr-sep-24.pdf",
           },
           {
             heading: "UFR for quarter ended June 2024",
-            link: "",
+            link: "/pdf/financials/financial-results/ufr-jun-24.pdf",
           },
           {
             heading: "FR for the quarter ended March 2025",
-            link: "",
+            link: "/pdf/financials/financial-results/fr-mar-25.pdf",
           },
           {
             heading: "UFR for quarter ended June 2025",
-            link: "",
+            link: "/pdf/financials/financial-results/ufr-jun-25.pdf",
           },
           {
             heading: "UFR for quarter ended September 2025",
-            link: "",
+            link: "/pdf/financials/financial-results/ufr-sep-25.pdf",
           },
           {
             heading: "UFR for quarter ended December 2024",
-            link: "",
+            link: "/pdf/financials/financial-results/ufr-dec-24.pdf",
           },
           {
             heading: "UFR for quarter ended December 2025",
-            link: "",
+            link: "/pdf/financials/financial-results/ufr-dec-25.pdf",
           },
         ],
       },
