@@ -969,39 +969,39 @@ export const investorCornerData = {
         body: [
           {
             heading: "Nomination & Remuneration Policy",
-            link: "",
+            link: "/pdf/policies/regulation-46/nomination-remuneration-policy.pdf",
           },
           {
             heading: "Policy for Archival",
-            link: "",
+            link: "/pdf/policies/regulation-46/policy-for-archival.pdf",
           },
           {
             heading: "Whistle Blower Policy",
-            link: "",
+            link: "/pdf/policies/regulation-46/whistle-blower-policy.pdf",
           },
           {
             heading: "Policy for Preservation of Documents",
-            link: "",
+            link: "/pdf/policies/regulation-46/policy-for-preservation-of-documents.pdf",
           },
           {
             heading: "Policy on Diversity of Board of Directors",
-            link: "",
+            link: "/pdf/policies/regulation-46/policy-on-diversity-of-board-of-directors.pdf",
           },
           {
             heading: "Policy on Materiality of Event",
-            link: "",
+            link: "/pdf/policies/regulation-46/policy-on-materiality-of-event.pdf",
           },
           {
             heading: "Policy on Materiality of Related Party",
-            link: "",
+            link: "/pdf/policies/regulation-46/policy-on-materiality-of-related-party.pdf",
           },
           {
             heading: "Code of Conduct for PIT",
-            link: "",
+            link: "/pdf/policies/regulation-46/code-of-conduct-for-pit.pdf",
           },
           {
-            heading: "CSR policy",
-            link: "",
+            heading: "CSR Policy",
+            link: "/pdf/policies/regulation-46/csr-policy.pdf",
           },
         ],
       },
