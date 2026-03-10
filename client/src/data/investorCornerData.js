@@ -1024,12 +1024,7 @@ export const investorCornerData = {
       {
         id: 1,
         title: "",
-        body: [
-          {
-            heading: "",
-            link: "",
-          },
-        ],
+        body: [],
       },
     ],
   },
@@ -1048,7 +1043,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Investor Corner Contact Details",
-            link: "",
+            link: "/pdf/contact-details/investor-corner-contact-details/investor-corner-contact-details.pdf",
           },
         ],
       },
