@@ -725,11 +725,11 @@ export const investorCornerData = {
         body: [
           {
             heading: "MARSONS-NOTICE-2016-17",
-            link: "",
+            link: "/pdf/notices-results/agm/marsons-notice-16-17.pdf",
           },
           {
             heading: "Notice of EGM to be held on 23rd May 2025",
-            link: "",
+            link: "/pdf/notices-results/agm/egm-may-25.pdf",
           },
         ],
       },
@@ -743,8 +743,8 @@ export const investorCornerData = {
         title: "Postal Ballot Notice",
         body: [
           {
-            heading: "pb_notice_1",
-            link: "",
+            heading: "Postal Ballot Notice 1",
+            link: "/pdf/notices-results/postal-ballot/pb-notice-1.pdf",
           },
         ],
       },
@@ -758,24 +758,24 @@ export const investorCornerData = {
         title: "Scrutinizer Reports",
         body: [
           {
-            heading: "Scrutinizer-Report-2016-17",
-            link: "",
+            heading: "Scrutinizer Report 2016-17",
+            link: "/pdf/notices-results/scrutinizer-reports/scrutinizer-report-16-17.pdf",
           },
           {
-            heading: "Scrutinizer_Rep_December2015",
-            link: "",
+            heading: "Scrutinizer Report December 2015",
+            link: "/pdf/notices-results/scrutinizer-reports/scrutinizer-report-dec-15.pdf",
           },
           {
-            heading: "Scrutinizer_Rep_16Jul2015",
-            link: "",
+            heading: "Scrutinizer Report 16 July 2015",
+            link: "/pdf/notices-results/scrutinizer-reports/scrutinizer-report-jul-15.pdf",
           },
           {
-            heading: "Scrutinizer Report for EGM dt 23.05.2025",
-            link: "",
+            heading: "Scrutinizer Report for EGM dated 23.05.2025",
+            link: "/pdf/notices-results/scrutinizer-reports/egm-2025.pdf",
           },
           {
             heading: "AGM dated 23.09.2025",
-            link: "",
+            link: "/pdf/notices-results/scrutinizer-reports/agm-2025.pdf",
           },
         ],
       },
@@ -784,12 +784,12 @@ export const investorCornerData = {
         title: "Public Announcement",
         body: [
           {
-            heading: "Form-G-01-09-2018-1",
-            link: "",
+            heading: "Form G - 01-09-2018 - 1",
+            link: "/pdf/notices-results/public-announcement/form-g-2018.pdf",
           },
           {
-            heading: "creditor-list-revised",
-            link: "",
+            heading: "Creditor List Revised",
+            link: "/pdf/notices-results/public-announcement/creditor-list-revised.pdf",
           },
         ],
       },
@@ -798,20 +798,20 @@ export const investorCornerData = {
         title: "Board Meeting Notices",
         body: [
           {
-            heading: "Notice reg BM dated 30.05.2025",
-            link: "",
+            heading: "Notice Reg Board Meeting dated 30.05.2025",
+            link: "/pdf/notices-results/board-meeting/board-meeting-30-05-2025.pdf",
           },
           {
-            heading: "Notice reg Bm dt 12.08.2025",
-            link: "",
+            heading: "Notice Reg Board Meeting dated 12.08.2025",
+            link: "/pdf/notices-results/board-meeting/board-meeting-12-08-2025.pdf",
           },
           {
-            heading: "Notice reg BM dated 07.11.2025",
-            link: "",
+            heading: "Notice Reg Board Meeting dated 07.11.2025",
+            link: "/pdf/notices-results/board-meeting/board-meeting-07-11-2025.pdf",
           },
           {
-            heading: "Notice reg Board meeting on 09.02.2026",
-            link: "",
+            heading: "Notice Reg Board Meeting dated 09.02.2026",
+            link: "/pdf/notices-results/board-meeting/board-meeting-09-02-2026.pdf",
           },
         ],
       },
@@ -831,7 +831,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Investor Presentation for Q3 FY25",
-            link: "",
+            link: "/pdf/notices-results/investor-presentation/investor-presentation-for-q3-fy25.pdf",
           },
         ],
       },
@@ -856,35 +856,35 @@ export const investorCornerData = {
         body: [
           {
             heading: "Disclosure dt 19.05.2025",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/disclosure-19-05-2025.pdf",
           },
           {
             heading: "Trading window closure for June quarter",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/trading-window-closure-for-jun-qtr.pdf",
           },
           {
             heading: "Disclosure dt 02.09.2025",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/disclosure-02-09-2025.pdf",
           },
           {
             heading: "Disclosure dt 15.10.2025",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/disclosure-15-10-2025.pdf",
           },
           {
             heading: "Trading window closure for September quarter",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/trading-window-closure-for-sep-qtr.pdf",
           },
           {
             heading: "Award of Order dt 28.11.2025",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/award-28-11-2025.pdf",
           },
           {
             heading: "Award of Order dt. 12.12.2025",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/award-12-12-2025.pdf",
           },
           {
             heading: "Award of order dt 04.02.2026",
-            link: "",
+            link: "/pdf/notices-results/regulation-30/award-04-02-2026.pdf",
           },
         ],
       },
@@ -894,35 +894,35 @@ export const investorCornerData = {
         body: [
           {
             heading: "Form ISR 1 - PAN/KYC/Change/Updation",
-            link: "",
+            link: "/pdf/notices-results/important-downloads/isr-1.pdf",
           },
           {
             heading: "Form ISR 2 - Signature Attestation by Bank",
-            link: "",
+            link: "/pdf/notices-results/important-downloads/isr-2.pdf",
           },
           {
             heading: "Form ISR 3 - Declaration to opt out of Nomination",
-            link: "",
+            link: "/pdf/notices-results/important-downloads/isr-3.pdf",
           },
           {
             heading: "Form ISR 4 - Service Request",
-            link: "",
+            link: "/pdf/notices-results/important-downloads/isr-4.pdf",
           },
           {
             heading: "Form ISR 5 - Transmission Form",
-            link: "",
+            link: "/pdf/notices-results/important-downloads/isr-5.pdf",
           },
           {
-            heading: "Form SH13 - Nomination Form",
-            link: "",
+            heading: "Form SH 13 - Nomination Form",
+            link: "/pdf/notices-results/important-downloads/sh-13.pdf",
           },
           {
-            heading: "Form SH-14 - Cancellation or Variation of Nomination",
-            link: "",
+            heading: "Form SH 14 - Cancellation or Variation of Nomination",
+            link: "/pdf/notices-results/important-downloads/sh-14.pdf",
           },
           {
             heading: "Physical Shares Transfer Window",
-            link: "",
+            link: "/pdf/notices-results/important-downloads/physical-shares-transfer-window.pdf",
           },
         ],
       },
@@ -932,23 +932,23 @@ export const investorCornerData = {
         body: [
           {
             heading: "Outcome of Board Meeting 27-11-2025",
-            link: "",
+            link: "/pdf/notices-results/1st-interim-dividend-25-26/outcome-of-board-meeting-27-11-2025.pdf",
           },
           {
-            heading: "Intimation of BM",
-            link: "",
+            heading: "Intimation of Board Meeting",
+            link: "/pdf/notices-results/1st-interim-dividend-25-26/intimation-of-board-meeting.pdf",
           },
           {
             heading: "Revision of Record date",
-            link: "",
+            link: "/pdf/notices-results/1st-interim-dividend-25-26/revision-of-record-date.pdf",
           },
           {
             heading: "Newspaper Advertisement",
-            link: "",
+            link: "/pdf/notices-results/1st-interim-dividend-25-26/newspaper-advertisement.pdf",
           },
           {
             heading: "TDS communication sent to Shareholders",
-            link: "",
+            link: "/pdf/notices-results/1st-interim-dividend-25-26/tds-communication-sent-to-shareholders.pdf",
           },
         ],
       },
