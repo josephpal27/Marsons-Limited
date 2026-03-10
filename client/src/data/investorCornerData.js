@@ -372,15 +372,15 @@ export const investorCornerData = {
         body: [
           {
             heading: "Annual Report 2023-24",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-23-24.pdf",
           },
           {
             heading: "Annual Report 2022-23",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-22-23.pdf",
           },
           {
             heading: "Annual Report 2021-22",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-21-22.pdf",
           },
           {
             heading: "Annual Report 2018-19",
@@ -388,7 +388,7 @@ export const investorCornerData = {
           },
           {
             heading: "Annual Report for FY 2024-25",
-            link: "",
+            link: "/pdf/financials/annual-report/annual-report-24-25.pdf",
           },
         ],
       },
@@ -480,7 +480,7 @@ export const investorCornerData = {
         body: [
           {
             heading: "Familiarisation Programme",
-            link: "",
+            link: "/pdf/corporate-governance/familiarisation-programme/familiarisation-programme.pdf",
           },
         ],
       },
@@ -490,109 +490,109 @@ export const investorCornerData = {
         body: [
           {
             heading: "Independent Director Appointment Letter - Trina Sinha",
-            link: "",
+            link: "/pdf/corporate-governance/terms-of-appointment/appointment-letter-trina-sinha.pdf",
           },
           {
             heading: "Independent Director Appointment Letter - Sandip Goswami",
-            link: "",
+            link: "/pdf/corporate-governance/terms-of-appointment/appointment-letter-sandip-goswami.pdf",
           },
         ],
       },
       {
         id: 4,
-        title: "Compliance report",
+        title: "Compliance Report",
         body: [
           {
             heading: "Compliance Report - June 2017",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/jun-2017.pdf",
           },
           {
             heading: "Compliance Report - September 2017",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/sep-2017.pdf",
           },
           {
             heading: "Compliance Report - December 2017",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/dec-2017.pdf",
           },
           {
             heading: "Compliance Report - March 2018",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/mar-2018.pdf",
           },
           {
             heading: "Compliance Report June-2018",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/jun-2018.pdf",
           },
           {
             heading: "Compliance Report - march 2017",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/mar-2017.pdf",
           },
           {
             heading: "Compliance Report - December 2016",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/dec-2016.pdf",
           },
           {
             heading: "Compliance Report - September 2016",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/sep-2016.pdf",
           },
           {
             heading: "Compliance Report - June 2016",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/jun-2016.pdf",
           },
           {
             heading: "Compliance Report - March 2016",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/mar-2016.pdf",
           },
           {
             heading: "Compliance Report - December 2015",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/dec-2015.pdf",
           },
           {
             heading: "Compliance Report - September 2015",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/sep-2015.pdf",
           },
           {
             heading: "Compliance Report - June 2015",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/jun-2015.pdf",
           },
           {
             heading: "Compliance Report - March 2015",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/mar-2015.pdf",
           },
           {
             heading: "Compliance Report - December 2014",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/dec-2014.pdf",
           },
           {
             heading: "December 2024",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/dec-2024.pdf",
           },
           {
             heading: "September 2024",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/sep-2024.pdf",
           },
           {
             heading: "June 2024",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/jun-2024.pdf",
           },
           {
             heading: "March 2023",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/mar-2023.pdf",
           },
           {
             heading: "Integrated CG December 2024",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/cg-dec-2024.pdf",
           },
           {
             heading: "Integrated CG March 2025",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/cg-mar-2025.pdf",
           },
           {
             heading: "September 2025",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/sep-2025.pdf",
           },
           {
             heading: "December 2025",
-            link: "",
+            link: "/pdf/corporate-governance/compliance-report/dec-2025.pdf",
           },
         ],
       },
@@ -606,8 +606,8 @@ export const investorCornerData = {
         title: "Criteria For Determining Remuneration For non-Executive Directors",
         body: [
           {
-            heading: "Nomination-Remuneration-policy",
-            link: "",
+            heading: "Nomination Remuneration Policy",
+            link: "/pdf/corporate-governance/criteria-for-determining-remuneration/nomination-remuneration-policy.pdf",
           },
         ],
       },
