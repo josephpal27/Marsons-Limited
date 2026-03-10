@@ -627,84 +627,84 @@ export const investorCornerData = {
         title: "Quarterly",
         body: [
           {
-            heading: "shareholding-pattern-marsons-ltd-march-qtr",
+            heading: "Shareholding Pattern Marsons Ltd March Qtr",
+            link: "/pdf/shareholding-pattern/quarterly/shareholding-pattern-marsons-ltd-march-qtr.pdf",
+          },
+          {
+            heading: "ML Shareholding",
+            link: "/pdf/shareholding-pattern/quarterly/ml-shareholding.pdf",
+          },
+          {
+            heading: "Shareholding Pattern for Sep QTR",
+            link: "/pdf/shareholding-pattern/quarterly/sep-qtr.pdf",
+          },
+          {
+            heading: "ML Shareholding June 2017",
+            link: "/pdf/shareholding-pattern/quarterly/ml-jun-2017.pdf",
+          },
+          {
+            heading: "Marsons Shareholding March 2017",
+            link: "/pdf/shareholding-pattern/quarterly/marsons-shareholding-march-2017.pdf",
+          },
+          {
+            heading: "Shareholding Pattern for Dec 2016 Qtr",
+            link: "/pdf/shareholding-pattern/quarterly/dec-2016-qtr.pdf",
+          },
+          {
+            heading: "ML Sep 2016 Shareholding",
+            link: "/pdf/shareholding-pattern/quarterly/ml-sep-2016.pdf",
+          },
+          {
+            heading: "Shareholding Pattern for June 2016 Qtr",
+            link: "/pdf/shareholding-pattern/quarterly/jun-2016-qtr.pdf",
+          },
+          {
+            heading: "Shareholding Pattern for Mar 2016",
+            link: "/pdf/shareholding-pattern/quarterly/mar-2016.pdf",
+          },
+          {
+            heading: "Shareholding Pattern for Dec 2015",
+            link: "/pdf/shareholding-pattern/quarterly/dec-2015.pdf",
+          },
+          {
+            heading: "Shareholding Pattern for Sep 2015",
             link: "",
           },
           {
-            heading: "Ml shareholding",
+            heading: "Shareholding Pattern for Dec 2014",
             link: "",
           },
           {
-            heading: "SHAREHOLDING-PATTERN-SEP-QTR",
+            heading: "Shareholding Pattern for Sep 2014",
             link: "",
           },
           {
-            heading: "ml-shareholding-june 2017",
+            heading: "Shareholding Pattern for June 14",
             link: "",
           },
           {
-            heading: "marsons-shareholding-march-2017",
-            link: "",
+            heading: "Shareholding Pattern for Mar 2014",
+            link: "/pdf/shareholding-pattern/quarterly/mar-2014.pdf",
           },
           {
-            heading: "shareholding-pattern-dec 2016-qtr",
-            link: "",
+            heading: "Shareholding Pattern for March 2025",
+            link: "/pdf/shareholding-pattern/quarterly/mar-2025.pdf",
           },
           {
-            heading: "ML-SEP-16-SHAREHOLDING",
-            link: "",
+            heading: "Shareholding Pattern for Dec 2024",
+            link: "/pdf/shareholding-pattern/quarterly/dec-2024.pdf",
           },
           {
-            heading: "shareholding-pattern-for-June 2016-quarter",
-            link: "",
+            heading: "Quarter Ended June 2025",
+            link: "/pdf/shareholding-pattern/quarterly/qtr-ended-jun-2025.pdf",
           },
           {
-            heading: "share_mar16",
-            link: "",
-          },
-          {
-            heading: "share_dec15",
-            link: "",
-          },
-          {
-            heading: "share_sep15",
-            link: "",
-          },
-          {
-            heading: "Share - Dec 2014",
-            link: "",
-          },
-          {
-            heading: "shareholding - sep 2014",
-            link: "",
-          },
-          {
-            heading: "shareholding - June 14",
-            link: "",
-          },
-          {
-            heading: "share_mar14",
-            link: "",
-          },
-          {
-            heading: "March 2025",
-            link: "",
-          },
-          {
-            heading: "December 2024",
-            link: "",
-          },
-          {
-            heading: "Quarter ended June 2025",
-            link: "",
-          },
-          {
-            heading: "September 2025",
-            link: "",
+            heading: "Shareholding Pattern for September 2025",
+            link: "/pdf/shareholding-pattern/quarterly/sep-2025.pdf",
           },
           {
             heading: "Shareholding Pattern for December 2025",
-            link: "",
+            link: "/pdf/shareholding-pattern/quarterly/dec-2025.pdf",
           },
         ],
       },
