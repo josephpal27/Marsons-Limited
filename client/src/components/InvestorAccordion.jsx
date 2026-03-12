@@ -9,7 +9,7 @@ const InvestorAccordion = ({ accordionData }) => {
         <>
             <section className="
                 px-[7%]
-                pb-[2.5rem]
+                pb-[3.5rem]
                 mt-[8rem]
                 investor-accordion
             ">

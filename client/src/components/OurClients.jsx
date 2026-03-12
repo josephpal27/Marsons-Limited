@@ -5,7 +5,7 @@ const OurClients = () => {
         <>
             <section className="
                 px-[7%]
-                py-[1rem]
+                py-[2rem]
             ">
                 {/* Head */}
                 <div className="

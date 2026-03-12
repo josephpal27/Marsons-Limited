@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <footer className="
                 bg-[#0a2946] text-[#fff]
-                mt-[2rem]
+                mt-[1rem]
             ">
                 {/* Content */}
                 <div className="
