@@ -8,6 +8,7 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
+import Contact from './pages/Contact';
 import InvestorCorner from './pages/InvestorCorner.jsx';
 
 let routers = createBrowserRouter([
@@ -18,6 +19,7 @@ let routers = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
       { path: "/investor-corner/:slug", element: <InvestorCorner /> },
       // {path: "*", element: <Error />},
     ]
