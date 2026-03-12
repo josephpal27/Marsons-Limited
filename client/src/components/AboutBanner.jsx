@@ -23,7 +23,7 @@ const AboutBanner = () => {
                     items-end
                 ">
                     <h1 className="
-                        text-[3.2rem]
+                        text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff]
                         font-[700]
                     ">

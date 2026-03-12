@@ -15,28 +15,23 @@ const HomeBanner = () => {
                     preload="metadata"
                     poster="/images/banners/home-banner.avif"
                     className="
-                        w-full
-                        h-full
-                        object-cover
+                        w-full h-full object-cover
                     "
                 >
                     <source src="/videos/home-banner.webm" type="video/webm" />
                 </video>
 
                 <div className="
-                    py-[3.5rem]
+                    py-[3.5rem] sm:py-[3rem] lg:py-[2.9rem] xl:py-[3.2rem] 2xl:py-[3.5rem]
                     px-[7%]
                     absolute
                     top-0
-                    w-full
-                    h-full
-                    flex
-                    items-end
+                    w-full h-full
+                    flex items-end
                 ">
                     <h1 className="
-                        text-[3.2rem]
-                        text-[#fff]
-                        font-[700]
+                        text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                        text-[#fff] font-[700]
                     ">
                         <span className="font-[200]">SETTING POWER</span> <br /> IN MOTION
                     </h1>
