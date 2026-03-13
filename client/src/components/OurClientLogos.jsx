@@ -29,11 +29,7 @@ const OurClientLogos = () => {
     return (
         <>
             <div className="
-                bg-[#fff]
-                flex
-                justify-between
-                items-center
-                flex-wrap
+                bg-[#fff] flex justify-between items-center flex-wrap
             ">
                 {
                     clientData.map((item, index) => {

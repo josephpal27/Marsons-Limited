@@ -48,6 +48,22 @@ body{
   background: #e9202a !important;
 }
 
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  .vertical-slider .swiper-pagination-bullet{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 11px 5px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+  .vertical-slider .swiper-pagination-bullet{
+    width: 9px !important;
+    height: 9px !important;
+    margin: 10px 5px !important;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .vertical-slider .swiper-pagination-bullet{
     display: none;
@@ -116,6 +132,31 @@ footer .footer-links a:hover{
   color: #e9202a;
 }
 
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  footer .footer-links span{
+    font-size: 1.3rem;
+    margin-bottom: 0.9rem;
+  }
+  footer .footer-links a{
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+  footer .footer-links span{
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  footer .footer-links a{
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
 
 /* Investor Corner Accordion */
 .investor-accordion .accordion-button{
