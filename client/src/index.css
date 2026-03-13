@@ -192,6 +192,36 @@ footer .footer-links a:hover{
   padding: 1.65rem 1.5rem !important;
 }
 
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  .investor-accordion .accordion-button{
+    padding: 1.4rem 1.4rem !important;
+    border-radius: 18px !important;
+  }
+  .investor-accordion .accordion-button::before{
+    font-size: 1.4rem;
+  }
+  .investor-accordion .no-accordion .accordion-button{
+    padding: 1.55rem 1.4rem !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+  .investor-accordion .accordion-button{
+    padding: 1.2rem 1.3rem !important;
+    border-radius: 16px !important;
+  }
+  .investor-accordion .accordion-button::before{
+    font-size: 1.3rem;
+  }
+  .investor-accordion .no-accordion .accordion-button{
+    padding: 1.45rem 1.3rem !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
+
 
 /* Contact Form Start */
 .contact-form label{
