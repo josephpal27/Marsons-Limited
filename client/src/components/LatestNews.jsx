@@ -5,15 +5,13 @@ const LatestNews = () => {
 
     return (
         <div className="
-            py-[3.5rem] 
+            py-[3.5rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
             px-[7%]
-            flex
-            flex-col
-            justify-center
+            flex flex-col justify-center
             h-full
         ">
             <h5 className="
-                text-[3.5rem] 
+                text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                 font-[600]
             ">
                 LATEST <span className="text-[#e9202a]">BLOGS</span> & <span className="text-[#e9202a]">ARTICLES</span>
@@ -21,10 +19,8 @@ const LatestNews = () => {
 
             {/* Cards Row */}
             <div className="
-                mt-[2.5rem] 
-                flex 
-                justify-between
-                flex-wrap
+                mt-[2.5rem] sm:mt-[2.5rem] lg:mt-[2.1rem] xl:mt-[2.3rem] 2xl:mt-[2.5rem]
+                flex justify-between flex-wrap
             ">
 
                 {/* Left */}
@@ -37,7 +33,10 @@ const LatestNews = () => {
                 </div>
 
                 {/* Center */}
-                <div className="w-[49%] flex flex-col gap-[1.3rem]">
+                <div className="
+                    w-[49%] flex flex-col 
+                    gap-[1.3rem] sm:gap-[1.3rem] lg:gap-[1.1rem] xl:gap-[1.2rem] 2xl:gap-[1.3rem]
+                ">
                     <LatestNewsCard
                         image={latestNewsData[1].image}
                         title={latestNewsData[1].title}

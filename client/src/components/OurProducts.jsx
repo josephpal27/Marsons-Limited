@@ -47,27 +47,22 @@ const OurProducts = () => {
     return (
         <>
             <div className="
-                py-[3.5rem]
+                py-[3.5rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
                 px-[7%]
-                flex
-                flex-col
-                justify-center
+                flex flex-col justify-center
                 h-full
             ">
                 <h4 className="
-                    text-[3.5rem]
-                    text-[#000]
-                    font-[600]
+                    text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                    text-[#000] font-[600]
                 ">
                     OUR <span className="text-[#e9202a]">PRODUCTS</span>
                 </h4>
 
                 {/* Products Row */}
                 <div className="
-                    flex
-                    flex-wrap
-                    justify-between
-                    mt-[3rem]
+                    flex flex-wrap justify-between
+                    mt-[3rem] sm:mt-[3rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
                 ">
                     {
                         productsData.map((item, index) => {
@@ -75,11 +70,9 @@ const OurProducts = () => {
                                 <div className="
                                     w-[23.7%]
                                     shadow-[0px_6px_12px_-2px_rgba(50,50,93,0.25),_0px_3px_7px_-3px_rgba(0,0,0,0.3)]
-                                    mb-[1.4rem]
-                                    relative
+                                    mb-[1.4rem] sm:mb-[1.4rem] lg:mb-[1.2rem] xl:mb-[1.3rem] 2xl:mb-[1.4rem]
                                     rounded-[7px]
-                                    overflow-hidden
-                                    group
+                                    relative overflow-hidden group
                                 " key={index}>
                                     <img
                                         src={item.image}
@@ -93,23 +86,14 @@ const OurProducts = () => {
                                         w-full
                                         h-full
                                         absolute
-                                        inset-0
-                                        bg-[#0a2946c0]
+                                        inset-0 bg-[#0a2946c0]
                                         rounded-[7px]
-                                        flex
-                                        justify-start
-                                        items-end
-                                        translate-y-0
-                                        group-hover:-translate-y-full
-                                        transition-transform
-                                        duration-500
-                                        ease-in-out
-                                        p-[1rem]
+                                        flex justify-start items-end translate-y-0 group-hover:-translate-y-full transition-transform duration-500 ease-in-out
+                                        p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                     ">
                                         <span className="
-                                            text-[#fff]
-                                            text-[1.2rem]
-                                            font-[550]
+                                            text-[#fff] font-[550]
+                                            text-[1.2rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                                         ">
                                             {item.name}
                                         </span>
@@ -119,29 +103,17 @@ const OurProducts = () => {
                                         w-full
                                         h-full
                                         absolute
-                                        inset-0
-                                        flex
-                                        justify-end
-                                        items-end
-                                        translate-y-full
-                                        group-hover:-translate-y-0
-                                        transition-transform
-                                        duration-500
-                                        ease-in-out
-                                        p-[1rem]
+                                        inset-0 flex justify-end items-end translate-y-full group-hover:-translate-y-0 transition-transform duration-500 ease-in-out
+                                        p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                     ">
                                         <Link to="/">
                                             <button className="
-                                                bg-[#e9202a]
-                                                text-[#fff]
-                                                text-[0.9rem]
-                                                font-[500]
+                                                bg-[#e9202a] text-[#fff] font-[500] rounded-[3px] hover:bg-[#d6151f]
+                                                text-[0.9rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                                                 px-[0.5rem]
                                                 pt-[0.17rem]
                                                 pb-[0.2rem]
-                                                rounded-[3px]
-                                                mt-[1rem]
-                                                hover:bg-[#d6151f]
+                                                mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                                             ">
                                                 READ MORE
                                             </button>
