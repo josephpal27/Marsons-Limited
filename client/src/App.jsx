@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom"
 import { useEffect } from "react";
 import ScrollToTop from './components/ScrollToTop';
-// // import PageTitle from "./components/page-title/PageTitle";
+import PageTitle from "./components/PageTitle";
 import AOS from "aos";
+
 
 const App = () => {
 
@@ -28,7 +29,7 @@ const App = () => {
 
   return (
     <>
-      {/* <PageTitle/> */}
+      <PageTitle />
       <Outlet />
       <ScrollToTop />
     </>

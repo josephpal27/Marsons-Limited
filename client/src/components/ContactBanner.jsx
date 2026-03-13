@@ -13,19 +13,16 @@ const ContactBanner = () => {
                     drop-shadow-[0_10px_0px_#e9202a]
                 " />
                 <div className="
-                    pb-[3.5rem]
+                    pb-[3.5rem] sm:pb-[3rem] lg:pb-[2.9rem] xl:pb-[3.2rem] 2xl:pb-[3.5rem]
                     px-[7%]
                     absolute
-                    top-0
-                    w-full
+                    top-0 w-full
                     h-full
-                    flex
-                    items-end
+                    flex items-end
                 ">
                     <h1 className="
                         text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
-                        text-[#fff]
-                        font-[700]
+                        text-[#fff] font-[700]
                     ">
                         CONTACT US
                     </h1>

@@ -249,11 +249,29 @@ footer .footer-links a:hover{
 }
 
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+  .contact-form label{
+    font-size: 1.1rem;
+  }
+  .contact-form input,
+  .contact-form textarea{
+    font-size: 1rem;
+    padding: 0.6rem 0;
+    margin-top: 0.4rem;
+    margin-bottom: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+  .contact-form label{
+    font-size: 1rem;
+  }
+  .contact-form input,
+  .contact-form textarea{
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+    margin-top: 0.3rem;
+    margin-bottom: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
