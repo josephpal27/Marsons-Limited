@@ -60,12 +60,10 @@ const VisionMission = () => {
     return (
         <section className="
             px-[7%]
-            mt-[4rem]
+            mt-[4rem] sm:mt-[4rem] lg:mt-[3rem] xl:mt-[3.5rem] 2xl:mt-[4rem]
         ">
             <div className="
-                flex
-                flex-wrap
-                justify-between
+                flex flex-wrap justify-between
             ">
 
                 {visionMissionData.map((item) => {
@@ -89,17 +87,14 @@ const VisionMission = () => {
                             key={item.id}
                             className={`
                                 w-[33.33%]
-                                p-[2rem]
-                                flex
-                                flex-col
-                                justify-center
+                                p-[2rem] sm:p-[2rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
+                                flex flex-col justify-center
                                 ${item.align === "center" ? "text-center" : "text-left"}
                             `}
                         >
                             <span className="
-                                text-[3rem]
-                                font-[700]
-                                leading-[1]
+                                text-[3rem] sm:text-[3rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                                font-[700] leading-[1]
                             ">
                                 {item.title} <br />
                                 <span className="text-[#e9202a]">
@@ -108,10 +103,9 @@ const VisionMission = () => {
                             </span>
 
                             <p className="
-                                text-[1.1rem]
-                                text-[#000]
-                                font-[500]
-                                mt-[1rem]
+                                text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                                text-[#000] font-[500]
+                                mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                             ">
                                 {item.desc}
                             </p>
