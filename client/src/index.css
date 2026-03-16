@@ -278,3 +278,16 @@ footer .footer-links a:hover{
     
 }
 /* Contact Form End */
+
+/* Coming Soon Page */
+.progress-bar::-webkit-progress-bar {
+  background-color: #c7cad0; /* gray track */
+  border-radius: 20px;
+}
+.progress-bar::-webkit-progress-value {
+  background-color: #eb1e2b; /* red progress */
+  border-radius: 20px;
+}
+.progress-bar::-moz-progress-bar {
+  background-color: #eb1e2b; /* firefox */
+}
