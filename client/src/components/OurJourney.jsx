@@ -76,14 +76,14 @@ const OurJourney = () => {
                         text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         text-[#000] font-[500] 
                     ">
-                        Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Over the past 65 years, Marsons Limited has built an incredible legacy of distinction and credibility in the power sector.
                     </p>
                     <p className="
                         text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         text-[#000] font-[500]
                         mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     ">
-                        Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        From our early days, we have grown to operate the largest transformer manufacturing facility in Eastern India with global reach.
                     </p>
                 </div>
             </div>

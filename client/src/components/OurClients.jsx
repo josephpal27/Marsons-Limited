@@ -21,9 +21,9 @@ const OurClients = () => {
                         text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         text-[#000] font-[500] text-center
                         mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
-                        w-[50%]
+                        w-[60%]
                     ">
-                        Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Trusted by industry leaders worldwide, we deliver reliable power solutions to state utilities, infrastructure projects, and multinational corporations.
                     </p>
                 </div>
 

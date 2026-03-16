@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const LatestNewsCard = ({
     image,
     title,
@@ -43,15 +45,15 @@ const LatestNewsCard = ({
                         {description}
                     </p>
 
-                    <button className="
-                        bg-[#e9202a] text-white font-[450] rounded-[3px] hover:bg-[#d6151f] transition
+                    <Link to="/coming-soon" className="
+                        bg-[#e9202a] text-white font-[450] rounded-[3px] hover:bg-[#d6151f] transition block w-max
                         text-[0.9rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                         px-[0.6rem]
                         py-[0.25rem]
                         mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     ">
                         READ MORE
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

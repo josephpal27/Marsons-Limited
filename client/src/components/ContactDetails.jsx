@@ -6,7 +6,8 @@ const contactData = [
         id: 1,
         title: "Call Us",
         items: [
-            { value: "+91 0000000000", link: "tel:00000000000" },
+            { value: "+91 8335881284", link: "tel:8335881284" },
+            { value: "+91 9007004222", link: "tel:9007004222" },
         ],
     },
     {
@@ -14,7 +15,7 @@ const contactData = [
         title: "Location",
         items: [
             {
-                value: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
+                value: "Marsons Limited Budge Budge Trunk Road, Maheshtala, Kolkata - 700142",
                 link: "https://maps.app.goo.gl/",
             },
         ],
@@ -24,8 +25,8 @@ const contactData = [
         title: "Email Us",
         items: [
             {
-                value: "example@gmail.com",
-                link: "https://mail.google.com/mail/?view=cm&fs=1&to=example@gmail.com",
+                value: "sales@marsonsonline.com",
+                link: "https://mail.google.com/mail/?view=cm&fs=1&to=sales@marsonsonline.com",
             },
         ],
     },
@@ -66,7 +67,7 @@ const ContactDetails = () => {
                     "
                         data-aos="fade"
                     >
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, esse. Lorem adipisicing ipsum dolor.
+                        Whether you need a quote for our power transformers, require 24x7 breakdown support, or want to discuss a global partnership, our dedicated team is ready to assist you.
                     </p>
                     <div className="
                         mt-[3rem] sm:mt-[3rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]

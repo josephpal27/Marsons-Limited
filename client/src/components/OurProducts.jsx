@@ -106,7 +106,7 @@ const OurProducts = () => {
                                         inset-0 flex justify-end items-end translate-y-full group-hover:-translate-y-0 transition-transform duration-500 ease-in-out
                                         p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                     ">
-                                        <Link to="/">
+                                        <Link to="/coming-soon">
                                             <button className="
                                                 bg-[#e9202a] text-[#fff] font-[500] rounded-[3px] hover:bg-[#d6151f]
                                                 text-[0.9rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]

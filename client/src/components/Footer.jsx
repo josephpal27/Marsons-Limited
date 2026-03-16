@@ -26,7 +26,7 @@ const Footer = () => {
                             text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                             mt-[1.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         ">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugiat.
+                            Marsons Limited is an ISO-certified manufacturer of Power, Distribution, and Special Purpose transformers. For 65 years, we have delivered reliable, high-quality power solutions across the globe.
                         </p>
                     </div>
                     {/* Right */}

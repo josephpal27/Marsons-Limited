@@ -15,10 +15,7 @@ const visionMissionData = [
         title: "OUR",
         highlight: "VISION",
         align: "center",
-        desc: `Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt
-        ut labore et dolore.`,
+        desc: `To establish Marsons as a global brand and one of the most trusted names in transformers.`,
     },
     {
         id: 3,
@@ -32,10 +29,7 @@ const visionMissionData = [
         title: "OUR",
         highlight: "MISSION",
         align: "left",
-        desc: `Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt
-        ut labore et dolore.`,
+        desc: `To provide customers with quality products at affordable prices through stringent evaluations, fostering relationships built on open communication and mutual trust.`,
     },
     {
         id: 5,
@@ -49,10 +43,7 @@ const visionMissionData = [
         title: "OUR",
         highlight: "VALUES",
         align: "left",
-        desc: `Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt
-        ut labore et dolore.`,
+        desc: `We are driven by vision, commitment, and excellence. Our uncompromising stance on quality ensures reliable products, continuous improvement, and environmental responsibility.`,
     },
 ];
 

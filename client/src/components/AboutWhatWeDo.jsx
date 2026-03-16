@@ -32,7 +32,7 @@ const AboutWhatWeDo = () => {
                             text-[#000] font-[500]
                             w-[90%]
                         ">
-                            We manufacture Distribution & Power Transformers ranging from 10 KVA to 160 MVA 220 kV class, Furnace Transformers, Dry Type Transformers and various types of Special Application Transformers.
+                            Marsons Limited is a multi-product organization engaged in manufacturing, supplying, erecting, testing, and commissioning Power and Distribution transformers. With 65 years of incredible distinction and credibility, we ensure prompt customer service and strict adherence to international quality norms.
                         </p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const AboutWhatWeDo = () => {
                         text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         text-[#000] font-[500]
                     ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                        We manufacture Distribution & Power Transformers ranging from 10 KVA to 160 MVA 220 kV class, Furnace Transformers, Dry Type Transformers and various types of Special Application Transformers.
                     </p>
                 </div>
                 {/* Bottom Content */}
@@ -67,14 +67,14 @@ const AboutWhatWeDo = () => {
                             text-[2.5rem] sm:text-[2.5rem] lg:text-[2.1rem] xl:text-[2.3rem] 2xl:text-[2.5rem]
                             text-[#e9202a] font-[700]  
                         ">
-                            Lorem Ipsum
+                            Unmatched Infrastructure
                         </span>
                         <p className="
                             text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                             mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                             text-[#000] font-[500]
                         ">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                           We proudly operate the largest transformer manufacturing facility in Eastern India, boasting a massive 12000 MVA annual production capacity.
                         </p>
                     </div>
                 </div>
