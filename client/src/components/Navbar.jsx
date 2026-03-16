@@ -70,9 +70,9 @@ const MyNavbar = () => {
                 Instrumental transformers
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={NavLink} to="/clientele" onClick={handleClose}>
+            {/* <Nav.Link as={NavLink} to="/clientele" onClick={handleClose}>
               CLIENTELE
-            </Nav.Link>
+            </Nav.Link> */}
             {/* Bootstrap Dropdown */}
             <NavDropdown title="INVESTOR CORNER" id="navbarDropdown">
               <NavDropdown.Item as={NavLink} to="/investor-corner/financials" onClick={handleClose}>
@@ -100,12 +100,12 @@ const MyNavbar = () => {
                 Contact Details
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={NavLink} to="/csr" onClick={handleClose}>
+            {/* <Nav.Link as={NavLink} to="/csr" onClick={handleClose}>
               CSR
             </Nav.Link>
             <Nav.Link as={NavLink} to="/career" onClick={handleClose}>
               CAREER
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
               CONTACT
             </Nav.Link>
