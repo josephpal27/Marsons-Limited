@@ -54,10 +54,11 @@
 /* Media Queries */
 @media (max-width: 992px){
   .navbar{
-    padding: 0.6rem 1rem !important;
+    padding: 0.2rem 1rem !important;
+    top: 0.8rem;
   }
   .navbar .nav-brand img{
-    width: 110px;
+    width: 125px;
   }
   .navbar-toggler{
     border: none !important;
@@ -67,19 +68,19 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .offcanvas{
-    background: #179cab;
+    background: #0a2946;
     width: 80% !important;
   }
   .offcanvas .offCanvasLogo{
-    width: 140px;
+    width: 160px;
     background-color: #fff;
-    padding: 0.4rem 0.8rem;
+    padding: 0.3rem 0.7rem 0.6rem 0.7rem;
     border-radius: 5px;
   }
   .offcanvas .nav-link{
     color: #fff !important;
     margin: 0.4rem 0;
-    font-size: calc(0.95rem + 0.5vw);
+    font-size: calc(1rem + 0.5vw);
     font-weight: 600;
     width: max-content;
   }
@@ -87,31 +88,28 @@
     border-bottom: 2px solid #fff;
   }
   .offcanvas .dropdown-menu{
-    padding: 0.7rem;
+    padding: 0.5rem;
     border: none;
     margin-top: 0;
-    background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 0;
+    background: #04182b;
+    box-shadow: rgba(134, 134, 134, 0.35) 0px 5px 15px;
+    border-radius: 10px;
     margin-bottom: 0.4rem;
   }
   .offcanvas .dropdown-item{
-    padding: 0.6rem 0.7rem;
-    color: #000 !important;
-    font-weight: 550;
-    font-size: calc(0.93rem + 0.5vw);
-    background: #f2f2f2;
-    margin-bottom: 0.7rem;
-  }
-  .offcanvas .dropdown-item:hover{
-    background: #ebebeb;
+    padding-left: 0.2rem;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: calc(0.95rem + 0.5vw);
+    background: #04182b;
+    margin-bottom: 0.4rem;
   }
   .offcanvas .dropdown-item:last-child{
     margin-bottom: 0;
   }
   .offcanvas .dropdown-item.active{
-    background: #e9202a;
-    color: #fff !important;
+    color: #e9202a !important;
+    font-weight: 650;
   }
 }
 

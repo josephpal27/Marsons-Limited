@@ -47,13 +47,13 @@ const OurProducts = () => {
     return (
         <>
             <div className="
-                py-[3.5rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
-                px-[7%]
+                py-[1.5rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
+                px-[1rem] sm:px-[5%] lg:px-[7%]
                 flex flex-col justify-center
                 h-full
             ">
                 <h4 className="
-                    text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                    text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                     text-[#000] font-[600]
                 ">
                     OUR <span className="text-[#e9202a]">PRODUCTS</span>
@@ -62,15 +62,15 @@ const OurProducts = () => {
                 {/* Products Row */}
                 <div className="
                     flex flex-wrap justify-between
-                    mt-[3rem] sm:mt-[3rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
+                    mt-[1.5rem] sm:mt-[3rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
                 ">
                     {
                         productsData.map((item, index) => {
                             return (
                                 <div className="
-                                    w-[23.7%]
+                                    w-[47.5%] sm:w-[23.7%]
                                     shadow-[0px_6px_12px_-2px_rgba(50,50,93,0.25),_0px_3px_7px_-3px_rgba(0,0,0,0.3)]
-                                    mb-[1.4rem] sm:mb-[1.4rem] lg:mb-[1.2rem] xl:mb-[1.3rem] 2xl:mb-[1.4rem]
+                                    mb-[1.1rem] sm:mb-[1.4rem] lg:mb-[1.2rem] xl:mb-[1.3rem] 2xl:mb-[1.4rem]
                                     rounded-[7px]
                                     relative overflow-hidden group
                                 " key={index}>
@@ -93,7 +93,7 @@ const OurProducts = () => {
                                     ">
                                         <span className="
                                             text-[#fff] font-[550]
-                                            text-[1.2rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
+                                            text-[1rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                                         ">
                                             {item.name}
                                         </span>
@@ -103,8 +103,8 @@ const OurProducts = () => {
                                         w-full
                                         h-full
                                         absolute
-                                        inset-0 flex justify-end items-end translate-y-full group-hover:-translate-y-0 transition-transform duration-500 ease-in-out
-                                        p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
+                                        inset-0 flex justify-center sm:justify-end items-end translate-y-full group-hover:-translate-y-0 transition-transform duration-500 ease-in-out
+                                        p-[0.8rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                     ">
                                         <Link to="/coming-soon">
                                             <button className="

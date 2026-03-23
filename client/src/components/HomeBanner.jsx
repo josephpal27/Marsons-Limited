@@ -4,7 +4,7 @@ const HomeBanner = () => {
         <>
             <div className="
                 w-full
-                h-screen
+                sm:h-screen
                 relative
             ">
                 <video
@@ -22,15 +22,15 @@ const HomeBanner = () => {
                 </video>
 
                 <div className="
-                    py-[3.5rem] sm:py-[3rem] lg:py-[2.9rem] xl:py-[3.2rem] 2xl:py-[3.5rem]
-                    px-[7%]
+                    py-[0.9rem] sm:py-[3rem] lg:py-[2.9rem] xl:py-[3.2rem] 2xl:py-[3.5rem]
+                    px-[1rem] sm:px-[5%] lg:px-[7%]
                     absolute
                     top-0
                     w-full h-full
                     flex items-end
                 ">
                     <h1 className="
-                        text-[3.5rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                        text-[1.6rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700]
                     ">
                         <span className="font-[200]">SETTING POWER</span> <br /> IN MOTION

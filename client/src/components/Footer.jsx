@@ -10,33 +10,33 @@ const Footer = () => {
             ">
                 {/* Content */}
                 <div className="
-                    px-[7%]
-                    py-[3.5rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
+                    px-[1rem] sm:px-[5%] lg:px-[7%]
+                    py-[2rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
                     flex justify-between flex-wrap
                 ">
                     {/* Left */}
                     <div className="
-                        w-[35%]
+                        sm:w-[37%]
                     ">
                         <img src={logo} alt="Logo" loading="lazy" className="
-                            w-[300px] sm:w-[250px] lg:w-[240px] xl:w-[270px] 2xl:w-[300px]
-                            rounded-[10px] sm:rounded-[10px] lg:rounded-[6px] xl:rounded-[8px] 2xl:rounded-[10px]
+                            w-[50%] sm:w-[250px] lg:w-[240px] xl:w-[270px] 2xl:w-[300px]
+                            rounded-[8px] sm:rounded-[10px] lg:rounded-[6px] xl:rounded-[8px] 2xl:rounded-[10px]
                         " />
                         <p className="
-                            text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
-                            mt-[1.5rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
+                            text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                            mt-[1rem] sm:mt-[1.5rem] lg:mt-[1.3rem] xl:mt-[1.4rem] 2xl:mt-[1.5rem]
                         ">
                             Marsons Limited is an ISO-certified manufacturer of Power, Distribution, and Special Purpose transformers. For 65 years, we have delivered reliable, high-quality power solutions across the globe.
                         </p>
                     </div>
                     {/* Right */}
                     <div className="
-                        w-[60%]
+                        sm:w-[58%]
                         flex justify-between flex-wrap
                     ">
                         <div className="
                             footer-links
-                            w-[30%]
+                            w-full sm:w-[30%] mt-[2rem] sm:mt-0
                         ">
                             <span>Quick Links</span>
                             <Link to="/">Home</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
                         <div className="
                             footer-links
-                            w-[30%]
+                            w-full sm:w-[30%] mt-[1.2rem] sm:mt-0
                         ">
                             <span>Investor Corner</span>
                             <Link to="/investor-corner/financials">Financials</Link>
@@ -62,7 +62,7 @@ const Footer = () => {
                         </div>
                         <div className="
                             footer-links
-                            w-[30%]
+                            w-full sm:w-[30%] mt-[1.2rem] sm:mt-0
                         ">
                             <span>Contact Info</span>
                             <a href="">example@gmail.com</a>
@@ -73,13 +73,13 @@ const Footer = () => {
                 </div>
                 {/* Copyright */}
                 <div className="
-                    px-[7%]
-                    py-[1rem] sm:py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
+                    px-[1rem] sm:px-[5%] lg:px-[7%]
+                    py-[0.8rem] sm:py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
                     border-t-[1px] border-[#b4b4b4]
                 ">
                     <p className="
                         text-center
-                        text-[0.9rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
+                        text-[0.7rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                     ">
                         Copyright © 2025 | Marsons Limited | All Rights Reserved
                     </p>

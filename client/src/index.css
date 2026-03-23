@@ -16,10 +16,6 @@ body{
   font-family: "Poppins", sans-serif;
 }
 
-/* h1, h2, h3, h4, h5, h6, span{
-  font-family: "Oswald", sans-serif !important;
-} */
-
 /* Section Style */
 .section{
   height: 100vh;
@@ -112,7 +108,9 @@ body{
 }
 
 @media screen and (max-width: 640px) {
-    
+  .what-we-do-card{
+    border-right: 0;
+  }
 }
 
 /* Footer */
@@ -155,7 +153,12 @@ footer .footer-links a:hover{
 }
 
 @media screen and (max-width: 640px) {
-    
+  footer .footer-links span{
+    margin-bottom: 0.7rem;
+  }
+  footer .footer-links a{
+    font-size: 1rem;
+  }
 }
 
 /* Investor Corner Accordion */

@@ -30,12 +30,13 @@ const OurClientLogos = () => {
         <>
             <div className="
                 bg-[#fff] flex justify-between items-center flex-wrap
+                py-[1.5rem] sm:py-0
             ">
                 {
                     clientData.map((item, index) => {
                         return (
                             <div key={index} className="
-                                    w-[10%]
+                                    w-[30%] sm:w-[10%]
                                 ">
                                 <img src={item.image} alt={`Client ${item.id}`} loading="lazy" className="
                                         w-full

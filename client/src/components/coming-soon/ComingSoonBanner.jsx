@@ -1,28 +1,31 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { useState, useEffect } from "react"
 
 const ComingSoonBanner = () => {
 
-    const [progress, setProgress] = useState(0)
+    const [progress, setProgress] = useState(0);
+    const location = useLocation(); // Track route change
 
     useEffect(() => {
-        const target = 70
-        const duration = 2700 // 2.7 seconds
-        const steps = 100
-        const stepTime = duration / steps
+        setProgress(0); // Reset when route changes
+
+        const target = 70;
+        const duration = 2700;
+        const steps = 100;
+        const stepTime = duration / steps;
 
         const interval = setInterval(() => {
             setProgress(prev => {
                 if (prev >= target) {
-                    clearInterval(interval)
-                    return target
+                    clearInterval(interval);
+                    return target;
                 }
-                return prev + 1
-            })
-        }, stepTime)
+                return prev + 1;
+            });
+        }, stepTime);
 
-        return () => clearInterval(interval)
-    }, [])
+        return () => clearInterval(interval);
+    }, [location.pathname]); // Dependency added
 
     return (
         <>
@@ -66,7 +69,7 @@ const ComingSoonBanner = () => {
                             progress-bar w-full
                             h-[8px] sm:h-[8px] lg:h-[8.5px] xl:h-[9.5px] 2xl:h-[10px]
                         " />
-                        <span className="absolute -bottom-6 left-0">0%</span>
+                        <span className="absolute -bottom-6 left-0">{progress}%</span>
                         <span className="absolute -bottom-6 right-0">100%</span>
                     </div>
 
