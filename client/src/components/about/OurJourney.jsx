@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { journeyData } from "../data/journeyData";
+import { journeyData } from "../../data/journeyData";
 
 const OurJourney = () => {
     const sectionRef = useRef(null);

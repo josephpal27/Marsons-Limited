@@ -1,6 +1,6 @@
-import visionImage from '../assets/images/vision-mission/1.avif';
-import missionImage from '../assets/images/vision-mission/2.avif';
-import valuesImage from '../assets/images/vision-mission/3.avif';
+import visionImage from '../../assets/images/vision-mission/1.avif';
+import missionImage from '../../assets/images/vision-mission/2.avif';
+import valuesImage from '../../assets/images/vision-mission/3.avif';
 
 const visionMissionData = [
     {

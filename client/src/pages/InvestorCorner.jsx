@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import MyNavbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import InvestorAccordion from "../components/InvestorAccordion";
-import InvestorCornerBanner from "../components/InvestorCornerBanner";
+import InvestorAccordion from "../components/investor-corner/InvestorAccordion";
+import InvestorCornerBanner from "../components/investor-corner/InvestorCornerBanner";
 import { investorCornerData } from "../data/investorCornerData";
 
 const InvestorCorner = () => {

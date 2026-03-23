@@ -1,6 +1,6 @@
-import ContactBanner from "../components/ContactBanner"
-import ContactDetails from "../components/ContactDetails"
-import ContactMap from "../components/ContactMap"
+import ContactBanner from "../components/contact/ContactBanner"
+import ContactDetails from "../components/contact/ContactDetails"
+import ContactMap from "../components/contact/ContactMap"
 import Footer from "../components/Footer"
 import MyNavbar from "../components/Navbar"
 

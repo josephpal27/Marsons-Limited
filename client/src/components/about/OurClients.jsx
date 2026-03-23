@@ -1,4 +1,4 @@
-import OurClientLogos from "./OurClientLogos";
+import OurClientLogos from "../OurClientLogos";
 
 const OurClients = () => {
     return (

@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import HomeBanner from "../components/HomeBanner";
+import HomeBanner from "../components/home/HomeBanner";
 import MyNavbar from './../components/Navbar';
-import WhatWeDo from "../components/WhatWeDo";
-import OurGoals from "../components/OurGoals";
-import OurProducts from "../components/OurProducts";
-import LatestNews from "../components/LatestNews";
+import WhatWeDo from "../components/home/WhatWeDo";
+import OurGoals from "../components/home/OurGoals";
+import OurProducts from "../components/home/OurProducts";
+import LatestNews from "../components/home/LatestNews";
 import Footer from "../components/Footer";
 import OurClientLogos from "../components/OurClientLogos";
 

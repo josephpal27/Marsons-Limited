@@ -1,7 +1,7 @@
-import highlight1 from '../assets/images/icons/quality.png';
-import highlight2 from '../assets/images/icons/experience.png';
-import highlight3 from '../assets/images/icons/infrastructure.png';
-import highlight4 from '../assets/images/icons/increase.png';
+import highlight1 from '../../assets/images/icons/quality.png';
+import highlight2 from '../../assets/images/icons/experience.png';
+import highlight3 from '../../assets/images/icons/infrastructure.png';
+import highlight4 from '../../assets/images/icons/increase.png';
 
 let highlightsData = [
     {

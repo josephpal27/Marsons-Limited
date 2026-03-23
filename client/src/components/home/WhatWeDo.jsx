@@ -1,7 +1,7 @@
-import certified from '../assets/images/icons/certified.avif';
-import excellence from '../assets/images/icons/excellence.avif';
-import responsive from '../assets/images/icons/responsive.avif';
-import trust from '../assets/images/icons/trust.avif';
+import certified from '../../assets/images/icons/certified.avif';
+import excellence from '../../assets/images/icons/excellence.avif';
+import responsive from '../../assets/images/icons/responsive.avif';
+import trust from '../../assets/images/icons/trust.avif';
 import { Link } from 'react-router-dom';
 import { FaArrowRightLong } from "react-icons/fa6";
 

@@ -1,5 +1,5 @@
-import founderImage from '../assets/images/founder.avif';
-import birds from '../assets/images/birds.avif';
+import founderImage from '../../assets/images/founder.avif';
+import birds from '../../assets/images/birds.avif';
 
 const OurFounder = () => {
     return (

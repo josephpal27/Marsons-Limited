@@ -1,5 +1,5 @@
-import visionIcon from '../assets/images/icons/vision.avif';
-import missionIcon from '../assets/images/icons/mission.avif';
+import visionIcon from '../../assets/images/icons/vision.avif';
+import missionIcon from '../../assets/images/icons/mission.avif';
 
 let missionVisionData = [
     {
