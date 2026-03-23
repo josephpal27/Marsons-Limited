@@ -50,8 +50,8 @@ const visionMissionData = [
 const VisionMission = () => {
     return (
         <section className="
-            px-[7%]
-            mt-[4rem] sm:mt-[4rem] lg:mt-[3rem] xl:mt-[3.5rem] 2xl:mt-[4rem]
+            px-[1rem] sm:px-[5%] lg:px-[7%]
+            mt-[2rem] sm:mt-[4rem] lg:mt-[3rem] xl:mt-[3.5rem] 2xl:mt-[4rem]
         ">
             <div className="
                 flex flex-wrap justify-between
@@ -61,7 +61,7 @@ const VisionMission = () => {
                     if (item.type === "image") {
                         return (
                             <div key={item.id} className="
-                                w-[33.33%]
+                                sm:w-[33.33%]
                             ">
                                 <img
                                     src={item.image}
@@ -77,14 +77,15 @@ const VisionMission = () => {
                         <div
                             key={item.id}
                             className={`
-                                w-[33.33%]
-                                p-[2rem] sm:p-[2rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
+                                sm:w-[33.33%]
+                                p-[0] sm:p-[2rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
+                                py-[1.5rem] sm:py-0
                                 flex flex-col justify-center
-                                ${item.align === "center" ? "text-center" : "text-left"}
+                                ${item.align === "center" ? "text-left sm:text-center" : "text-left"}
                             `}
                         >
                             <span className="
-                                text-[3rem] sm:text-[3rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                                text-[1.7rem] sm:text-[3rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                                 font-[700] leading-[1]
                             ">
                                 {item.title} <br />
@@ -94,9 +95,9 @@ const VisionMission = () => {
                             </span>
 
                             <p className="
-                                text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                                text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                                 text-[#000] font-[500]
-                                mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
+                                mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                             ">
                                 {item.desc}
                             </p>
