@@ -124,7 +124,9 @@ const OurJourney = () => {
                             {/* Left */}
                             <div className="w-full sm:w-[45%]">
                                 {isLeft || window.innerWidth < 640 ? (
-                                    <img src={item.image} alt="Journey Image" className="w-full" data-aos="fade" />
+                                    <img src={item.image} alt="Journey Image" className="
+                                        w-full grayscale-[100%] hover:grayscale-[0%] transition duration-300
+                                    " />
                                 ) : (
                                     <div className="
                                         text-left sm:text-right 
@@ -183,7 +185,9 @@ const OurJourney = () => {
                             {/* Right */}
                             <div className="w-full sm:w-[45%]">
                                 {!isLeft && window.innerWidth >= 640 ? (
-                                    <img src={item.image} alt="Journey Image" className="w-full" data-aos="fade" />
+                                    <img src={item.image} alt="Journey Image" className="
+                                        w-full grayscale-[100%] hover:grayscale-[0%] transition duration-300
+                                    " />
                                 ) : (
                                     <div className="
                                         pl-[0] sm:pl-[2rem] lg:pl-[1.6rem] xl:pl-[1.8rem] 2xl:pl-[2rem]
