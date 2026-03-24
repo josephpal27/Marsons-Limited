@@ -2,31 +2,37 @@
 const transformersData = [
     {
         id: 1,
+        image: "/images/transformers/1.avif",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 2,
+        image: "/images/transformers/1.avif",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 3,
+        image: "/images/transformers/1.avif",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 4,
+        image: "/images/transformers/1.avif",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 5,
+        image: "/images/transformers/1.avif",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 6,
+        image: "/images/transformers/1.avif",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
@@ -40,10 +46,10 @@ const Transformers = () => {
                 mt-[2rem] sm:mt-[3rem] lg:mt-[6rem] xl:mt-[6.5rem] 2xl:mt-[7rem]
             ">
                 <h2 className="
-                    text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                    text-[1.8rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                     text-[#e9202a] font-[600]
                 ">
-                    Transformers
+                    TRANSFORMERS
                 </h2>
                 <p className="
                     text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
@@ -60,14 +66,14 @@ const Transformers = () => {
                     gap-[2.7%]
                 ">
                     {
-                        transformersData.map(() => {
+                        transformersData.map((item, index) => {
                             return (
                                 <div className="
                                     w-[31.5%] relative group
                                     mb-[2.3rem]
-                                ">
+                                " key={index}>
                                     <img
-                                        src="/images/transformers/1.png"
+                                        src={item.image}
                                         alt="Transformers"
                                         loading="lazy"
                                         className="
@@ -85,13 +91,13 @@ const Transformers = () => {
                                             text-[1.6rem] sm:text-[1.5rem] lg:text-[1.6rem] xl:text-[1.7rem] 2xl:text-[1.8rem]
                                             font-[550]
                                         ">
-                                            Transformers
+                                            {item.title}
                                         </span>
                                         <p className="
                                             text-[0.9rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                                             mt-[0.5rem]
                                         ">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.
+                                            {item.desc}
                                         </p>
                                     </div>
                                 </div>
