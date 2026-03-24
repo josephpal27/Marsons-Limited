@@ -19,7 +19,7 @@ const ContactForm = () => {
                     Get In Touch
                 </span>
                 <p className="
-                    text-[1.1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                    text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                     mt-[0.5rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     text-[#eee]
                 ">
@@ -37,7 +37,7 @@ const ContactForm = () => {
                     <textarea name="message" id="msg" required></textarea>
                     <button type="submit" className="
                         bg-[#e9202a] hover:bg-[#d6151f] text-[#fff]
-                        py-[0.6rem] sm:py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
+                        py-[0.65rem] sm:py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
                         px-[1.3rem] sm:px-[3rem] lg:px-[2.6rem] xl:px-[2.8rem] 2xl:px-[3rem]
                         text-[1.1rem] sm:text-[1.2rem] lg:text-[0.95rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                         font-[600]

@@ -287,7 +287,16 @@ footer .footer-links a:hover{
 }
 
 @media screen and (max-width: 640px) {
-    
+  .contact-form label{
+    font-size: 1.1rem;
+  }
+  .contact-form input,
+  .contact-form textarea{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
 }
 /* Contact Form End */
 
