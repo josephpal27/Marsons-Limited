@@ -4,8 +4,8 @@ const ContactForm = () => {
         <>
             <div className="
                 bg-[#0a2946]
-                pt-[1rem] sm:pt-[2rem] lg:pt-[1.6rem] xl:pt-[1.8rem] 2xl:pt-[2rem]
-                p-[1rem] sm:p-[2.5rem] lg:p-[2.1rem] xl:p-[2.3rem] 2xl:p-[2.5rem]
+                pt-[1rem] sm:pt-[1.5rem] lg:pt-[1.6rem] xl:pt-[1.8rem] 2xl:pt-[2rem]
+                p-[1rem] sm:p-[1.5rem] lg:p-[2.1rem] xl:p-[2.3rem] 2xl:p-[2.5rem]
                 rounded-[20px] sm:rounded-[40px]
                 mt-[1.2rem] sm:mt-[0]
                 mb-[0.5rem] sm:mb-[0]
