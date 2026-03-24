@@ -10,6 +10,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact';
 import InvestorCorner from './pages/InvestorCorner.jsx';
+import ProductDetails from './pages/ProductDetails';
 import ComingSoon from './pages/ComingSoon';
 
 let routers = createBrowserRouter([
@@ -22,6 +23,7 @@ let routers = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/contact", element: <Contact /> },
       { path: "/investor-corner/:slug", element: <InvestorCorner /> },
+      { path: "/products/:slug", element: <ProductDetails /> },
       {path: "*", element: <ComingSoon />},
     ]
   }
