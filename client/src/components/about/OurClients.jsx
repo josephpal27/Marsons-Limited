@@ -16,7 +16,7 @@ const OurClients = () => {
                         text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         font-[700] leading-[1.1] text-center
                     ">
-                        OUR <br /> <span className="text-[#e9202a]">CLIENTS</span>
+                        OUR <span className="text-[#e9202a]">CLIENTS</span>
                     </h5>
                     <p className="
                         text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]

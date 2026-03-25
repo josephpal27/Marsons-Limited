@@ -113,6 +113,11 @@ body{
   }
 }
 
+/* About Us (Client Logos) */
+.our-client-logos .swiper-wrapper{
+    transition-timing-function: linear !important;
+}
+
 /* Footer */
 footer .footer-links span{
   display: block;
