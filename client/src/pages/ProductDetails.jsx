@@ -11,7 +11,7 @@ const ProductDetails = () => {
             <ProductsBanner />
             <Transformers />
             <Facility />
-            {/* <RelatedProducts /> */}
+            <RelatedProducts />
         </>
     )
 }
