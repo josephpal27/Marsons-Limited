@@ -35,7 +35,7 @@ const LatestNews = () => {
 
                 {/* Center */}
                 <div className="
-                    sm:w-[49%] flex flex-col 
+                    sm:w-[49%] hidden lg:flex flex-col 
                     gap-[1.4rem] sm:gap-[1.3rem] lg:gap-[1.1rem] xl:gap-[1.2rem] 2xl:gap-[1.3rem]
                 ">
                     <LatestNewsCard
@@ -55,7 +55,7 @@ const LatestNews = () => {
                 </div>
 
                 {/* Right */}
-                <div className="sm:w-[24%] mt-[1.4rem] sm:mt-0">
+                <div className="sm:w-[24%] mt-[1.4rem] sm:mt-0 hidden lg:flex">
                     <LatestNewsCard
                         image={latestNewsData[3].image}
                         title={latestNewsData[3].title}

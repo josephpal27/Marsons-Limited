@@ -99,7 +99,8 @@ const WhatWeDo = () => {
                     {item.desc}
                   </p>
                   <Link to="/coming-soon" className="
-                    text-[#e9202a] hover:text-[#d6151f] mt-auto font-[500] flex items-center w-max
+                    hidden lg:flex
+                    text-[#e9202a] hover:text-[#d6151f] mt-auto font-[500] items-center w-max
                     text-[1rem] sm:text-[1rem] lg:text-[0.8rem] xl:text-[0.9rem] 2xl:text-[1rem]
                     pt-[1rem] sm:pt-[2rem] lg:pt-[1.6rem] xl:pt-[1.8rem] 2xl:pt-[2rem]
                   ">
