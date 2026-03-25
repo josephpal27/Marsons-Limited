@@ -15,7 +15,7 @@ const OurClients = () => {
                     <h5 className="
                         text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         font-[700] leading-[1.1] text-center
-                    ">
+                    " data-aos="fade-up">
                         OUR <span className="text-[#e9202a]">CLIENTS</span>
                     </h5>
                     <p className="
@@ -23,7 +23,7 @@ const OurClients = () => {
                         text-[#000] font-[500] text-center
                         mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                         sm:w-[60%]
-                    ">
+                    " data-aos="fade" data-aos-once="true">
                         Trusted by industry leaders worldwide, we deliver reliable power solutions to state utilities, infrastructure projects, and multinational corporations.
                     </p>
                 </div>

@@ -43,12 +43,12 @@ const Highlights = () => {
                             ">
                                 <img src={item.image} alt={item.title} loading="lazy" className="
                                     w-[20%] sm:w-[40%]
-                                "/>
+                                " data-aos="zoom-in" data-aos-once="true"/>
                                 <p className="
                                     text-[#fff] font-[500] text-center
                                     text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                                     mt-[1rem] sm:mt-[1.2rem] lg:mt-[1rem] xl:mt-[1.1rem] 2xl:mt-[1.2rem]
-                                ">
+                                " data-aos="fade">
                                     {item.title}
                                 </p>
                             </div>

@@ -21,7 +21,7 @@ const InvestorCornerBanner = ({title, background}) => {
                     <h1 className="
                         text-[1.6rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700]
-                    ">
+                    " data-aos="fade-up">
                         {title}
                     </h1>
                 </div>

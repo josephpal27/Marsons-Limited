@@ -87,7 +87,7 @@ const VisionMission = () => {
                             <span className="
                                 text-[1.7rem] sm:text-[3rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                                 font-[700] leading-[1]
-                            ">
+                            " data-aos="fade-up" data-aos-once="true">
                                 {item.title} <br />
                                 <span className="text-[#e9202a]">
                                     {item.highlight}
@@ -98,7 +98,7 @@ const VisionMission = () => {
                                 text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                                 text-[#000] font-[500]
                                 mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
-                            ">
+                            " data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
                                 {item.desc}
                             </p>
                         </div>

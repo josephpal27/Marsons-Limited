@@ -65,7 +65,7 @@ const OurJourney = () => {
                     <h4 className=" 
                         text-[1.8rem] sm:text-[5rem] lg:text-[4.5rem] xl:text-[5rem] 2xl:text-[5.5rem]
                         font-[700] leading-[1]
-                    ">
+                    " data-aos="fade-up">
                         OUR <br /> <span className="text-[#e9202a]">JOURNEY</span>
                     </h4>
                 </div>
@@ -76,14 +76,14 @@ const OurJourney = () => {
                     <p className=" 
                         text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         text-[#000] font-[500] 
-                    ">
+                    " data-aos="fade" data-aos-once="true">
                         Over the past 65 years, Marsons Limited has built an incredible legacy of distinction and credibility in the power sector.
                     </p>
                     <p className="
                         text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         text-[#000] font-[500]
                         mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
-                    ">
+                    " data-aos="fade" data-aos-once="true">
                         From our early days, we have grown to operate the largest transformer manufacturing facility in Eastern India with global reach.
                     </p>
                 </div>

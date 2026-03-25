@@ -23,7 +23,7 @@ const ContactBanner = () => {
                     <h1 className="
                         text-[1.6rem] sm:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700]
-                    ">
+                    " data-aos="fade-up">
                         CONTACT US
                     </h1>
                 </div>
