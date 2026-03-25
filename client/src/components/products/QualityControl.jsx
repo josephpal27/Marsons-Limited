@@ -29,17 +29,17 @@ const QualityControl = () => {
                 <div className="
                     relative
                 ">
-                    <img src="/images/quality-bg-1.avif" alt="Quality Control" loading="lazy" className="
+                    <img src="/images/quality-bg.avif" alt="Quality Control" loading="lazy" className="
                         w-full
                     " />
                     <div className="
                         absolute w-full h-full
                         top-0 flex justify-center
                         bg-[linear-gradient(to_bottom,#e9202ab3_30%,#fff_100%)]
-                        pt-[11rem]
+                        pt-[13rem]
                     ">
                         <h5 className="
-                            text-[1.8rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[4rem]
+                            text-[1.8rem] sm:text-[3rem] lg:text-[3.4rem] xl:text-[3.7rem] 2xl:text-[4rem]
                             font-[600] text-[#fff]
                         ">
                             QUALITY CONTROL & TESTING
@@ -51,7 +51,7 @@ const QualityControl = () => {
                 <div className="
                     flex justify-between flex-wrap
                     px-[7%]
-                    mt-[-8rem]
+                    mt-[-10rem]
                     z-10 relative
                 ">
                     {

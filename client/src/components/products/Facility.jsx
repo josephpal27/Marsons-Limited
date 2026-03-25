@@ -1,10 +1,54 @@
+import FacilityImageCard from "./FacilityImageCard";
+import FacilityTextBlock from "./FacilityTextBlock";
+
+const facilityData = [
+    {
+        id: 1,
+        type: "image",
+        title: "CORE ASSEMBLY",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        img: "/images/facility/1.avif",
+    },
+    {
+        id: 2,
+        type: "image",
+        title: "COIL ASSEMBLY",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        img: "/images/facility/2.avif",
+    },
+    {
+        id: 3,
+        type: "text",
+        para: "Lorem ipsum dolor sit amet, consectetur elit. Commodi laboriosam autem adipisicing quae reiciendis veniam dignissimos. Laboriosam adipisicing possimus fugit aliquid expedita consectetur laboriosam.",
+    },
+    {
+        id: 4,
+        type: "text",
+        para: "Lorem ipsum dolor sit amet, consectetur elit. Commodi laboriosam autem adipisicing quae reiciendis veniam dignissimos. Laboriosam adipisicing possimus fugit aliquid expedita consectetur laboriosam.",
+    },
+    {
+        id: 5,
+        type: "image",
+        title: "WINDING DEPARTMENT",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        img: "/images/facility/3.avif",
+    },
+    {
+        id: 6,
+        type: "image",
+        title: "VACUUM DRYING SYSTEM",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        img: "/images/facility/4.avif",
+    },
+];
 
 const Facility = () => {
     return (
         <>
             <section className="
                 px-[1rem] sm:px-[5%] lg:px-[7%]
-                py-[3rem]
+                pt-[3rem]
+                pb-[2.5rem]
             ">
                 {/* Head */}
                 <div className="
@@ -27,9 +71,22 @@ const Facility = () => {
                     </p>
                 </div>
 
-                {/* Row */}
-                <div>
-                    
+                {/* ROW 1 */}
+                <div className="
+                    mt-[3rem] flex flex-col lg:flex-row gap-7
+                ">
+                    <FacilityImageCard {...facilityData[0]} />
+                    <FacilityImageCard {...facilityData[1]} />
+                    <FacilityTextBlock {...facilityData[2]} />
+                </div>
+
+                {/* ROW 2 */}
+                <div className="
+                    mt-[1.8rem] flex flex-col lg:flex-row gap-7
+                ">
+                    <FacilityTextBlock {...facilityData[3]} />
+                    <FacilityImageCard {...facilityData[4]} />
+                    <FacilityImageCard {...facilityData[5]} />
                 </div>
             </section>
         </>

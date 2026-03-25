@@ -1,0 +1,48 @@
+import { Link } from "react-router-dom"
+
+const GetInTouch = () => {
+    return (
+        <>
+            <section className="
+                mt-[6rem]
+                relative
+            ">
+                <img src="/images/get-in-touch-bg.png" alt="Get In Touch" loading="lazy" className="
+                    w-full
+                "/>
+                {/* Layer */}
+                <div className="
+                    absolute w-full h-full top-0 text-center text-[#fff]
+                    flex flex-col items-center justify-end
+                    px-[7%]
+                    pb-[4rem]
+                ">
+                    <h6 className="
+                        text-[1.8rem] sm:text-[3rem] lg:text-[3.4rem] xl:text-[3.7rem] 2xl:text-[4rem]
+                        font-[600]
+                    ">
+                        GET IN TOUCH
+                    </h6>
+                    <p className="
+                        w-[65%]
+                        text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                        mt-[1rem]
+                    ">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, iste ratione? Cumque voluptates distinctio accusantium possimus temporibus voluptate quisquam eaque vitae incidunt officiis laudantium, reiciendis totam? Aut ratione consequuntur quam.
+                    </p>
+                    <Link to="/contact" className="
+                        text-[1.2rem] sm:text-[1.2rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                        bg-[#e9202a] hover:bg-[#d6151f] w-max rounded-[3px] transition font-[500]
+                        py-[0.5rem] 
+                        px-[1.5rem]
+                        mt-[2rem]
+                    ">
+                        Contact Us
+                    </Link>
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default GetInTouch
