@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import Highlights from "../components/about/Highlights"
 import MyNavbar from "../components/Navbar"
 import OurClients from "../components/about/OurClients"
-import OurFounder from "../components/about/OurFounder"
+// import OurFounder from "../components/about/OurFounder"
 import OurJourney from "../components/about/OurJourney"
 import VisionMission from "../components/about/VisionMission"
 
@@ -15,7 +15,7 @@ const About = () => {
             <AboutBanner />
             <AboutWhatWeDo />
             <Highlights />
-            <OurFounder />
+            {/* <OurFounder /> */}
             <VisionMission />
             <OurJourney />
             <OurClients />

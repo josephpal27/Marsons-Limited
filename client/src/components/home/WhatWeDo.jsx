@@ -98,7 +98,7 @@ const WhatWeDo = () => {
                   ">
                     {item.desc}
                   </p>
-                  <Link to="/coming-soon" className="
+                  <Link to="/about" className="
                     hidden lg:flex
                     text-[#e9202a] hover:text-[#d6151f] mt-auto font-[500] items-center w-max
                     text-[1rem] sm:text-[1rem] lg:text-[0.8rem] xl:text-[0.9rem] 2xl:text-[1rem]
