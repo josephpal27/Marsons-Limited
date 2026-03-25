@@ -16,7 +16,7 @@ const contactData = [
         items: [
             {
                 value: "Marsons Limited Budge Budge Trunk Road, Maheshtala, Kolkata - 700142",
-                link: "https://maps.app.goo.gl/",
+                link: "https://maps.app.goo.gl/xX2QPszNz8wNjfCs7",
             },
         ],
     },
