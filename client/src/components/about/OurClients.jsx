@@ -15,7 +15,7 @@ const OurClients = () => {
                     <h5 className="
                         text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         font-[700] leading-[1.1] text-center
-                    " data-aos="fade-up">
+                    " data-aos="zoom-in">
                         OUR <span className="text-[#e9202a]">CLIENTS</span>
                     </h5>
                     <p className="

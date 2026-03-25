@@ -65,7 +65,7 @@ const MissionVision = () => {
                         missionVisionData.map((item, index) => {
                             return (
                                 <div className="
-                                    sm:w-[47%]
+                                    sm:w-[47%] group
                                     p-[1rem] sm:p-[2rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
                                     bg-[#0a2946] text-[#fff] aspect-square relative 
                                     mb-[3rem] sm:mb-0 last:mb-[1.4rem] sm:last:mb-0
@@ -90,7 +90,9 @@ const MissionVision = () => {
                                         right-[-11px] sm:right-[-15px] lg:right-[-11px] xl:right-[-13px] 2xl:right-[-15px]
                                         p-[0.8rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                     ">
-                                        <img src={item.Image} alt={item.title} loading="lazy" className="w-full"/>
+                                        <img src={item.Image} alt={item.title} loading="lazy" className="
+                                            w-full group-hover:scale-[1.2] transition-all duration-300
+                                        "/>
                                     </div>
                                     <div className="
                                         w-[70%]
@@ -100,6 +102,7 @@ const MissionVision = () => {
                                         left-[-10px] sm:left-[-10px] lg:left-[-8px] xl:left-[-9px] 2xl:left-[-10px]
                                         rounded-tr-[20px]
                                         rounded-bl-[20px]
+                                        group-hover:scale-[1.03] transition-all duration-300
                                     "></div>
                                 </div>
                             )
