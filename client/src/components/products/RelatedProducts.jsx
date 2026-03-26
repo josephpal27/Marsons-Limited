@@ -52,7 +52,7 @@ const RelatedProducts = () => {
                         text-[1.8rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                         text-[#e9202a] font-[600]
                     ">
-                    RELATED PRODUCTS
+                    ADVANCED POWER SOLUTIONS
                 </h4>
                 <p className="
                     text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
@@ -60,7 +60,7 @@ const RelatedProducts = () => {
                     font-[500] text-[#000]
                     w-[70%]
                 ">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta libero optio, dolor quas illum ipsum! Lorem ipsum dolor sit amet consectetur adipisicing.
+                    From standard distribution to specialized power transformers, explore our robust, precision-engineered solutions designed to meet your exact energy infrastructure requirements.
                 </p>
 
                 {/* Slider */}

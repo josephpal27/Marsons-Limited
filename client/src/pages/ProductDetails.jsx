@@ -4,7 +4,8 @@ import GetInTouch from "../components/products/GetInTouch"
 import ProductsBanner from "../components/products/ProductsBanner"
 import QualityControl from "../components/products/QualityControl"
 import RelatedProducts from "../components/products/RelatedProducts"
-import Transformers from "../components/products/Transformers"
+// import Transformers from "../components/products/Transformers"
+import TransformersGallery from "../components/products/TransformersGallery"
 import Footer from "../components/Footer";
 
 const ProductDetails = () => {
@@ -12,7 +13,8 @@ const ProductDetails = () => {
         <>
             <MyNavbar />
             <ProductsBanner />
-            <Transformers />
+            {/* <Transformers /> */}
+            <TransformersGallery />
             <Facility />
             <RelatedProducts />
             <QualityControl />

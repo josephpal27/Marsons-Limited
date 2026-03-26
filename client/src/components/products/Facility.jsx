@@ -6,38 +6,38 @@ const facilityData = [
         id: 1,
         type: "image",
         title: "CORE ASSEMBLY",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        desc: "Our robust round core construction uses cold rolled silicon steel and secure clamping to prevent movement, support windings, and boost short circuit strength.",
         img: "/images/facility/1.avif",
     },
     {
         id: 2,
         type: "image",
         title: "COIL ASSEMBLY",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        desc: "Our dedicated core coil assembly area meticulously constructs the transformer's vital active part, defining its insulation scheme, cooling, and dynamic withstand capabilities.",
         img: "/images/facility/2.avif",
     },
     {
         id: 3,
         type: "text",
-        para: "Lorem ipsum dolor sit amet, consectetur elit. Commodi laboriosam autem adipisicing quae reiciendis veniam dignissimos. Laboriosam adipisicing possimus fugit aliquid expedita consectetur laboriosam.",
+        para: "The core and coil form the vital active part of our transformers. Utilizing cold-rolled, grain-oriented silicon steel, our robust construction defines the insulation scheme, optimizes cooling, and guarantees superior dynamic withstand capabilities during operation and transport.",
     },
     {
         id: 4,
         type: "text",
-        para: "Lorem ipsum dolor sit amet, consectetur elit. Commodi laboriosam autem adipisicing quae reiciendis veniam dignissimos. Laboriosam adipisicing possimus fugit aliquid expedita consectetur laboriosam.",
+        para: "Precision is paramount. By maintaining an isolated, clean winding environment, we ensure extremely low impedance variation. Furthermore, our advanced vacuum drying technology cuts drying times by over 50%, passing those time savings directly to your delivery schedule.",
     },
     {
         id: 5,
         type: "image",
         title: "WINDING DEPARTMENT",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        desc: "Housed in a pristine, enclosed room, our winding department uses vertical and horizontal machines to ensure tight tolerances and low impedance variation.",
         img: "/images/facility/3.avif",
     },
     {
         id: 6,
         type: "image",
         title: "VACUUM DRYING SYSTEM",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsum laboriosam ipsum autem adipisicing.",
+        desc: "Our highly effective vacuum drying process ensures perfect dryness and extends the transformer lifespan, while significantly shortening production cycles and delivery times.",
         img: "/images/facility/4.avif",
     },
 ];
@@ -67,7 +67,7 @@ const Facility = () => {
                         mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                         font-[500] text-[#000]
                     ">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi laboriosam autem adipisicing quae reiciendis veniam dignissimos. Laboriosam adipisicing possimus fugit aliquid expedita.
+                        MARSON operates a state-of-the-art manufacturing facility dedicated to building high-performance power transformers. From high-grade materials to rigorous quality control, our entire production line is optimized for reliability, longevity, and efficiency.
                     </p>
                 </div>
 

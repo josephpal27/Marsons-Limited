@@ -3,20 +3,20 @@ const qualityControlData = [
         id: 1,
         title: "Quality Control",
         desc: [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum iure, deleniti tempora eos quisquam optio voluptate ut perferendis, natus corporis. Earum quasi quidem qui nihil, facilis sapiente itaque fuga. Lorem ipsum dolor sit amet consecteturehenderit rem quis nihil reiciendis perspiciatis veritatis voluptatum.",
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum iure, deleniti tempora eos quisquam optio voluptate ut perferendis, natus corporis. Earum quasi quidem qui nihil, facilis sapiente itaque fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum iure, deleniti tempora eos quisquam optio voluptate ut perferendis, natus corporis. Earum quasi quidem qui nihil, facilis sapiente itaque fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Repellendus molestiae, voluptatibus exercitationem quia incidunt deleniti architecto fugiat animi illo, molestias provident, saepe nostrum reprehenderit rem quis nihil deleniti reiciendis perspiciatis veritatis voluptatum.",
+            "A quality policy is a reflection of the endeavors and aims of the organization. Quality has always been a benchmark at Marsons.",
+            "Our uncompromising stance on quality and strict adherence to ISO 9001:2008 standards furnish our customers with the very best and reliable products.",
+            "To maintain these rigorous standards, our quality control activities are seamlessly integrated into every stage of the production cycle.",
+            "These core activities can be summarized as: custom order management, a strict approval system for all vendors, uncompromising manufacturing supervision, and comprehensive testing and inspection.",
         ],
     },
     {
         id: 2,
-        title: "Research & Development",
+        title: "Testing Infrastructure",
         desc: [
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum iure, deleniti tempora eos quisquam optio voluptate ut perferendis, natus corporis. Earum quasi quidem qui nihil, facilis sapiente itaque fuga. Lorem ipsum dolor sit amet consecteturehenderit rem quis nihil reiciendis perspiciatis veritatis voluptatum.",
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum iure, deleniti tempora eos quisquam optio voluptate ut perferendis, natus corporis. Earum quasi quidem qui nihil, facilis sapiente itaque fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex cum iure, deleniti tempora eos quisquam optio voluptate ut perferendis, natus corporis. Earum quasi quidem qui nihil, facilis sapiente itaque fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Repellendus molestiae, voluptatibus exercitationem quia incidunt deleniti architecto fugiat animi illo, molestias provident, saepe nostrum reprehenderit rem quis nihil deleniti reiciendis perspiciatis veritatis voluptatum.",
+            "Our testing departments, utilizing high-end equipment, play a decisive role in the implementation of our quality program. We operate two laboratories, both equipped with modern machinery and precision instruments.",
+            "To ensure the highest accuracy, tests are conducted separately. One laboratory is strictly allotted for high/medium voltage transformers, and the other for medium/low voltage transformers.",
+            "Our quality is backed by accredited infrastructure. Our fully equipped NABL accredited laboratory can efficiently carry out all required routine and type tests, including Impulse lightning tests and Temperature rise tests.",
+            "This facility allows us to rigorously test various ratings of Power Transformers up to the range of 200 MVA 220 kV class using various conventional, state-of-the-art, and modern equipment.",
         ],
     },
 ]
@@ -59,7 +59,7 @@ const QualityControl = () => {
                             return (
                                 <div key={index} className="
                                     w-[48%] bg-[#fff] shadow-[-8px_8px_9px_rgba(0,0,0,0.25)] 
-                                    p-[3rem] sm:p-[2rem] lg:p-[2.4rem] xl:p-[2.7rem] 2xl:p-[3rem]
+                                    p-[2.5rem] sm:p-[2rem] lg:p-[1.9rem] xl:p-[2.3rem] 2xl:p-[2.5rem]
                                 ">
                                     <span className="
                                         text-[1.3rem] sm:text-[1.5rem] lg:text-[1.6rem] xl:text-[1.7rem] 2xl:text-[1.8rem]

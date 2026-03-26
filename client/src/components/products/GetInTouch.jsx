@@ -24,11 +24,11 @@ const GetInTouch = () => {
                         GET IN TOUCH
                     </h6>
                     <p className="
-                        w-[65%]
+                        w-[55%]
                         text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     ">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, iste ratione? Cumque voluptates distinctio accusantium possimus temporibus voluptate quisquam eaque vitae incidunt officiis laudantium, reiciendis totam? Aut ratione consequuntur quam.
+                        Ready to power your infrastructure? Contact our experts today to discuss our wide range of ISO-certified distribution and power transformers, backed by 65 years of industry trust and credibility.
                     </p>
                     <Link to="/contact" className="
                         text-[1.2rem] sm:text-[1.2rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem]

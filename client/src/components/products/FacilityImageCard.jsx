@@ -12,7 +12,7 @@ const FacilityImageCard = ({img, title, desc}) => {
                     bottom-[-0.7rem] group-hover:bottom-[0]
                     left-[-0.7rem] group-hover:left-[0]
                     w-[80%] 
-                    h-[50%] 
+                    h-[65%] 
                     px-[1.5rem] sm:px-[1rem] lg:px-[1.2rem] xl:px-[1.4rem] 2xl:px-[1.5rem]
                     py-[1rem] sm:py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
                 ">
