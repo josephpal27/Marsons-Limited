@@ -15,14 +15,14 @@ const TransformersGallery = () => {
                 mt-[2rem] sm:mt-[3rem] lg:mt-[6rem] xl:mt-[6.5rem] 2xl:mt-[7rem]
             ">
                 <h2 className="
-                    text-[1.8rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                    text-[1.6rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                     text-[#e9202a] font-[600]
                 ">
                     TRANSFORMERS
                 </h2>
                 <p className="
                     text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
-                    mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
+                    mt-[0.5rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     font-[500] text-[#000]
                 ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis eos neque veritatis officia tempore ullam, vel qui molestias. Atque, Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis eos neque veritatis officia tempore ullam, vel qui molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, neque Lorem, ipsum dolor.
@@ -30,7 +30,7 @@ const TransformersGallery = () => {
 
                 {/* Row */}
                 <div className="
-                    mt-[03rem] sm:mt-[2rem] lg:mt-[2.5rem] xl:mt-[2.7rem] 2xl:mt-[3rem]
+                    mt-[2rem] sm:mt-[2rem] lg:mt-[2.5rem] xl:mt-[2.7rem] 2xl:mt-[3rem]
                     flex flex-wrap
                     gap-[2.7%]
                 ">

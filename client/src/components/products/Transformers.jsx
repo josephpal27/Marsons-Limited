@@ -2,40 +2,40 @@
 const transformersData = [
     {
         id: 1,
-        image: "/images/transformers/1.avif",
+        image: "/images/transformers/distribution/1.png",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 2,
-        image: "/images/transformers/1.avif",
+        image: "/images/transformers/distribution/2.png",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 3,
-        image: "/images/transformers/1.avif",
+        image: "/images/transformers/distribution/3.png",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 4,
-        image: "/images/transformers/1.avif",
+        image: "/images/transformers/distribution/4.png",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
     {
         id: 5,
-        image: "/images/transformers/1.avif",
+        image: "/images/transformers/distribution/5.png",
         title: "Transformers",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
     },
-    {
-        id: 6,
-        image: "/images/transformers/1.avif",
-        title: "Transformers",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
-    },
+    // {
+    //     id: 6,
+    //     image: "/images/transformers/1.avif",
+    //     title: "Transformers",
+    //     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
+    // },
 ]
 
 const Transformers = () => {
@@ -46,7 +46,7 @@ const Transformers = () => {
                 mt-[2rem] sm:mt-[3rem] lg:mt-[6rem] xl:mt-[6.5rem] 2xl:mt-[7rem]
             ">
                 <h2 className="
-                    text-[1.8rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                    text-[1.6rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                     text-[#e9202a] font-[600]
                 ">
                     TRANSFORMERS
@@ -62,7 +62,7 @@ const Transformers = () => {
                 {/* Row */}
                 <div className="
                     mt-[03rem] sm:mt-[2rem] lg:mt-[2.5rem] xl:mt-[2.7rem] 2xl:mt-[3rem]
-                    flex flex-wrap
+                    flex flex-wrap justify-center
                     gap-[2.7%]
                 ">
                     {

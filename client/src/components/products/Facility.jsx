@@ -55,7 +55,7 @@ const Facility = () => {
                     flex flex-col items-center
                 ">
                     <h3 className="
-                        text-[1.8rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                        text-[1.6rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                         text-[#e9202a] font-[600]
                     ">
                         PRODUCTION FACILITY
