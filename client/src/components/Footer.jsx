@@ -16,7 +16,7 @@ const Footer = () => {
                 ">
                     {/* Left */}
                     <div className="
-                        sm:w-[37%]
+                        w-full lg:w-[37%]
                     ">
                         <img src={logo} alt="Logo" loading="lazy" className="
                             w-[50%] sm:w-[250px] lg:w-[240px] xl:w-[270px] 2xl:w-[300px]
@@ -31,8 +31,9 @@ const Footer = () => {
                     </div>
                     {/* Right */}
                     <div className="
-                        sm:w-[58%]
+                        w-full lg:w-[58%]
                         flex justify-between flex-wrap
+                        sm:mt-[2rem] lg:mt-0
                     ">
                         <div className="
                             footer-links

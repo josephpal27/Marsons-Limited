@@ -30,19 +30,19 @@ export const productsData = [
     {
         id: 2,
         title: "Power Transformers",
-        desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        desc: "We manufacture Power Transformers for demanding industrial applications, including EAF and LF type systems. Designed with advanced cooling technologies such as OFWF and ODWF, they ensure efficient performance under extreme conditions. These transformers offer high resistance to short circuits and overvoltages during melting processes, with direct regulation on the primary winding. With electrode current up to 50kA and flexible tapping options like OLTC and OCTC, they deliver reliable and efficient operation.",
         transformerImages: [
             {
                 image: "/images/transformers/power/1.avif",
-                desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                desc: "Marsons regularly manufactures and supplies power transformers up to 160 MVA 220 kV class from our Kolkata facilities. Our extended range covers up to 200 MVA and 220 kV.",
             },
             {
                 image: "/images/transformers/power/2.avif",
-                desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                desc: "Built for power stations and industrial fields, our transformers adhere to high-quality standards. The complete range up to 160 MVA 220 kV class is fully type-tested from CPRI/ERDA.",
             },
             {
                 image: "/images/transformers/power/3.avif",
-                desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                desc: "Showcasing our credibility, we have supplied and commissioned nearly 200 transformers in the Extra-High Voltage (EHV) range. We have also exported 132 kV class transformers to Europe and Africa.",
             },
         ],
         slug: "power-transformers",
@@ -50,21 +50,41 @@ export const productsData = [
     {
         id: 3,
         title: "Furnace Transformers",
-        desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        desc: "Marsons manufactures highly specialized Furnace Duty Transformers, including EAF and LF types, engineered specifically for the demanding conditions of industrial melting processes. Built to endure severe short circuits and extreme overvoltages, these robust units deliver exceptional reliability and handle massive electrode currents up to 50kA.",
         transformerImages: [
             {
                 image: "/images/transformers/furnace/1.avif",
-                desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                desc: "Our furnace duty transformers are engineered for both EAF and LF types. They offer high resistance to the intense short circuits and overvoltages experienced during heavy melting processes.",
             },
             {
                 image: "/images/transformers/furnace/2.avif",
-                desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                desc: "Designed to withstand extreme industrial conditions, these highly specialized transformers safely support massive electrode currents of up to 50kA. They utilize efficient OFWF or ODWF cooling types.",
             },
             {
                 image: "/images/transformers/furnace/3.avif",
-                desc: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                desc: "For precise operational control, these units feature direct regulation on the primary winding. We provide flexible tapping solutions, including both OLTC and OCTC configurations, to suit specific operational requirements.",
             },
         ],
         slug: "furnace-transformers",
+    },
+    {
+        id: 4,
+        title: "USS Transformers",
+        desc: "Our Pad Mounted Transformers, functioning as compact Unitized Substations (USS), offer a highly efficient, low-cost solution for both general distribution applications and dedicated loads. Designed for seamless installation, these systems are available in oil or dry types to meet rigorous international standards and diverse energy infrastructure requirements.",
+        transformerImages: [
+            {
+                image: "/images/transformers/uss/1.avif",
+                desc: "Our pad mounted substations are designed for use in distribution applications as well as for dedicated loads. These highly efficient units are easy to install and offer a low-cost solution.",
+            },
+            {
+                image: "/images/transformers/uss/2.avif",
+                desc: "Designed in strict accordance with IS 14786 and IEC 61330 standards, these substations are available in both oil and dry type specifications. They feature highly reliable Class A or F insulation.",
+            },
+            {
+                image: "/images/transformers/uss/3.avif",
+                desc: "We manufacture a wide range, including three-phase padmount transformers from 30 KVA to 30 MVA, and single-phase units from 5 KVA to 250 KVA (up to 19.9kV).",
+            },
+        ],
+        slug: "uss-transformers",
     },
 ]
