@@ -1,44 +1,5 @@
 
-const transformersData = [
-    {
-        id: 1,
-        image: "/images/transformers/distribution/1.png",
-        title: "Transformers",
-        desc: "Marsons manufactures distribution transformers up to 33 kV in single and three phase variants. Options include free breathing, conservator-fitted, and hermetically sealed designs for diverse applications.",
-    },
-    {
-        id: 2,
-        image: "/images/transformers/distribution/2.png",
-        title: "Transformers",
-        desc: "Hermetically sealed transformers are maintenance-free and ideal for harsh outdoor conditions like moisture, salt, and dust, ensuring durability and reliable performance in challenging environments.",
-    },
-    {
-        id: 3,
-        image: "/images/transformers/distribution/3.png",
-        title: "Transformers",
-        desc: "These transformers are widely used in chemical plants and oil and gas terminals, where difficult accessibility makes routine maintenance impractical and dependable operation is critical.",
-    },
-    {
-        id: 4,
-        image: "/images/transformers/distribution/4.png",
-        title: "Transformers",
-        desc: "Transformers with synthetic coolants are suitable for indoor use with proper ventilation or near load centers where mineral oil may not meet environmental or safety considerations.",
-    },
-    {
-        id: 5,
-        image: "/images/transformers/distribution/5.png",
-        title: "Transformers",
-        desc: "Range up to 2500 kVA, 33 kV class, 50/60 Hz frequency, compliant with IS, IEC, ANSI, IEEE standards, PCB-free oil, Class A insulation, tap changers, and BIS-approved testing.",
-    },
-    // {
-    //     id: 6,
-    //     image: "/images/transformers/1.avif",
-    //     title: "Transformers",
-    //     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in ab corrupti illum laudantium minus voluptate aut at aliquid repellendus.",
-    // },
-]
-
-const Transformers = () => {
+const Transformers = ({data}) => {
     return (
         <>
             <section className="
@@ -56,7 +17,7 @@ const Transformers = () => {
                     mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     font-[500] text-[#000]
                 ">
-                    We manufacture Distribution & Power Transformers ranging from 10 KVA to 200 MVA 220 kV class Furnace Transformers, Locomotive Transformers, Traction Transformers, Dry Type Transformers and various types of Special Application Transformers. We are also in Inverter Duty Transformers. Furthermore, a new facility to enhance our manufacturing capability to manufacture EHV Power Transformers upto 315 MVA 400 kV class is in the pipeline.
+                    {data?.desc}
                 </p>
 
                 {/* Row */}
@@ -66,7 +27,7 @@ const Transformers = () => {
                     gap-[0] sm:gap-[4%] lg:gap-[2.7%]
                 ">
                     {
-                        transformersData.map((item, index) => {
+                        data?.transformerImages?.map((item, index) => {
                             return (
                                 <div className="
                                     w-full sm:w-[48%] lg:w-[31.5%] relative group overflow-hidden

@@ -1,5 +1,5 @@
 
-const ProductsBanner = () => {
+const ProductsBanner = ({title}) => {
     return (
         <>
             <section className="
@@ -24,7 +24,7 @@ const ProductsBanner = () => {
                         text-[1.6rem] sm:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700] uppercase
                     ">
-                        Distribution transformers
+                        {title}
                     </h1>
                 </div>
             </section>

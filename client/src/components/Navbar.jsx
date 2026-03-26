@@ -49,7 +49,7 @@ const MyNavbar = () => {
                 Distribution transformers
               </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/products/power-transformers" onClick={handleClose}>
-                Power transformer
+                Power transformers
               </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/products/furnace-transformers" onClick={handleClose}>
                 Furnace transformers
