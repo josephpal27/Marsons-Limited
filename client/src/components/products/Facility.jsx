@@ -47,7 +47,7 @@ const Facility = () => {
         <>
             <section className="
                 px-[1rem] sm:px-[5%] lg:px-[7%]
-                pt-[3rem] sm:pt-[2rem] lg:pt-[2.4rem] xl:pt-[2.7rem] 2xl:pt-[3rem]
+                pt-[2rem] sm:pt-[2rem] lg:pt-[2.4rem] xl:pt-[2.7rem] 2xl:pt-[3rem]
                 pb-[2.5rem] sm:pb-[1.5rem] lg:pb-[1.9rem] xl:pb-[2.2rem] 2xl:pb-[2.5rem]
             ">
                 {/* Head */}
@@ -55,13 +55,13 @@ const Facility = () => {
                     flex flex-col items-center
                 ">
                     <h3 className="
-                        text-[1.6rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                        text-[1.6rem] sm:text-[2.2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                         text-[#e9202a] font-[600]
                     ">
                         PRODUCTION FACILITY
                     </h3>
                     <p className="
-                        w-[70%]
+                        w-full lg:w-[70%]
                         text-center
                         text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
                         mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
@@ -73,7 +73,7 @@ const Facility = () => {
 
                 {/* ROW 1 */}
                 <div className="
-                    mt-[3rem] sm:mt-[2rem] lg:mt-[2.5rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
+                    mt-[2rem] sm:mt-[2rem] lg:mt-[2.5rem] xl:mt-[2.8rem] 2xl:mt-[3rem]
                     flex flex-col lg:flex-row gap-7
                 ">
                     <FacilityImageCard {...facilityData[0]} />
@@ -83,8 +83,8 @@ const Facility = () => {
 
                 {/* ROW 2 */}
                 <div className="
-                    mt-[1.5rem] sm:mt-[1rem] lg:mt-[1.6rem] xl:mt-[1.7rem] 2xl:mt-[1.8rem]
-                    flex flex-col lg:flex-row gap-7
+                    mt-[2rem] sm:mt-[2rem] lg:mt-[1.6rem] xl:mt-[1.7rem] 2xl:mt-[1.8rem]
+                    flex flex-col-reverse lg:flex-row gap-7
                 ">
                     <FacilityTextBlock {...facilityData[3]} />
                     <FacilityImageCard {...facilityData[4]} />
