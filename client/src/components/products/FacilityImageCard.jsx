@@ -13,16 +13,17 @@ const FacilityImageCard = ({img, title, desc}) => {
                     left-[-0.7rem] group-hover:left-[0]
                     w-[80%] 
                     h-[50%] 
-                    px-[1.5rem]
-                    py-[1rem]
+                    px-[1.5rem] sm:px-[1rem] lg:px-[1.2rem] xl:px-[1.4rem] 2xl:px-[1.5rem]
+                    py-[1rem] sm:py-[1rem] lg:py-[0.8rem] xl:py-[0.9rem] 2xl:py-[1rem]
                 ">
                     <span className="
-                        text-[1.4rem] font-[600]
+                        text-[1.4rem] sm:text-[1.2rem] lg:text-[1.05rem] xl:text-[1.2rem] 2xl:text-[1.4rem]
+                        font-[600]
                     ">
                         {title}
                     </span>
                     <p className="
-                        text-[0.85rem]
+                        text-[0.8rem] sm:text-[0.8rem] lg:text-[0.65rem] xl:text-[0.75rem] 2xl:text-[0.85rem]
                         mt-[0.5rem]
                     ">
                         {desc}

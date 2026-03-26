@@ -61,7 +61,7 @@ const Transformers = () => {
 
                 {/* Row */}
                 <div className="
-                    mt-[3rem]
+                    mt-[03rem] sm:mt-[2rem] lg:mt-[2.5rem] xl:mt-[2.7rem] 2xl:mt-[3rem]
                     flex flex-wrap
                     gap-[2.7%]
                 ">
@@ -70,7 +70,7 @@ const Transformers = () => {
                             return (
                                 <div className="
                                     w-[31.5%] relative group
-                                    mb-[2.3rem]
+                                    mb-[2rem] sm:mb-[1.5rem] lg:mb-[1.8rem] xl:mb-[2.1rem] 2xl:mb-[2.3rem]
                                 " key={index}>
                                     <img
                                         src={item.image}
@@ -84,7 +84,7 @@ const Transformers = () => {
                                     <div className="
                                         absolute top-0 w-full h-full
                                         flex flex-col justify-end
-                                        p-[1.5rem]
+                                        p-[1.5rem] sm:p-[1.2rem] lg:p-[1.3rem] xl:p-[1.4rem] 2xl:p-[1.5rem]
                                         bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1)_10%,rgba(0,0,0,1)_80%)] text-[#fff]
                                     ">
                                         <span className="
