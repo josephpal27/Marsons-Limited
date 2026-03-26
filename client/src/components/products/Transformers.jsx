@@ -56,7 +56,7 @@ const Transformers = () => {
                     mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                     font-[500] text-[#000]
                 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis eos neque veritatis officia tempore ullam, vel qui molestias. Atque, Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis eos neque veritatis officia tempore ullam, vel qui molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, neque Lorem, ipsum dolor.
+                    We manufacture Distribution & Power Transformers ranging from 10 KVA to 200 MVA 220 kV class Furnace Transformers, Locomotive Transformers, Traction Transformers, Dry Type Transformers and various types of Special Application Transformers. We are also in Inverter Duty Transformers. Furthermore, a new facility to enhance our manufacturing capability to manufacture EHV Power Transformers upto 315 MVA 400 kV class is in the pipeline.
                 </p>
 
                 {/* Row */}

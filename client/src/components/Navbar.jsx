@@ -45,28 +45,28 @@ const MyNavbar = () => {
             </Nav.Link>
             {/* Bootstrap Dropdown */}
             <NavDropdown title="PRODUCTS" id="navbarDropdown">
-              <NavDropdown.Item as={NavLink} to="/distribution-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/distribution-transformers" onClick={handleClose}>
                 Distribution transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/power-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/power-transformers" onClick={handleClose}>
                 Power transformer
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/furnace-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/furnace-transformers" onClick={handleClose}>
                 Furnace transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/uss-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/uss-transformers" onClick={handleClose}>
                 Uss transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/dry-type-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/dry-type-transformers" onClick={handleClose}>
                 Dry type transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/cast-resin-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/cast-resin-transformers" onClick={handleClose}>
                 Cast resin transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/solar-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/solar-transformers" onClick={handleClose}>
                 Solar transformers
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/instrumental-transformers" onClick={handleClose}>
+              <NavDropdown.Item as={NavLink} to="/products/instrumental-transformers" onClick={handleClose}>
                 Instrumental transformers
               </NavDropdown.Item>
             </NavDropdown>
