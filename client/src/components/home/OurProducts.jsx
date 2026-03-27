@@ -39,7 +39,7 @@ let productsData = [
         desc: "Oil-free, fire-safe units for hospitals, metro tunnels, data centres, and high-rise buildings.",
         output: "Up to 20 MVA | Up to 33 kV | IS 11171",
         image: "/images/products/5.jpg",
-        url: "/coming-soon",
+        url: "/products/dry-type-transformers",
     },
     {
         id: 6,
@@ -114,25 +114,25 @@ const OurProducts = () => {
                                         p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                     ">
                                         <span className="
-                                            text-[#fff] font-[550] text-center
+                                            text-[#fff] font-[600] text-center
                                             text-[1.2rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                                         ">
                                             {item.name}
                                         </span>
-                                        <p className="
-                                            text-[#fff] text-center font-[450]
-                                            text-[0.8rem] sm:text-[0.9rem] lg:text-[0.6rem] xl:text-[0.7rem] 2xl:text-[0.8rem]
-                                            mt-[1rem]
-                                        ">
-                                            {item.desc}
-                                        </p>
                                         <span className="
                                             text-[#fff] text-center font-[600]
-                                            text-[0.8rem] sm:text-[0.9rem] lg:text-[0.6rem] xl:text-[0.7rem] 2xl:text-[0.8rem]
-                                            mt-[0.5rem]
+                                            text-[0.8rem] sm:text-[0.9rem] lg:text-[0.6rem] xl:text-[0.7rem] 2xl:text-[0.85rem]
+                                            mt-[1rem]
                                         ">
                                             &bull; {item.output}
                                         </span>
+                                        <p className="
+                                            text-[#fff] text-center font-[450]
+                                            text-[0.8rem] sm:text-[0.9rem] lg:text-[0.6rem] xl:text-[0.7rem] 2xl:text-[0.8rem]
+                                            mt-[0.3rem]
+                                        ">
+                                            {item.desc}
+                                        </p>
                                     </div>
                                     {/* Read More Layer */}
                                     <div className="

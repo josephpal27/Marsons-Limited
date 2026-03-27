@@ -87,4 +87,24 @@ export const productsData = [
         ],
         slug: "uss-transformers",
     },
+    {
+        id: 5,
+        title: "Dry Type Transformers",
+        desc: "",
+        transformerImages: [
+            {
+                image: "/images/transformers/dry-type/1.avif",
+                desc: "",
+            },
+            {
+                image: "/images/transformers/dry-type/2.avif",
+                desc: "",
+            },
+            {
+                image: "/images/transformers/dry-type/3.avif",
+                desc: "",
+            },
+        ],
+        slug: "dry-type-transformers",
+    },
 ]
