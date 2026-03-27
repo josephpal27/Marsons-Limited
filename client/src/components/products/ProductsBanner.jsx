@@ -1,5 +1,5 @@
 
-const ProductsBanner = ({title}) => {
+const ProductsBanner = ({title, range}) => {
     return (
         <>
             <section className="
@@ -18,7 +18,7 @@ const ProductsBanner = ({title}) => {
                     absolute
                     top-0 w-full
                     h-full
-                    flex items-end
+                    flex flex-col justify-end
                 ">
                     <h1 className="
                         text-[1.6rem] sm:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
@@ -26,6 +26,13 @@ const ProductsBanner = ({title}) => {
                     ">
                         {title}
                     </h1>
+                    <p className="
+                        text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                        text-[#fff] font-[600] [text-shadow:0_2px_6px_rgba(0,0,0,0.5)] 
+                        mt-[0.8rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
+                    ">
+                        {range}
+                    </p>
                 </div>
             </section>
         </>
