@@ -10,7 +10,7 @@ const Transformers = ({data}) => {
                     text-[1.6rem] sm:text-[2.2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                     text-[#e9202a] font-[600]
                 ">
-                    TRANSFORMERS
+                    EXPLORE OUR RANGE
                 </h2>
                 <p className="
                     text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
