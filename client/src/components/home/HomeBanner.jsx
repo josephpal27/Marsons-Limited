@@ -4,7 +4,7 @@ const HomeBanner = () => {
         <>
             <div className="
                 w-full
-                sm:h-screen
+                h-screen
                 relative
             ">
                 <video
@@ -22,7 +22,7 @@ const HomeBanner = () => {
                 </video>
 
                 <div className="
-                    py-[0.9rem] sm:py-[3rem] lg:py-[2.9rem] xl:py-[3.2rem] 2xl:py-[3.5rem]
+                    py-[2.5rem] sm:py-[3rem] lg:py-[2.9rem] xl:py-[3.2rem] 2xl:py-[3.5rem]
                     px-[1rem] sm:px-[5%] lg:px-[7%]
                     absolute
                     top-0
@@ -30,7 +30,7 @@ const HomeBanner = () => {
                     flex items-end
                 ">
                     <h1 className="
-                        text-[1.6rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                        text-[2rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700]
                     " data-aos="fade-up">
                         <span className="font-[200]">SETTING POWER</span> <br /> IN MOTION
