@@ -7,37 +7,58 @@ const relatedProductsData = [
     {
         id: 1,
         image: "/images/product-slider/1.avif",
-        title: "Distribution transformers",
+        title: "Distribution Transformers",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
-        url: "#",
+        url: "/products/distribution-transformers",
     },
     {
         id: 2,
         image: "/images/product-slider/1.avif",
-        title: "Distribution transformers",
+        title: "Power Transformers",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
-        url: "#",
+        url: "/products/power-transformers",
     },
     {
         id: 3,
         image: "/images/product-slider/1.avif",
-        title: "Distribution transformers",
+        title: "Furnace Transformers",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
-        url: "#",
+        url: "/products/furnace-transformers",
     },
     {
         id: 4,
         image: "/images/product-slider/1.avif",
-        title: "Distribution transformers",
+        title: "USS Transformers",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
-        url: "#",
+        url: "/products/uss-transformers",
     },
     {
         id: 5,
         image: "/images/product-slider/1.avif",
-        title: "Distribution transformers",
+        title: "Dry Type Transformers",
         desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
-        url: "#",
+        url: "/products/dry-type-transformers",
+    },
+    {
+        id: 6,
+        image: "/images/product-slider/1.avif",
+        title: "Cast Resin Transformers",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
+        url: "/products/cast-resin-transformers",
+    },
+    {
+        id: 7,
+        image: "/images/product-slider/1.avif",
+        title: "Solar Transformers",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
+        url: "/products/solar-transformers",
+    },
+    {
+        id: 8,
+        image: "/images/product-slider/1.avif",
+        title: "Instrumental Transformers",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit adipisci nemo perspiciatis soluta.",
+        url: "/products/instrumental-transformers",
     },
 ]
 
@@ -73,7 +94,7 @@ const RelatedProducts = () => {
                         centeredSlides={false}
                         loop={true}
                         grabCursor={true}
-                        spaceBetween={30}
+                        spaceBetween={10}
                         speed={1000}
                         autoplay={{
                             delay: 3000,
@@ -90,7 +111,7 @@ const RelatedProducts = () => {
                             },
                             991: {
                                 slidesPerView: 4, // tablet and up
-                                spaceBetween: 40,
+                                spaceBetween: 10,
                             },
                         }}
                     >
@@ -115,21 +136,21 @@ const RelatedProducts = () => {
                                             mt-[1rem] sm:mt-[1.2rem] lg:mt-[1.1rem] xl:mt-[1.3rem] 2xl:mt-[1.5rem]
                                         ">
                                             <span className="
-                                                text-[1.3rem] sm:text-[1.4rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem]
+                                                text-[1.3rem] sm:text-[1.4rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                                                 text-[#e9202a] font-[600] leading-[1.3]
                                             ">
                                                 {item.title}
                                             </span>
-                                            <p className="
+                                            {/* <p className="
                                                 text-[0.9rem] sm:text-[1rem] lg:text-[0.6rem] xl:text-[0.7rem] 2xl:text-[0.8rem]
                                                 mt-[0.4rem] sm:mt-[0.5rem] lg:mt-[0.3rem] xl:mt-[0.4rem] 2xl:mt-[0.5rem]
                                             ">
                                                 {item.desc}
-                                            </p>
-                                            <Link to="/products/product-name" className="
+                                            </p> */}
+                                            <Link to={item.url} className="
                                                 text-[1rem] sm:text-[1.1rem] lg:text-[0.7rem] xl:text-[0.75rem] 2xl:text-[0.8rem]
                                                 block bg-[#e9202a] hover:bg-[#d6151f] text-[#fff] w-max rounded-[3px] transition
-                                                py-[0.2rem] 
+                                                py-[0.25rem] 
                                                 px-[0.8rem] sm:px-[1rem] lg:px-[0.8rem] xl:px-[0.9rem] 2xl:px-[1rem]
                                                 mt-[1rem] sm:mt-[1rem] lg:mt-[0.8rem] xl:mt-[0.9rem] 2xl:mt-[1rem]
                                             ">

@@ -4,12 +4,12 @@ const InvestorCornerBanner = ({title, background}) => {
         <>
             <section className="
                 w-full
-                sm:h-screen
+                lg:h-screen
                 relative
             ">
                 <img src={background} alt="Investor Corner Banner" loading="eager" className="
                     w-full
-                    sm:h-[106vh]
+                    lg:h-[106vh]
                     drop-shadow-[0_7px_0px_#e9202a] sm:drop-shadow-[0_10px_0px_#e9202a]
                 " />
                 <div className="
@@ -19,7 +19,7 @@ const InvestorCornerBanner = ({title, background}) => {
                     top-0 w-full h-full flex items-end
                 ">
                     <h1 className="
-                        text-[1.6rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                        text-[1.6rem] sm:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700]
                     " data-aos="fade-up">
                         {title}
