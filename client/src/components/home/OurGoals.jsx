@@ -6,13 +6,13 @@ let missionVisionData = [
         id: 1,
         Image: visionIcon,
         title: "VISION",
-        desc: "Through Quality Assurance and stringent evaluations, provide our customers with quality products with affordable prices and consistency in services. Develop and maintain suppliers/customers relationship based on open communication, mutual trust and respect.",
+        desc: "To establish Marsons as a global brand and one of the most trusted names in transformers.",
     },
     {
         id: 2,
         Image: missionIcon,
         title: "MISSION",
-        desc: "To establish Marsons as a global brand and one of the most trusted names in transformers.",
+        desc: "Through quality assurance and stringent evaluations, provide customers with quality products at affordable prices and consistency in service. Develop and maintain supplier–customer relationships based on open communication, mutual trust, and respect.",
     },
 ]
 
@@ -41,19 +41,12 @@ const MissionVision = () => {
                     ">
                         OUR <span className="text-[#e9202a]">GOALS</span>
                     </h3>
-                    <ul className="
-                        list-disc text-[#000] font-[500]
-                        pl-[1.4rem] sm:pl-[1.5rem] lg:pl-[1.3rem] xl:pl-[1.4rem] 2xl:pl-[1.5rem]
-                        space-y-[0.5rem] sm:space-y-[0.5rem] lg:space-y-[0.4rem] xl:space-y-[0.5rem] 2xl:space-y-[0.6rem]
+                    <p className="
                         text-[1rem] sm:text-[1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
+                        text-[#000] font-[500]
                     ">
-                        <li>Customer services and seamless support.</li>
-                        <li>Continued quality improvements and R&D initiatives.</li>
-                        <li>Leadership and professional growth within the organisation.</li>
-                        <li>Innovation and resource planning.</li>
-                        <li>Customization services.</li>
-                        <li>Competitive prices, quality products and timely services.</li>
-                    </ul>
+                        To manufacture and supply trouble-free products in conformance to specification for the satisfaction of our customers. We commit to increase productivity and continuously improve systems — ensuring timely delivery at competitive prices, in compliance with health, safety, and environmental requirements.
+                    </p>
                 </div>
                 {/* Right */}
                 <div className="

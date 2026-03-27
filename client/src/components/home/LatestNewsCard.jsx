@@ -12,7 +12,6 @@ const LatestNewsCard = ({
             className="
             bg-white shadow-[rgba(0,0,0,0.24)_0px_3px_8px]
             p-[0.8rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
-            rounded-[10px]
             h-full
         ">
             <div className={`
@@ -25,7 +24,7 @@ const LatestNewsCard = ({
                         src={image}
                         alt={title}
                         loading="lazy"
-                        className="w-full rounded-md"
+                        className="w-full"
                     />
                 </div>
 

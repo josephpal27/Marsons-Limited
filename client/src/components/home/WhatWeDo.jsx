@@ -22,7 +22,7 @@ let whatWeDoCardsData = [
     id: 3,
     image: excellence,
     title: "Certified Excellence",
-    desc: "Our fully equipped laboratory can efficiently carry out all required routine tests, for various ratings of Power Transformers up to the range of 160 MVA 220 kV class.",
+    desc: "Our fully equipped laboratory can efficiently carry out all required routine tests, for various ratings of Power Transformers up to the range of 10 KVA to 300 MVA class.",
   },
   {
     id: 4,
@@ -43,24 +43,17 @@ const WhatWeDo = () => {
       ">
         <h2 className="
           text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
-          text-[#000] font-[600]
+          text-[#000] font-[600] uppercase
           mb-[0] sm:mb-[1rem] lg:mb-[0.8rem] xl:mb-[0.9rem] 2xl:mb-[1rem]
         ">
-          WHAT WE <span className="text-[#e9202a]">DO</span>
+          Powering <span className="text-[#e9202a]">Industries</span>  
         </h2>
         <p className="
           text-[1rem] sm:text-[1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
           text-[#000] font-[500]
           mt-[0.5rem]
         ">
-          We manufacture Distribution & Power Transformers ranging from 10 KVA to 160 MVA 220 kV class, Furnace Transformers, Dry Type Transformers and various types of Special Application Transformers.
-        </p>
-        <p className="
-          text-[1rem] sm:text-[1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem]
-          text-[#000] font-[500]
-          mt-[0.5rem]
-        ">
-          Our main unit located in Kolkata is spread over an area of 4,00,000 square feet.
+          Eastern India's largest transformer manufacturer. 65+ years of engineering trust. From 10 KVA to 300 MVA — built for utilities, railways, industry, and renewable energy.
         </p>
 
         {/* Cards Row */}
