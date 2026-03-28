@@ -11,6 +11,7 @@ const TechnicalSpecifications = ({specs}) => {
                     text-[#e9202a] font-[600] text-center
                 ">
                     TECHNICAL SPECIFICATIONS
+                    
                 </h3>
 
                 {/* Table */}
