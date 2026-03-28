@@ -25,7 +25,7 @@ const ProductDetails = () => {
             <MyNavbar />
             <ProductsBanner title={product?.title} range={product?.range} />
             <Transformers data={product} />
-            <TechnicalSpecifications />
+            <TechnicalSpecifications specs={product?.technicalSpecs} />
             <Facility />
             <RelatedProducts />
             <QualityControl />

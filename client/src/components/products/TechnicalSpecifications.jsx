@@ -1,28 +1,28 @@
 
-const data = [
-    ["Rating Range", "10 KVA to 2,500 KVA"],
-    ["Number of Phases", "Single-phase and three-phase"],
-    ["Voltage Class", "Up to 33 kV (HV side)"],
-    ["HV Winding Voltages", "3.3 kV, 6.6 kV, 11 kV, 22 kV, 33 kV (standard)"],
-    ["LV Winding Voltages", "433 V (3-phase) / 240 V (single-phase) and others as specified"],
-    ["Frequency", "50 Hz standard | 60 Hz on request for export"],
-    ["Vector Group", "Dyn11, Yyn0, Dzn0, Yzn11 and others per IS / IEC"],
-    ["Applicable Standards", "IS 1180 Parts 1 & 2, IEC 60076, ANSI, IEEE"],
-    ["Insulating Fluid", "PCB-free Mineral Oil per IS 335 / IEC 60296. FR3 biodegradable on request."],
-    ["Insulation Class", "Class A (maximum hot-spot temperature 105°C)"],
-    ["Temperature Rise", "Oil: 50°C max | Winding: 55°C max above 40°C ambient"],
-    ["Cooling Class", "ONAN standard | ONAF on request"],
-    ["Tap Changer", "OCTC: ±2 × 2.5% standard | OLTC on request"],
-    ["No-Load Losses", "Per IS 1180 BIS Star Rating — Level 1, Level 2, Level 3 compliant"],
-    ["Load Losses", "Per IS 1180 guaranteed loss levels. Test certificate supplied with each unit."],
-    ["Impedance Voltage", "4–6% standard | Custom values on request"],
-    ["Sealing Options", "Free-breathing with silica gel breather | Conservator-type | Hermetically sealed"],
-    ["Standard Fittings", "Oil-level gauge, dial thermometer, drain valve, sampling valve, pressure relief device, rating plate"],
-    ["Optional Fittings", "Buchholz relay, OTI, WTI, marshalling box, conservator with silica gel breather"],
-    ["Type Tests", "BIS approved. Type tested at NABL accredited laboratory. Energy efficient up to Level 3 per IS 1180."]
-];
+// const data = [
+//     ["Rating Range", "10 KVA to 2,500 KVA"],
+//     ["Number of Phases", "Single-phase and three-phase"],
+//     ["Voltage Class", "Up to 33 kV (HV side)"],
+//     ["HV Winding Voltages", "3.3 kV, 6.6 kV, 11 kV, 22 kV, 33 kV (standard)"],
+//     ["LV Winding Voltages", "433 V (3-phase) / 240 V (single-phase) and others as specified"],
+//     ["Frequency", "50 Hz standard | 60 Hz on request for export"],
+//     ["Vector Group", "Dyn11, Yyn0, Dzn0, Yzn11 and others per IS / IEC"],
+//     ["Applicable Standards", "IS 1180 Parts 1 & 2, IEC 60076, ANSI, IEEE"],
+//     ["Insulating Fluid", "PCB-free Mineral Oil per IS 335 / IEC 60296. FR3 biodegradable on request."],
+//     ["Insulation Class", "Class A (maximum hot-spot temperature 105°C)"],
+//     ["Temperature Rise", "Oil: 50°C max | Winding: 55°C max above 40°C ambient"],
+//     ["Cooling Class", "ONAN standard | ONAF on request"],
+//     ["Tap Changer", "OCTC: ±2 × 2.5% standard | OLTC on request"],
+//     ["No-Load Losses", "Per IS 1180 BIS Star Rating — Level 1, Level 2, Level 3 compliant"],
+//     ["Load Losses", "Per IS 1180 guaranteed loss levels. Test certificate supplied with each unit."],
+//     ["Impedance Voltage", "4–6% standard | Custom values on request"],
+//     ["Sealing Options", "Free-breathing with silica gel breather | Conservator-type | Hermetically sealed"],
+//     ["Standard Fittings", "Oil-level gauge, dial thermometer, drain valve, sampling valve, pressure relief device, rating plate"],
+//     ["Optional Fittings", "Buchholz relay, OTI, WTI, marshalling box, conservator with silica gel breather"],
+//     ["Type Tests", "BIS approved. Type tested at NABL accredited laboratory. Energy efficient up to Level 3 per IS 1180."]
+// ];
 
-const TechnicalSpecifications = () => {
+const TechnicalSpecifications = ({specs}) => {
     return (
         <>
             <section className="
@@ -66,7 +66,7 @@ const TechnicalSpecifications = () => {
 
                         {/* Table Body */}
                         <tbody>
-                            {data.map((item, index) => (
+                            {specs?.map((item, index) => (
                                 <tr
                                     key={index}
                                     className={index % 2 === 0 ? 
