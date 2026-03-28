@@ -18,7 +18,7 @@ const GetInTouch = () => {
                     pb-[1.5rem] sm:pb-[3rem] lg:pb-[3.4rem] xl:pb-[3.7rem] 2xl:pb-[4rem]
                 ">  
                     <h6 className="
-                        text-[1.6rem] sm:text-[2.5rem] lg:text-[3.4rem] xl:text-[3.7rem] 2xl:text-[4rem]
+                        text-[1.5rem] sm:text-[2.5rem] lg:text-[3.4rem] xl:text-[3.7rem] 2xl:text-[4rem]
                         font-[600]
                     ">
                         GET IN TOUCH

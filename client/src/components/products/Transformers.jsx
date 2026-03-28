@@ -7,7 +7,7 @@ const Transformers = ({data}) => {
                 mt-[2rem] sm:mt-[3rem] lg:mt-[6rem] xl:mt-[6.5rem] 2xl:mt-[7rem]
             ">
                 <h2 className="
-                    text-[1.6rem] sm:text-[2.2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                    text-[1.5rem] sm:text-[2.2rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                     text-[#e9202a] font-[600]
                 ">
                     EXPLORE OUR RANGE
