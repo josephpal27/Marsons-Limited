@@ -10,6 +10,7 @@ import RelatedProducts from "../components/products/RelatedProducts"
 import Transformers from "../components/products/Transformers"
 import Footer from "../components/Footer";
 import ComingSoon from './ComingSoon';
+import TechnicalSpecifications from '../components/products/TechnicalSpecifications';
 
 const ProductDetails = () => {
 
@@ -24,6 +25,7 @@ const ProductDetails = () => {
             <MyNavbar />
             <ProductsBanner title={product?.title} range={product?.range} />
             <Transformers data={product} />
+            <TechnicalSpecifications />
             <Facility />
             <RelatedProducts />
             <QualityControl />
