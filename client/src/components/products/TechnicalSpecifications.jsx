@@ -55,7 +55,7 @@ const TechnicalSpecifications = ({specs}) => {
                                         block sm:table-cell 
                                         px-[0.8rem] sm:px-[1rem] lg:px-[1rem] xl:px-[1.1rem] 2xl:px-[1.2rem]
                                         py-[0.6rem] sm:py-[0.8rem] lg:py-[0.6rem] xl:py-[0.7rem] 2xl:py-[0.8rem]
-                                        font-semibold text-[#0a2946] border group-hover:text-[#e9202a]
+                                        font-semibold text-[#e9202a] sm:text-[#0a2946] border group-hover:text-[#e9202a]
                                     ">
                                         {item[0]}
                                     </td>
