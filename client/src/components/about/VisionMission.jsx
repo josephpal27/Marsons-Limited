@@ -51,7 +51,7 @@ const VisionMission = () => {
     return (
         <section className="
             px-[1rem] sm:px-[5%] lg:px-[7%]
-            mt-[2rem] sm:mt-[4rem] lg:mt-[3rem] xl:mt-[3.5rem] 2xl:mt-[4rem]
+            mt-[2rem] sm:mt-[3rem] lg:mt-[3rem] xl:mt-[3.5rem] 2xl:mt-[4rem]
         ">
             <div className="
                 flex flex-wrap justify-between
@@ -61,7 +61,7 @@ const VisionMission = () => {
                     if (item.type === "image") {
                         return (
                             <div key={item.id} className="
-                                sm:w-[33.33%]
+                                w-full lg:w-[33.33%]
                             ">
                                 <img
                                     src={item.image}
@@ -77,15 +77,15 @@ const VisionMission = () => {
                         <div
                             key={item.id}
                             className={`
-                                sm:w-[33.33%]
-                                p-[0] sm:p-[2rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
-                                py-[1.5rem] sm:py-0
+                                w-full lg:w-[33.33%]
+                                p-[0] sm:p-[1rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
+                                py-[1.5rem] sm:py-[2rem] lg:py-0
                                 flex flex-col justify-center
-                                ${item.align === "center" ? "text-left sm:text-center" : "text-left"}
+                                ${item.align === "center" ? "text-left lg:text-center" : "text-left"}
                             `}
                         >
                             <span className="
-                                text-[1.7rem] sm:text-[3rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
+                                text-[1.7rem] sm:text-[2.5rem] lg:text-[2.4rem] xl:text-[2.7rem] 2xl:text-[3rem]
                                 font-[700] leading-[1]
                             " data-aos="fade-up" data-aos-once="true">
                                 {item.title} <br />

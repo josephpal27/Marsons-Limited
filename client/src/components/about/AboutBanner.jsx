@@ -4,12 +4,12 @@ const AboutBanner = () => {
         <>
             <section className="
                 w-full
-                sm:h-screen
+                lg:h-screen
                 relative
             ">
                 <img src="/images/banners/about-banner.avif" alt="About Banner" loading="eager" className="
                     w-full
-                    sm:h-[106vh]
+                    lg:h-[106vh]
                     drop-shadow-[0_7px_0px_#e9202a] sm:drop-shadow-[0_10px_0px_#e9202a]
                 " />
                 <div className="
@@ -23,7 +23,7 @@ const AboutBanner = () => {
                     items-end
                 ">
                     <h1 className="
-                        text-[1.6rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
+                        text-[1.6rem] sm:text-[2.5rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#fff] font-[700]
                     "  data-aos="fade-up">
                         <span className="font-[200]">SETTING POWER</span> <br /> IN MOTION
