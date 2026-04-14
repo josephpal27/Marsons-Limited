@@ -12,6 +12,7 @@ import OurProducts from "../components/home/OurProducts";
 import LatestNews from "../components/home/LatestNews";
 import Footer from "../components/Footer";
 import OurClientLogos from "../components/OurClientLogos";
+import Manufacturer from "../components/home/Manufacturer";
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -106,6 +107,12 @@ const Home = () => {
                 <SwiperSlide>
                     <section className="section">
                         <OurProducts />
+                    </section>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <section className="section">
+                        <Manufacturer />
                     </section>
                 </SwiperSlide>
 
