@@ -13,6 +13,7 @@ import LatestNews from "../components/home/LatestNews";
 import Footer from "../components/Footer";
 import OurClientLogos from "../components/OurClientLogos";
 import Manufacturer from "../components/home/Manufacturer";
+import TrustedWorldWide from './../components/home/TrustedWorldWide';
 
 const Home = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +41,12 @@ const Home = () => {
                 </section>
                 <section className="section">
                     <OurProducts />
+                </section>
+                <section className="section">
+                    <Manufacturer />
+                </section>
+                <section className="section">
+                    <TrustedWorldWide />
                 </section>
                 <section className="section">
                     <LatestNews />
@@ -113,6 +120,12 @@ const Home = () => {
                 <SwiperSlide>
                     <section className="section">
                         <Manufacturer />
+                    </section>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <section className="section">
+                        <TrustedWorldWide />
                     </section>
                 </SwiperSlide>
 

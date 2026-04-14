@@ -69,16 +69,16 @@ const Manufacturer = () => {
     return (
         <>
             <div className="
-                py-[1.5rem] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
+                py-[0] sm:py-[3rem] lg:py-[2.5rem] xl:py-[3rem] 2xl:py-[3.5rem]
                 px-[1rem] sm:px-[5%] lg:px-[7%]
-                flex justify-between items-center flex-wrap relative h-full
+                flex justify-between items-center flex-wrap h-full
             ">
                 {/* Left */}
-                <div className="w-[47%]">
+                <div className="w-full sm:w-[47%]">
                     <h5 className="
                         text-[1.8rem] sm:text-[3rem] lg:text-[2.9rem] xl:text-[3.2rem] 2xl:text-[3.5rem]
                         text-[#000] font-[600] uppercase
-                        mb-[1rem] sm:mb-[1rem] lg:mb-[0.6rem] xl:mb-[0.8rem] 2xl:mb-[1rem]
+                        mb-[0.8rem] sm:mb-[1rem] lg:mb-[0.6rem] xl:mb-[0.8rem] 2xl:mb-[1rem]
                     ">
                         Only <span className="text-[#e9202a]">EHV</span> Manufacturer in <span className="text-[#e9202a]">Eastern India</span>
                     </h5>
@@ -91,25 +91,25 @@ const Manufacturer = () => {
 
                     {/* Cards */}
                     <div className="
-                        mt-[2rem]
+                        mt-[1.5rem] sm:mt-[2rem] lg:mt-[1.6rem] xl:mt-[1.8rem] 2xl:mt-[2rem]
                         flex justify-between flex-wrap
                     ">
                         {ehvHighlightData.map((item) => {
                             return (
                                 <div className="
-                                    mb-[1.2rem]
-                                    w-[48.5%] bg-[#0a2946] p-[1rem]
-                                    shadow-[3px_3px_2.6px_#e9202a]
+                                    mb-[0.7rem] sm:mb-[1rem] lg:mb-[1rem] xl:mb-[1.1rem] 2xl:mb-[1.2rem]
+                                    w-[48.5%] bg-[#0a2946] shadow-[3px_3px_2.6px_#e9202a]
+                                    p-[0.8rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                 " key={item.id}>
                                     <span className="
                                         text-[#fff] font-[700]
-                                        text-[1.8rem]
+                                        text-[1.3rem] sm:text-[1.8rem] lg:text-[1.6rem] xl:text-[1.7rem] 2xl:text-[1.8rem]
                                     ">
                                         {item.unit}
                                     </span>
                                     <p className="
                                         text-[#c8c8c8]
-                                        text-[0.9rem]
+                                        text-[0.85rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                                         mt-[0.3rem]
                                     ">
                                         {item.desc}
@@ -122,25 +122,27 @@ const Manufacturer = () => {
 
                 {/* Right */}
                 <div className="
-                    w-[47%]
-                    flex justify-between flex-wrap
+                    w-full sm:w-[47%]
+                    flex justify-between flex-wrap mt-[1.2rem] sm:mt-0
                 ">
                     {ehvData.map((item) => {
                         return (
                             <div className="
-                                mb-[1.2rem]
-                                w-[48.5%] bg-[#0a2946] px-[1rem] py-[1.75rem]
-                                hover:shadow-[3px_3px_2px_#0a2946] transition-all duration-300 hover:bg-[#e9202a] group
+                                mb-[1rem] sm:mb-[1rem] lg:mb-[1rem] xl:mb-[1.1rem] 2xl:mb-[1.2rem]
+                                w-full sm:w-[48.5%] bg-[#0a2946] hover:bg-[#e9202a]
+                                px-[0.8rem] sm:px-[1rem] lg:px-[0.8rem] xl:px-[0.9rem] 2xl:px-[1rem]
+                                py-[1rem] sm:py-[1.5rem] lg:py-[1.47rem] xl:py-[1.65rem] 2xl:py-[1.75rem]
+                                hover:shadow-[3px_3px_2px_#0a2946] transition-all duration-300  group
                             " key={item.id}>
                                 <span className="
                                     text-[#fff] font-[600]
-                                    text-[1.2rem]
+                                    text-[1.1rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
                                 ">
                                     {item.title}
                                 </span>
                                 <p className="
                                     text-[#c8c8c8] group-hover:text-[#fff]
-                                    text-[0.9rem]
+                                    text-[0.85rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                                     mt-[0.5rem]
                                 ">
                                     {item.desc}
